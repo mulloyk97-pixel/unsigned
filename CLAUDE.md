@@ -40,11 +40,22 @@ analysis. Stay in the athlete flow.
   purpose. The moat is honest data + trust, not algorithmic complexity. Tune the
   heuristics as outcome data accumulates; never inflate. `matchDivisions` and
   `levelRank` are internal (ranking only, never displayed).
-- Programs + fit scoring: `src/lib/programs.ts`. Seed is 24 **real D-III
-  basketball** programs (accurate location/conference); costs are approximate,
-  win/loss records are PLACEHOLDERS, and only some `coachVerified`. The full
-  NCAA directory import is a future bulk-load into the `programs` table — schema
-  in `supabase/schema.sql` mirrors the `Program` type 1:1.
+- Programs + fit scoring: `src/lib/programs.ts`. It loads
+  `src/lib/programs.data.json` — **all 415 NCAA D-III institutions** (accurate
+  school/city/state/conference; women-only colleges get women's basketball only)
+  — and normalizes each into a `Program`, applying enrichment when present and
+  conservative PLACEHOLDER defaults otherwise. `CURATED` overrides set athletic
+  tiers + a few demo-verified coach contacts (sample data).
+- **Data pipeline** (`scripts/`, run via npm):
+  - `data:build` — regenerate the school list from the NCAA/Wikipedia directory.
+  - `data:enrich` — fill academics + net price from College Scorecard (needs a
+    free `SCORECARD_API_KEY` from api.data.gov; DEMO_KEY is rate-limited).
+  - `data:import` — upsert the JSON into the Supabase `programs` table
+    (`SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY`).
+  Until `data:enrich` runs, un-enriched schools share placeholder academics/cost,
+  so fit scores tie and rank alphabetically. Enrichment makes ranking meaningful.
+  Coach contacts are never bulk-imported — verification is the moat.
+- Schema for the future DB-backed reads: `supabase/schema.sql` (mirrors `Program`).
 - Fit weights (basketball/D-III): athletic 35 / academic 30 (hard gate) /
   financial 20 / geographic 15. Win/loss is display-only, never a factor.
 - Photos: `SchoolPhoto` renders a generated initial-on-color placeholder when

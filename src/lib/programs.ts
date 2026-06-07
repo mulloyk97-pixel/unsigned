@@ -1,20 +1,69 @@
-import { AthleteProfile, Program, ProgramMatch, Region } from "./types";
+import { AcademicOpenness, AthleteProfile, Program, ProgramMatch, Region, Sport } from "./types";
 import { levelRank } from "./assessment";
+import rawSchools from "./programs.data.json";
 
 // ---------------------------------------------------------------------------
-// Phase 2 seed: real NCAA Division III basketball programs (men's + women's).
+// Program data.
 //
-// Locations and conferences are accurate. Cost figures are approximate and the
-// win/loss records are PLACEHOLDERS pending enrichment (see winLossLastSeason).
-// coachVerified is true only where we've stubbed a confirmed contact for the
-// demo flow; everything else stays unverified with null contact fields.
+// The base list (src/lib/programs.data.json) is every NCAA Division III
+// institution, generated from the NCAA/Wikipedia directory by
+// scripts/build-school-list.ts. It carries accurate identity data (school,
+// city, state, conference, which basketball teams the school fields).
 //
-// This is NOT the full D-III directory (~430 schools). The intended path is a
-// bulk import script that loads the NCAA member directory into the `programs`
-// table (see supabase/schema.sql) and flips records to coach_verified as our
-// data team / club partners confirm contacts. The shape below matches that
-// table 1:1 so the importer can write straight into it.
+// Academics + net price are filled by scripts/enrich-scorecard.ts (College
+// Scorecard). Until a school is enriched it falls back to conservative
+// PLACEHOLDER defaults so ranking still works; enriched fields override them.
+//
+// Coach contacts are NEVER bulk-imported — verification is the moat. Schools
+// default to coachVerified:false with null contacts. CURATED below marks a small
+// set as verified with stub contacts so the verified-coach flow is demoable;
+// these are clearly sample data to be replaced by real verification.
 // ---------------------------------------------------------------------------
+
+interface RawSchool {
+  id: string;
+  school: string;
+  city: string;
+  state: string;
+  conference: string;
+  sports: string[];
+  // optional enrichment (written by enrich-scorecard.ts)
+  selectivity?: AcademicOpenness;
+  avgGpa?: number;
+  stickerCost?: number;
+  typicalNetCost?: number;
+}
+
+// Conservative placeholders for un-enriched schools. Flagged here on purpose.
+const DEFAULTS = {
+  selectivity: "moderate" as AcademicOpenness,
+  avgGpa: 3.3,
+  stickerCost: 45000,
+  typicalNetCost: 25000,
+  athleticTier: 3,
+};
+
+// Hand-curated overrides (athletic tier + a few demo-verified contacts). Stub
+// emails are sample data, not confirmed contacts.
+const CURATED: Record<string, Partial<Program>> = {
+  "williams-college": { athleticTier: 5, coachVerified: true, coachName: "Coach A. Maker", coachEmail: "basketball.recruiting@williams.edu" },
+  "amherst-college": { athleticTier: 5 },
+  "middlebury-college": { athleticTier: 4 },
+  "tufts-university": { athleticTier: 4 },
+  "washington-university-in-st-louis": { athleticTier: 4 },
+  "emory-university": { athleticTier: 3 },
+  "university-of-chicago": { athleticTier: 4 },
+  "new-york-university": { athleticTier: 4 },
+  "johns-hopkins-university": { athleticTier: 4 },
+  "university-of-wisconsin-whitewater": { athleticTier: 5, coachVerified: true, coachName: "Coach R. Helbig", coachEmail: "wbb.recruiting@uww.edu" },
+  "university-of-wisconsin-oshkosh": { athleticTier: 5 },
+  "hope-college": { athleticTier: 5, coachVerified: true, coachName: "Coach B. Morehouse", coachEmail: "wbb@hope.edu" },
+  "calvin-university": { athleticTier: 4, coachVerified: true, coachName: "Coach D. Vander", coachEmail: "basketball@calvin.edu" },
+  "illinois-wesleyan-university": { athleticTier: 4, coachVerified: true, coachName: "Coach M. Conway", coachEmail: "titanshoops@iwu.edu" },
+  "randolph-macon-college": { athleticTier: 5, coachVerified: true, coachName: "Coach J. Carmody", coachEmail: "mbb@rmc.edu" },
+  "christopher-newport-university": { athleticTier: 5 },
+  "trinity-university": { athleticTier: 3 },
+};
 
 const STATE_REGION: Record<string, Region> = {
   ME: "Northeast", NH: "Northeast", VT: "Northeast", MA: "Northeast",
@@ -43,243 +92,36 @@ const ADJACENT_REGIONS: Record<Region, Region[]> = {
   West: ["Midwest"],
 };
 
-const HOOPS: Program["sports"] = ["mens-basketball", "womens-basketball"];
+function normalize(raw: RawSchool): Program {
+  const base: Program = {
+    id: raw.id,
+    school: raw.school,
+    division: "DIII",
+    conference: raw.conference,
+    city: raw.city,
+    state: raw.state,
+    region: regionForState(raw.state),
+    sports: raw.sports as Sport[],
+    selectivity: raw.selectivity ?? DEFAULTS.selectivity,
+    avgGpa: raw.avgGpa ?? DEFAULTS.avgGpa,
+    stickerCost: raw.stickerCost ?? DEFAULTS.stickerCost,
+    typicalNetCost: raw.typicalNetCost ?? DEFAULTS.typicalNetCost,
+    athleticTier: DEFAULTS.athleticTier,
+    coachVerified: false,
+    coachName: null,
+    coachEmail: null,
+    winLossLastSeason: null, // PLACEHOLDER — needs enrichment, display-only
+    photoUrl: null, // null -> generated SchoolPhoto placeholder
+    blurb: `${raw.conference} program in ${raw.city}, ${raw.state}.`,
+  };
+  return { ...base, ...CURATED[raw.id] };
+}
 
-export const PROGRAMS: Program[] = [
-  // --- NESCAC (highly selective, elite academics) ---
-  {
-    id: "williams", school: "Williams College", division: "DIII",
-    conference: "NESCAC", city: "Williamstown", state: "MA", region: "Northeast",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.9, athleticTier: 5,
-    stickerCost: 80000, typicalNetCost: 34000,
-    coachVerified: true, coachName: "Coach A. Maker", coachEmail: "basketball.recruiting@williams.edu",
-    winLossLastSeason: "24-5", photoUrl: null,
-    blurb: "Perennial national contender that recruits high-character students who can flat-out play.",
-  },
-  {
-    id: "amherst", school: "Amherst College", division: "DIII",
-    conference: "NESCAC", city: "Amherst", state: "MA", region: "Northeast",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.9, athleticTier: 5,
-    stickerCost: 81000, typicalNetCost: 33000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "22-6", photoUrl: null,
-    blurb: "Multiple-time national champion program; elite academics, elite expectations.",
-  },
-  {
-    id: "middlebury", school: "Middlebury College", division: "DIII",
-    conference: "NESCAC", city: "Middlebury", state: "VT", region: "Northeast",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.85, athleticTier: 4,
-    stickerCost: 79000, typicalNetCost: 35000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "19-8", photoUrl: null,
-    blurb: "Top-tier liberal arts school with a consistently competitive NESCAC program.",
-  },
-  {
-    id: "tufts", school: "Tufts University", division: "DIII",
-    conference: "NESCAC", city: "Medford", state: "MA", region: "Northeast",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.8, athleticTier: 4,
-    stickerCost: 82000, typicalNetCost: 36000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "20-7", photoUrl: null,
-    blurb: "Research university just outside Boston with a strong, disciplined program.",
-  },
-
-  // --- UAA (highly selective research universities) ---
-  {
-    id: "washu", school: "Washington University in St. Louis", division: "DIII",
-    conference: "UAA", city: "St. Louis", state: "MO", region: "Midwest",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.9, athleticTier: 4,
-    stickerCost: 80000, typicalNetCost: 33000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "21-6", photoUrl: null,
-    blurb: "Top-15 national university; the UAA travels nationally and plays a tough schedule.",
-  },
-  {
-    id: "emory", school: "Emory University", division: "DIII",
-    conference: "UAA", city: "Atlanta", state: "GA", region: "South",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.85, athleticTier: 3,
-    stickerCost: 78000, typicalNetCost: 34000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "16-9", photoUrl: null,
-    blurb: "Elite academics in Atlanta with strong merit and need aid for the right fit.",
-  },
-  {
-    id: "uchicago", school: "University of Chicago", division: "DIII",
-    conference: "UAA", city: "Chicago", state: "IL", region: "Midwest",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.95, athleticTier: 4,
-    stickerCost: 84000, typicalNetCost: 35000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "18-8", photoUrl: null,
-    blurb: "One of the most selective schools in the country; basketball that competes nationally.",
-  },
-  {
-    id: "cmu", school: "Carnegie Mellon University", division: "DIII",
-    conference: "UAA", city: "Pittsburgh", state: "PA", region: "Northeast",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.85, athleticTier: 3,
-    stickerCost: 81000, typicalNetCost: 38000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "15-10", photoUrl: null,
-    blurb: "STEM powerhouse; a great landing spot for a high-GPA player who wants real academics.",
-  },
-
-  // --- Centennial (selective) ---
-  {
-    id: "hopkins", school: "Johns Hopkins University", division: "DIII",
-    conference: "Centennial", city: "Baltimore", state: "MD", region: "South",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.9, athleticTier: 4,
-    stickerCost: 79000, typicalNetCost: 34000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "20-7", photoUrl: null,
-    blurb: "World-class academics with a consistently strong Centennial Conference program.",
-  },
-  {
-    id: "swarthmore", school: "Swarthmore College", division: "DIII",
-    conference: "Centennial", city: "Swarthmore", state: "PA", region: "Northeast",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.9, athleticTier: 3,
-    stickerCost: 80000, typicalNetCost: 32000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "17-9", photoUrl: null,
-    blurb: "Tiny, ultra-selective liberal arts college near Philadelphia with rising hoops.",
-  },
-
-  // --- WIAC (public, moderate academics, elite basketball) ---
-  {
-    id: "uww", school: "UW–Whitewater", division: "DIII",
-    conference: "WIAC", city: "Whitewater", state: "WI", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.3, athleticTier: 5,
-    stickerCost: 20000, typicalNetCost: 15000,
-    coachVerified: true, coachName: "Coach R. Helbig", coachEmail: "wbb.recruiting@uww.edu",
-    winLossLastSeason: "25-4", photoUrl: null,
-    blurb: "National-caliber basketball at one of the best net prices in Division III.",
-  },
-  {
-    id: "uwo", school: "UW–Oshkosh", division: "DIII",
-    conference: "WIAC", city: "Oshkosh", state: "WI", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.2, athleticTier: 5,
-    stickerCost: 19000, typicalNetCost: 14000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "23-6", photoUrl: null,
-    blurb: "National-championship pedigree (men's, 2017) and a very affordable public option.",
-  },
-  {
-    id: "uwp", school: "UW–Platteville", division: "DIII",
-    conference: "WIAC", city: "Platteville", state: "WI", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.1, athleticTier: 3,
-    stickerCost: 18000, typicalNetCost: 13000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "16-10", photoUrl: null,
-    blurb: "Low-cost public school that recruits hard-nosed players from the upper Midwest.",
-  },
-
-  // --- MIAA (Michigan) ---
-  {
-    id: "calvin", school: "Calvin University", division: "DIII",
-    conference: "MIAA", city: "Grand Rapids", state: "MI", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.5, athleticTier: 4,
-    stickerCost: 55000, typicalNetCost: 27000,
-    coachVerified: true, coachName: "Coach D. Vander", coachEmail: "basketball@calvin.edu",
-    winLossLastSeason: "21-7", photoUrl: null,
-    blurb: "Strong faith-based school in Grand Rapids with a storied MIAA program and good aid.",
-  },
-  {
-    id: "hope", school: "Hope College", division: "DIII",
-    conference: "MIAA", city: "Holland", state: "MI", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.5, athleticTier: 5,
-    stickerCost: 56000, typicalNetCost: 28000,
-    coachVerified: true, coachName: "Coach B. Morehouse", coachEmail: "wbb@hope.edu",
-    winLossLastSeason: "28-2", photoUrl: null,
-    blurb: "National women's contender and strong men's program; passionate, packed home crowds.",
-  },
-
-  // --- CCIW (Illinois/Wisconsin) ---
-  {
-    id: "iwu", school: "Illinois Wesleyan University", division: "DIII",
-    conference: "CCIW", city: "Bloomington", state: "IL", region: "Midwest",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.6, athleticTier: 4,
-    stickerCost: 60000, typicalNetCost: 29000,
-    coachVerified: true, coachName: "Coach M. Conway", coachEmail: "titanshoops@iwu.edu",
-    winLossLastSeason: "22-6", photoUrl: null,
-    blurb: "Selective academics plus a CCIW program that reliably competes for the league.",
-  },
-  {
-    id: "wheaton-il", school: "Wheaton College (IL)", division: "DIII",
-    conference: "CCIW", city: "Wheaton", state: "IL", region: "Midwest",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.6, athleticTier: 4,
-    stickerCost: 58000, typicalNetCost: 30000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "19-8", photoUrl: null,
-    blurb: "Rigorous Christian liberal arts college outside Chicago with a tough CCIW schedule.",
-  },
-  {
-    id: "augustana-il", school: "Augustana College (IL)", division: "DIII",
-    conference: "CCIW", city: "Rock Island", state: "IL", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.5, athleticTier: 3,
-    stickerCost: 52000, typicalNetCost: 26000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "17-9", photoUrl: null,
-    blurb: "Quad Cities liberal arts college that stacks merit aid for solid students.",
-  },
-
-  // --- Regional spread (ODAC / OAC / SAA / SCIAC / NWC / MIAC) ---
-  {
-    id: "randolph-macon", school: "Randolph-Macon College", division: "DIII",
-    conference: "ODAC", city: "Ashland", state: "VA", region: "South",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.4, athleticTier: 5,
-    stickerCost: 54000, typicalNetCost: 26000,
-    coachVerified: true, coachName: "Coach J. Carmody", coachEmail: "mbb@rmc.edu",
-    winLossLastSeason: "29-2", photoUrl: null,
-    blurb: "Recent national champion (men's, 2022); proof you don't need a big name to win big.",
-  },
-  {
-    id: "marietta", school: "Marietta College", division: "DIII",
-    conference: "OAC", city: "Marietta", state: "OH", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.3, athleticTier: 3,
-    stickerCost: 48000, typicalNetCost: 24000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "15-11", photoUrl: null,
-    blurb: "Small Ohio college on the river with generous merit aid and roster openings.",
-  },
-  {
-    id: "trinity-tx", school: "Trinity University", division: "DIII",
-    conference: "SAA", city: "San Antonio", state: "TX", region: "South",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.7, athleticTier: 3,
-    stickerCost: 58000, typicalNetCost: 28000,
-    coachVerified: true, coachName: "Coach P. Ramos", coachEmail: "tigerhoops@trinity.edu",
-    winLossLastSeason: "18-8", photoUrl: null,
-    blurb: "Top academics in Texas with strong merit aid and a competitive SAA program.",
-  },
-  {
-    id: "pomona-pitzer", school: "Pomona-Pitzer", division: "DIII",
-    conference: "SCIAC", city: "Claremont", state: "CA", region: "West",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.8, athleticTier: 4,
-    stickerCost: 79000, typicalNetCost: 33000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "21-6", photoUrl: null,
-    blurb: "Elite SoCal liberal arts academics and a rising SCIAC basketball program.",
-  },
-  {
-    id: "whitman", school: "Whitman College", division: "DIII",
-    conference: "NWC", city: "Walla Walla", state: "WA", region: "West",
-    sports: HOOPS, selectivity: "selective", avgGpa: 3.7, athleticTier: 3,
-    stickerCost: 75000, typicalNetCost: 32000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "16-9", photoUrl: null,
-    blurb: "Selective Pacific Northwest college with strong aid and a competitive NWC program.",
-  },
-  {
-    id: "gustavus", school: "Gustavus Adolphus College", division: "DIII",
-    conference: "MIAC", city: "St. Peter", state: "MN", region: "Midwest",
-    sports: HOOPS, selectivity: "moderate", avgGpa: 3.5, athleticTier: 3,
-    stickerCost: 60000, typicalNetCost: 29000,
-    coachVerified: false, coachName: null, coachEmail: null,
-    winLossLastSeason: "17-9", photoUrl: null,
-    blurb: "Well-regarded Minnesota liberal arts college with deep MIAA/MIAC basketball roots.",
-  },
-];
+export const PROGRAMS: Program[] = (rawSchools as RawSchool[]).map(normalize);
 
 // --- Fit scoring (basketball / D-III) -------------------------------------
-// Weights per phase-2 spec. Academic is a hard gate at D-III and is weighted to
-// reflect that. Win/loss record is intentionally NOT a factor.
+// Weights per spec. Academic is a hard gate at D-III and weighted to reflect
+// it. Win/loss record is intentionally NOT a factor.
 const WEIGHTS = { athletic: 35, academic: 30, financial: 20, geographic: 15 };
 
 function hasStrongTest(profile: AthleteProfile): boolean {
@@ -289,16 +131,14 @@ function hasStrongTest(profile: AthleteProfile): boolean {
   );
 }
 
-// Does the athlete's level match the program's typical recruit?
 function athleticScore(profile: AthleteProfile, program: Program): number {
   const athlete = levelRank(profile.level); // 1-6
-  const need = program.athleticTier + 1; // ~level needed to be a clear fit
+  const need = program.athleticTier + 1;
   if (athlete >= need) return WEIGHTS.athletic;
   const gap = need - athlete;
   return Math.max(0, Math.round(WEIGHTS.athletic - gap * 9));
 }
 
-// GPA (+ small test bump) vs the school's admitted profile. Hard gate.
 function academicScore(profile: AthleteProfile, program: Program): number {
   const effGpa = profile.gpa + (hasStrongTest(profile) ? 0.1 : 0);
   const gap = effGpa - program.avgGpa;
@@ -327,9 +167,11 @@ function geographicScore(profile: AthleteProfile, program: Program): number {
   return Math.round(WEIGHTS.geographic * 0.15);
 }
 
-function whyItFits(profile: AthleteProfile, program: Program, parts: {
-  athletic: number; academic: number; financial: number; geographic: number;
-}): string {
+function whyItFits(
+  profile: AthleteProfile,
+  program: Program,
+  parts: { athletic: number; academic: number; financial: number; geographic: number },
+): string {
   const reasons: { score: number; text: string }[] = [];
 
   if (parts.academic >= WEIGHTS.academic && program.selectivity === "selective") {
@@ -360,8 +202,7 @@ function whyItFits(profile: AthleteProfile, program: Program, parts: {
   return sentence.charAt(0).toUpperCase() + sentence.slice(1) + ".";
 }
 
-// All phase-2 seed programs are D-III, so athletic fit is judged by program
-// tier vs. the athlete's level rather than by division.
+// All seed programs are D-III; athletic fit is judged by program tier vs level.
 export function buildShortlist(profile: AthleteProfile, limit = 40): ProgramMatch[] {
   return PROGRAMS.filter((p) => p.sports.includes(profile.sport))
     .map((program) => {

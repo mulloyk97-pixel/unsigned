@@ -1,0 +1,6035 @@
+[
+  {
+    "id": "adrian-college",
+    "school": "Adrian College",
+    "city": "Adrian",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25368,
+    "stickerCost": 56003,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "agnes-scott-college",
+    "school": "Agnes Scott College",
+    "city": "Decatur",
+    "state": "GA",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24754,
+    "stickerCost": 63283,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "albertus-magnus-college",
+    "school": "Albertus Magnus College",
+    "city": "New Haven",
+    "state": "CT",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 34028,
+    "stickerCost": 59407,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "albion-college",
+    "school": "Albion College",
+    "city": "Albion",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14301,
+    "stickerCost": 69986,
+    "selectivity": "open"
+  },
+  {
+    "id": "albright-college",
+    "school": "Albright College",
+    "city": "Reading",
+    "state": "PA",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20024,
+    "stickerCost": 43711,
+    "selectivity": "open"
+  },
+  {
+    "id": "alfred-university",
+    "school": "Alfred University",
+    "city": "|Alfred",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25620,
+    "stickerCost": 57445,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "alfred-state-college",
+    "school": "Alfred State College",
+    "city": "|Alfred",
+    "state": "NY",
+    "conference": "Allegheny Mountain Collegiate Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "allegheny-college",
+    "school": "Allegheny College",
+    "city": "Meadville",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22940,
+    "stickerCost": 71348,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "alma-college",
+    "school": "Alma College",
+    "city": "Alma",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20694,
+    "stickerCost": 63650,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "alvernia-university",
+    "school": "Alvernia University",
+    "city": "Reading",
+    "state": "PA",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28138,
+    "stickerCost": 57565,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "alverno-college",
+    "school": "Alverno College",
+    "city": "Milwaukee",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference<br>",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22540,
+    "stickerCost": 51362,
+    "selectivity": "open"
+  },
+  {
+    "id": "amherst-college",
+    "school": "Amherst College",
+    "city": "Amherst",
+    "state": "MA",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23367,
+    "stickerCost": 87640,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "anderson-university",
+    "school": "Anderson University",
+    "city": "Anderson",
+    "state": "IN",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25021,
+    "stickerCost": 51585,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "arcadia-university",
+    "school": "Arcadia University",
+    "city": "Glenside",
+    "state": "PA",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29466,
+    "stickerCost": 64645,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "asbury-university",
+    "school": "Asbury University",
+    "city": "Wilmore",
+    "state": "KY",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21401,
+    "stickerCost": 47459,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "augsburg-university",
+    "school": "Augsburg University",
+    "city": "Minneapolis",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23873,
+    "stickerCost": 62303,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "augustana-college",
+    "school": "Augustana College",
+    "city": "Rock Island",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22736,
+    "stickerCost": 63553,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "aurora-university",
+    "school": "Aurora University",
+    "city": "Aurora",
+    "state": "IL",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18838,
+    "stickerCost": 40625,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "austin-college",
+    "school": "Austin College",
+    "city": "Sherman",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21107,
+    "stickerCost": 61607,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "averett-university",
+    "school": "Averett University",
+    "city": "Danville",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22925,
+    "stickerCost": 53460,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "babson-college",
+    "school": "Babson College",
+    "city": "Wellesley",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 40514,
+    "stickerCost": 80192,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "baldwin-wallace-university",
+    "school": "Baldwin Wallace University",
+    "city": "Berea",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27603,
+    "stickerCost": 55606,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "bard-college",
+    "school": "Bard College",
+    "city": "Annandale-on-Hudson",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 34649,
+    "stickerCost": 84553,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "baruch-college",
+    "school": "Baruch College",
+    "city": "New York",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "bates-college",
+    "school": "Bates College",
+    "city": "Lewiston",
+    "state": "ME",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29351,
+    "stickerCost": 83532,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "belhaven-university",
+    "school": "Belhaven University",
+    "city": "Jackson",
+    "state": "MS",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15676,
+    "stickerCost": 39793,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "beloit-college",
+    "school": "Beloit College",
+    "city": "Beloit",
+    "state": "WI",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21526,
+    "stickerCost": 71365,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "benedictine-university",
+    "school": "Benedictine University",
+    "city": "Lisle",
+    "state": "IL",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22313,
+    "stickerCost": 46713,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "berea-college",
+    "school": "Berea College",
+    "city": "Berea",
+    "state": "KY",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 6106,
+    "stickerCost": 60718,
+    "avgGpa": 3.55,
+    "selectivity": "selective"
+  },
+  {
+    "id": "berry-college",
+    "school": "Berry College",
+    "city": "Mount Berry",
+    "state": "GA",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22320,
+    "stickerCost": 56697,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bethany-college",
+    "school": "Bethany College",
+    "city": "Bethany",
+    "state": "WV",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18605,
+    "stickerCost": 50758,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bethany-lutheran-college",
+    "school": "Bethany Lutheran College",
+    "city": "Mankato",
+    "state": "MN",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20148,
+    "stickerCost": 41013,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bethel-university",
+    "school": "Bethel University",
+    "city": "Arden Hills",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28556,
+    "stickerCost": 58569,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "blackburn-college",
+    "school": "Blackburn College",
+    "city": "Carlinville",
+    "state": "IL",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18460,
+    "stickerCost": 37916,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bluffton-university",
+    "school": "Bluffton University",
+    "city": "Bluffton",
+    "state": "OH",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19943,
+    "stickerCost": 51862,
+    "avgGpa": 2.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bowdoin-college",
+    "school": "Bowdoin College",
+    "city": "Brunswick",
+    "state": "ME",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14398,
+    "stickerCost": 85100,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "brandeis-university",
+    "school": "Brandeis University",
+    "city": "Waltham",
+    "state": "MA",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 35736,
+    "stickerCost": 86448,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bridgewater-college",
+    "school": "Bridgewater College",
+    "city": "Bridgewater",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17800,
+    "stickerCost": 58702,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "bridgewater-state-university",
+    "school": "Bridgewater State University",
+    "city": "Bridgewater",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16383,
+    "stickerCost": 26160,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "brooklyn-college",
+    "school": "Brooklyn College",
+    "city": "Brooklyn",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 3103,
+    "stickerCost": 14151,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "bryn-mawr-college",
+    "school": "Bryn Mawr College",
+    "city": "Bryn Mawr",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31759,
+    "stickerCost": 83250,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "buena-vista-university",
+    "school": "Buena Vista University",
+    "city": "Storm Lake",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18846,
+    "stickerCost": 54222,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "buffalo-state-university",
+    "school": "Buffalo State University",
+    "city": "Buffalo",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 11346,
+    "stickerCost": 24279,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "cairn-university",
+    "school": "Cairn University",
+    "city": "Langhorne",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "california-institute-of-technology",
+    "school": "California Institute of Technology",
+    "city": "Pasadena",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16075,
+    "stickerCost": 86886,
+    "selectivity": "selective"
+  },
+  {
+    "id": "california-lutheran-university",
+    "school": "California Lutheran University",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30109,
+    "stickerCost": 68426,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-california-santa-cruz",
+    "school": "University of California, Santa Cruz",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "conference": "Coast to Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17890,
+    "stickerCost": 41179,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "calvin-university",
+    "school": "Calvin University",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22992,
+    "stickerCost": 54222,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "capital-university",
+    "school": "Capital University",
+    "city": "Bexley",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22576,
+    "stickerCost": 57130,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "carleton-college",
+    "school": "Carleton College",
+    "city": "Northfield",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25407,
+    "stickerCost": 84893,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "carnegie-mellon-university",
+    "school": "Carnegie Mellon University",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31944,
+    "stickerCost": 83654,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "carroll-university",
+    "school": "Carroll University",
+    "city": "Waukesha",
+    "state": "WI",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15193,
+    "stickerCost": 52639,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "carthage-college",
+    "school": "Carthage College",
+    "city": "Kenosha",
+    "state": "WI",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26565,
+    "stickerCost": 50822,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "case-western-reserve-university",
+    "school": "Case Western Reserve University",
+    "city": "Cleveland",
+    "state": "OH",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 41190,
+    "stickerCost": 85851,
+    "avgGpa": 3.95,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "catholic-university-of-america",
+    "school": "Catholic University of America",
+    "city": "Washington",
+    "state": "DC",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29561,
+    "stickerCost": 75481,
+    "selectivity": "open"
+  },
+  {
+    "id": "cedar-crest-college",
+    "school": "Cedar Crest College",
+    "city": "Allentown",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18659,
+    "stickerCost": 57206,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "centenary-college-of-louisiana",
+    "school": "Centenary College of Louisiana",
+    "city": "Shreveport",
+    "state": "LA",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23624,
+    "stickerCost": 60620,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "centenary-university",
+    "school": "Centenary University",
+    "city": "Hackettstown",
+    "state": "NJ",
+    "conference": "Atlantic East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20503,
+    "stickerCost": 52362,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "central-college",
+    "school": "Central College",
+    "city": "Pella",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23377,
+    "stickerCost": 37773,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "centre-college",
+    "school": "Centre College",
+    "city": "Danville",
+    "state": "KY",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20781,
+    "stickerCost": 67787,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "chapman-university",
+    "school": "Chapman University",
+    "city": "Orange",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 46555,
+    "stickerCost": 83146,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "chatham-university",
+    "school": "Chatham University",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29954,
+    "stickerCost": 61261,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-chicago",
+    "school": "University of Chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14860,
+    "stickerCost": 90360,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "christopher-newport-university",
+    "school": "Christopher Newport University",
+    "city": "Newport News",
+    "state": "VA",
+    "conference": "Coast to Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23015,
+    "stickerCost": 33766,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "city-college-of-new-york",
+    "school": "City College of New York",
+    "city": "New York",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 5127,
+    "stickerCost": 14110,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "claremont-mckenna-college-harvey-mudd-college-and-scripps-college",
+    "school": "Claremont McKenna College, Harvey Mudd College, and Scripps College",
+    "city": "Claremont",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "clark-university",
+    "school": "Clark University",
+    "city": "Worcester",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28714,
+    "stickerCost": 68432,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "clarkson-university",
+    "school": "Clarkson University",
+    "city": "Potsdam",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30305,
+    "stickerCost": 79022,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "coe-college",
+    "school": "Coe College",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18745,
+    "stickerCost": 67372,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "colby-college",
+    "school": "Colby College",
+    "city": "Waterville",
+    "state": "ME",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17180,
+    "stickerCost": 85420,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "colby-sawyer-college",
+    "school": "Colby–Sawyer College",
+    "city": "New London",
+    "state": "NH",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27431,
+    "stickerCost": 38527,
+    "selectivity": "open"
+  },
+  {
+    "id": "colorado-college",
+    "school": "Colorado College",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 33375,
+    "stickerCost": 86921,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "concordia-college",
+    "school": "Concordia College",
+    "city": "Moorhead",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "concordia-university-chicago",
+    "school": "Concordia University Chicago",
+    "city": "River Forest",
+    "state": "IL",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18436,
+    "stickerCost": 45383,
+    "selectivity": "open"
+  },
+  {
+    "id": "concordia-university-texas",
+    "school": "Concordia University Texas",
+    "city": "Austin",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23131,
+    "stickerCost": 53020,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "concordia-university-wisconsin",
+    "school": "Concordia University Wisconsin",
+    "city": "Mequon",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 36201,
+    "stickerCost": 53315,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "connecticut-college",
+    "school": "Connecticut College",
+    "city": "New London",
+    "state": "CT",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 36175,
+    "stickerCost": 84623,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "cornell-college",
+    "school": "Cornell College",
+    "city": "Mount Vernon",
+    "state": "IA",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23634,
+    "stickerCost": 66249,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "covenant-college",
+    "school": "Covenant College",
+    "city": "Lookout Mountain",
+    "state": "GA",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26265,
+    "stickerCost": 57467,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "crown-college",
+    "school": "Crown College",
+    "city": "St. Bonifacius",
+    "state": "MN",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26672,
+    "stickerCost": 46598,
+    "selectivity": "selective"
+  },
+  {
+    "id": "curry-college",
+    "school": "Curry College",
+    "city": "Milton",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29207,
+    "stickerCost": 64020,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-dallas",
+    "school": "University of Dallas",
+    "city": "Irving",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22610,
+    "stickerCost": 68583,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "dean-college",
+    "school": "Dean College",
+    "city": "Franklin",
+    "state": "MA",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30684,
+    "stickerCost": 64889,
+    "selectivity": "open"
+  },
+  {
+    "id": "delaware-valley-university",
+    "school": "Delaware Valley University",
+    "city": "Doylestown",
+    "state": "PA",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28278,
+    "stickerCost": 59933,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "denison-university",
+    "school": "Denison University",
+    "city": "Granville",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 40007,
+    "stickerCost": 81900,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "depauw-university",
+    "school": "DePauw University",
+    "city": "Greencastle",
+    "state": "IN",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22264,
+    "stickerCost": 74320,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "desales-university",
+    "school": "DeSales University",
+    "city": "Center Valley",
+    "state": "PA",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31643,
+    "stickerCost": 62745,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "dickinson-college",
+    "school": "Dickinson College",
+    "city": "Carlisle",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 37607,
+    "stickerCost": 82902,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "dominican-university",
+    "school": "Dominican University",
+    "city": "River Forest",
+    "state": "IL",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 11745,
+    "stickerCost": 43891,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "drew-university",
+    "school": "Drew University",
+    "city": "Madison",
+    "state": "NJ",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24280,
+    "stickerCost": 65301,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-dubuque",
+    "school": "University of Dubuque",
+    "city": "Dubuque",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23386,
+    "stickerCost": 53806,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "earlham-college",
+    "school": "Earlham College",
+    "city": "Richmond",
+    "state": "IN",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24714,
+    "stickerCost": 67684,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "east-texas-baptist-university",
+    "school": "East Texas Baptist University",
+    "city": "Marshall",
+    "state": "TX",
+    "conference": "American Southwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23911,
+    "stickerCost": 44211,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "eastern-connecticut-state-university",
+    "school": "Eastern Connecticut State University",
+    "city": "Willimantic",
+    "state": "CT",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21067,
+    "stickerCost": 31983,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "eastern-mennonite-university",
+    "school": "Eastern Mennonite University",
+    "city": "Harrisonburg",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24588,
+    "stickerCost": 56756,
+    "avgGpa": 3.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "eastern-university",
+    "school": "Eastern University",
+    "city": "St. Davids",
+    "state": "PA",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26662,
+    "stickerCost": 55001,
+    "selectivity": "open"
+  },
+  {
+    "id": "edgewood-university",
+    "school": "Edgewood University",
+    "city": "Madison",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26113,
+    "stickerCost": 50903,
+    "selectivity": "open"
+  },
+  {
+    "id": "elizabethtown-college",
+    "school": "Elizabethtown College",
+    "city": "Elizabethtown",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26598,
+    "stickerCost": 50865,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "elmhurst-university",
+    "school": "Elmhurst University",
+    "city": "Elmhurst",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24185,
+    "stickerCost": 54679,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "elmira-college",
+    "school": "Elmira College",
+    "city": "Elmira",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22386,
+    "stickerCost": 52449,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "elms-college",
+    "school": "Elms College",
+    "city": "Chicopee",
+    "state": "MA",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "emerson-college",
+    "school": "Emerson College",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 49180,
+    "stickerCost": 80399,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "emmanuel-college",
+    "school": "Emmanuel College",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26706,
+    "stickerCost": 65252,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "emory-university",
+    "school": "Emory University",
+    "city": "Atlanta",
+    "state": "GA",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22585,
+    "stickerCost": 83622,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "endicott-college",
+    "school": "Endicott College",
+    "city": "Beverly",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 40654,
+    "stickerCost": 59328,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "eureka-college",
+    "school": "Eureka College",
+    "city": "Eureka",
+    "state": "IL",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17349,
+    "stickerCost": 39578,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "fairleigh-dickinson-university-florham",
+    "school": "Fairleigh Dickinson University, Florham",
+    "city": "Madison/Florham Park",
+    "state": "NJ",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22829,
+    "stickerCost": 54204,
+    "selectivity": "open"
+  },
+  {
+    "id": "farmingdale-state-college",
+    "school": "Farmingdale State College",
+    "city": "Farmingdale",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 10867,
+    "stickerCost": 18966,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "fitchburg-state-university",
+    "school": "Fitchburg State University",
+    "city": "Fitchburg",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14262,
+    "stickerCost": 25555,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "framingham-state-university",
+    "school": "Framingham State University",
+    "city": "Framingham",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16114,
+    "stickerCost": 27413,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "franciscan-university-of-steubenville",
+    "school": "Franciscan University of Steubenville",
+    "city": "Steubenville",
+    "state": "OH",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23589,
+    "stickerCost": 44580,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "franklin-marshall-college",
+    "school": "Franklin & Marshall College",
+    "city": "Lancaster",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 36425,
+    "stickerCost": 85776,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "franklin-college",
+    "school": "Franklin College",
+    "city": "Franklin",
+    "state": "IN",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22855,
+    "stickerCost": 54178,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "gallaudet-university",
+    "school": "Gallaudet University",
+    "city": "Washington",
+    "state": "DC",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15845,
+    "stickerCost": 40374,
+    "avgGpa": 2.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "geneva-college",
+    "school": "Geneva College",
+    "city": "Beaver Falls",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25890,
+    "stickerCost": 45407
+  },
+  {
+    "id": "george-fox-university",
+    "school": "George Fox University",
+    "city": "Newberg",
+    "state": "OR",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31679,
+    "stickerCost": 58644,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "gettysburg-college",
+    "school": "Gettysburg College",
+    "city": "Gettysburg",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31490,
+    "stickerCost": 81960,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "gordon-college",
+    "school": "Gordon College",
+    "city": "Wenham",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24883,
+    "stickerCost": 42446,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "goucher-college",
+    "school": "Goucher College",
+    "city": "Towson",
+    "state": "MD",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22470,
+    "stickerCost": 70544,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "greensboro-college",
+    "school": "Greensboro College",
+    "city": "Greensboro",
+    "state": "NC",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17882,
+    "stickerCost": 35165,
+    "selectivity": "open"
+  },
+  {
+    "id": "greenville-university",
+    "school": "Greenville University",
+    "city": "Greenville",
+    "state": "IL",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19533,
+    "stickerCost": 45091,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "grinnell-college",
+    "school": "Grinnell College",
+    "city": "Grinnell",
+    "state": "IA",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17648,
+    "stickerCost": 83440,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "grove-city-college",
+    "school": "Grove City College",
+    "city": "Grove City",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "guilford-college",
+    "school": "Guilford College",
+    "city": "Greensboro",
+    "state": "NC",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22270,
+    "stickerCost": 55689,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "gustavus-adolphus-college",
+    "school": "Gustavus Adolphus College",
+    "city": "St. Peter",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22900,
+    "stickerCost": 67613,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "gwynedd-mercy-university",
+    "school": "Gwynedd Mercy University",
+    "city": "Lower Gwynedd Township",
+    "state": "PA",
+    "conference": "Atlantic East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27483,
+    "stickerCost": 55786,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "hamilton-college",
+    "school": "Hamilton College",
+    "city": "Clinton",
+    "state": "NY",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28985,
+    "stickerCost": 84230,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "hamline-university",
+    "school": "Hamline University",
+    "city": "St. Paul",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20744,
+    "stickerCost": 58110,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "hampden-sydney-college",
+    "school": "Hampden–Sydney College",
+    "city": "Hampden Sydney",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22400,
+    "stickerCost": 70325,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "hanover-college",
+    "school": "Hanover College",
+    "city": "Hanover",
+    "state": "IN",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21829,
+    "stickerCost": 58821,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "hardin-simmons-university",
+    "school": "Hardin–Simmons University",
+    "city": "Abilene",
+    "state": "TX",
+    "conference": "American Southwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19555,
+    "stickerCost": 45904,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-hartford",
+    "school": "University of Hartford",
+    "city": "West Hartford",
+    "state": "CT",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30282,
+    "stickerCost": 64729,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "hartwick-college",
+    "school": "Hartwick College",
+    "city": "Oneonta",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31320,
+    "stickerCost": 68614,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "haverford-college",
+    "school": "Haverford College",
+    "city": "Haverford",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25314,
+    "stickerCost": 90382,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "heidelberg-university",
+    "school": "Heidelberg University",
+    "city": "Tiffin",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20556,
+    "stickerCost": 47025,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "hendrix-college",
+    "school": "Hendrix College",
+    "city": "Conway",
+    "state": "AR",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24149,
+    "stickerCost": 55013,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "hilbert-college",
+    "school": "Hilbert College",
+    "city": "Hamburg",
+    "state": "NY",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22723,
+    "stickerCost": 42114,
+    "selectivity": "open"
+  },
+  {
+    "id": "hiram-college",
+    "school": "Hiram College",
+    "city": "Hiram",
+    "state": "OH",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21058,
+    "stickerCost": 40572,
+    "selectivity": "open"
+  },
+  {
+    "id": "hobart-college",
+    "school": "Hobart College",
+    "city": "Geneva",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "hollins-university",
+    "school": "Hollins University",
+    "city": "Roanoke",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20896,
+    "stickerCost": 58698,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "hood-college",
+    "school": "Hood College",
+    "city": "Frederick",
+    "state": "MD",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20873,
+    "stickerCost": 61219,
+    "selectivity": "open"
+  },
+  {
+    "id": "hope-college",
+    "school": "Hope College",
+    "city": "Holland",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27182,
+    "stickerCost": 55646,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "houghton-university",
+    "school": "Houghton University",
+    "city": "Houghton",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20519,
+    "stickerCost": 31143,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "howard-payne-university",
+    "school": "Howard Payne University",
+    "city": "Brownwood",
+    "state": "TX",
+    "conference": "American Southwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23627,
+    "stickerCost": 46766,
+    "avgGpa": 3.1,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "hunter-college",
+    "school": "Hunter College",
+    "city": "New York",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 2984,
+    "stickerCost": 13905,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "huntingdon-college",
+    "school": "Huntingdon College",
+    "city": "Montgomery",
+    "state": "AL",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22566,
+    "stickerCost": 40908,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "husson-university",
+    "school": "Husson University",
+    "city": "Bangor",
+    "state": "ME",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21005,
+    "stickerCost": 35852,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "illinois-college",
+    "school": "Illinois College",
+    "city": "Jacksonville",
+    "state": "IL",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18298,
+    "stickerCost": 48955,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "illinois-institute-of-technology",
+    "school": "Illinois Institute of Technology",
+    "city": "Chicago",
+    "state": "IL",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18425,
+    "stickerCost": 68164,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "illinois-wesleyan-university",
+    "school": "Illinois Wesleyan University",
+    "city": "Bloomington",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28199,
+    "stickerCost": 70700,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "immaculata-university",
+    "school": "Immaculata University",
+    "city": "Immaculata",
+    "state": "PA",
+    "conference": "Atlantic East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24258,
+    "stickerCost": 43979,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "ithaca-college",
+    "school": "Ithaca College",
+    "city": "Ithaca",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 33926,
+    "stickerCost": 68699,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "john-carroll-university",
+    "school": "John Carroll University",
+    "city": "University Heights",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28746,
+    "stickerCost": 65827,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "john-jay-college-of-criminal-justice",
+    "school": "John Jay College of Criminal Justice",
+    "city": "New York",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 3203,
+    "stickerCost": 14212,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "johns-hopkins-university",
+    "school": "Johns Hopkins University",
+    "city": "Baltimore",
+    "state": "MD",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18809,
+    "stickerCost": 85947,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "johnson-wales-university",
+    "school": "Johnson & Wales University",
+    "city": "Providence",
+    "state": "RI",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "juniata-college",
+    "school": "Juniata College",
+    "city": "Huntingdon",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23988,
+    "stickerCost": 71850,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "kalamazoo-college",
+    "school": "Kalamazoo College",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19072,
+    "stickerCost": 74208,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "kean-university",
+    "school": "Kean University",
+    "city": "Union Township",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 12447,
+    "stickerCost": 26949,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "keene-state-college",
+    "school": "Keene State College",
+    "city": "Keene",
+    "state": "NH",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17887,
+    "stickerCost": 29993,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "kenyon-college",
+    "school": "Kenyon College",
+    "city": "Gambier",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 38512,
+    "stickerCost": 87590,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "keuka-college",
+    "school": "Keuka College",
+    "city": "Keuka Park",
+    "state": "NY",
+    "conference": "Empire 8<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24338,
+    "stickerCost": 54760,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "keystone-college",
+    "school": "Keystone College",
+    "city": "La Plume Township",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22051,
+    "stickerCost": 32071,
+    "selectivity": "open"
+  },
+  {
+    "id": "king-s-college",
+    "school": "King's College",
+    "city": "Wilkes-Barre",
+    "state": "PA",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23093,
+    "stickerCost": 57973,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "knox-college",
+    "school": "Knox College",
+    "city": "Galesburg",
+    "state": "IL",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24595,
+    "stickerCost": 68134,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "la-roche-university",
+    "school": "La Roche University",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20794,
+    "stickerCost": 47111,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-la-verne",
+    "school": "University of La Verne",
+    "city": "La Verne",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20161,
+    "stickerCost": 62278,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "lagrange-college",
+    "school": "LaGrange College",
+    "city": "LaGrange",
+    "state": "GA",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20875,
+    "stickerCost": 49681,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lake-forest-college",
+    "school": "Lake Forest College",
+    "city": "Lake Forest",
+    "state": "IL",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28673,
+    "stickerCost": 70655,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lakeland-university",
+    "school": "Lakeland University",
+    "city": "Sheboygan",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24212,
+    "stickerCost": 48840,
+    "selectivity": "open"
+  },
+  {
+    "id": "lancaster-bible-college",
+    "school": "Lancaster Bible College",
+    "city": "Lancaster",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25480,
+    "stickerCost": 44066,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lasell-university",
+    "school": "Lasell University",
+    "city": "Newton",
+    "state": "MA",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27511,
+    "stickerCost": 42434,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "lawrence-university",
+    "school": "Lawrence University",
+    "city": "Appleton",
+    "state": "WI",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23401,
+    "stickerCost": 69849,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lebanon-valley-college",
+    "school": "Lebanon Valley College",
+    "city": "Annville",
+    "state": "PA",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26979,
+    "stickerCost": 66497,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "lehman-college",
+    "school": "Lehman College",
+    "city": "Bronx",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 3148,
+    "stickerCost": 14121,
+    "avgGpa": 2.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lesley-university",
+    "school": "Lesley University",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31152,
+    "stickerCost": 51538,
+    "selectivity": "open"
+  },
+  {
+    "id": "letourneau-university",
+    "school": "LeTourneau University",
+    "city": "Longview",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28185,
+    "stickerCost": 51124,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lewis-clark-college",
+    "school": "Lewis & Clark College",
+    "city": "Portland",
+    "state": "OR",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 36013,
+    "stickerCost": 79987,
+    "avgGpa": 3.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "linfield-university",
+    "school": "Linfield University",
+    "city": "McMinnville",
+    "state": "OR",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26536,
+    "stickerCost": 65935,
+    "selectivity": "open"
+  },
+  {
+    "id": "loras-college",
+    "school": "Loras College",
+    "city": "Dubuque",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20716,
+    "stickerCost": 50537,
+    "selectivity": "open"
+  },
+  {
+    "id": "luther-college",
+    "school": "Luther College",
+    "city": "Decorah",
+    "state": "IA",
+    "conference": "American Rivers Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23097,
+    "stickerCost": 65461,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "lycoming-college",
+    "school": "Lycoming College",
+    "city": "Williamsport",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19140,
+    "stickerCost": 64105,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-lynchburg",
+    "school": "University of Lynchburg",
+    "city": "Lynchburg",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22235,
+    "stickerCost": 50067,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "lyon-college",
+    "school": "Lyon College",
+    "city": "Batesville",
+    "state": "AR",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19616,
+    "stickerCost": 44978,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "macalester-college",
+    "school": "Macalester College",
+    "city": "St. Paul",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 32149,
+    "stickerCost": 82991,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "university-of-maine-at-farmington",
+    "school": "University of Maine at Farmington",
+    "city": "Farmington",
+    "state": "ME",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16857,
+    "stickerCost": 25822,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "maine-maritime-academy",
+    "school": "Maine Maritime Academy",
+    "city": "Castine",
+    "state": "ME",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23414,
+    "stickerCost": 31046,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-maine-at-presque-isle",
+    "school": "University of Maine at Presque Isle",
+    "city": "Presque Isle",
+    "state": "ME",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 7035,
+    "stickerCost": 19113,
+    "selectivity": "open"
+  },
+  {
+    "id": "manchester-university",
+    "school": "Manchester University",
+    "city": "North Manchester",
+    "state": "IN",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18805,
+    "stickerCost": 49993,
+    "selectivity": "open"
+  },
+  {
+    "id": "manhattanville-university",
+    "school": "Manhattanville University",
+    "city": "Purchase",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20991,
+    "stickerCost": 53499,
+    "avgGpa": 3.8,
+    "selectivity": "open"
+  },
+  {
+    "id": "maranatha-baptist-university",
+    "school": "Maranatha Baptist University",
+    "city": "Watertown",
+    "state": "WI",
+    "conference": "Independent",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26005,
+    "stickerCost": 37092,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "marian-university",
+    "school": "Marian University",
+    "city": "Fond du Lac",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21937,
+    "stickerCost": 44450,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "marietta-college",
+    "school": "Marietta College",
+    "city": "Marietta",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21083,
+    "stickerCost": 53709,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "martin-luther-college",
+    "school": "Martin Luther College",
+    "city": "New Ulm",
+    "state": "MN",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18463,
+    "stickerCost": 29250,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "mary-baldwin-university",
+    "school": "Mary Baldwin University",
+    "city": "Staunton",
+    "state": "VA",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 12756,
+    "stickerCost": 45935
+  },
+  {
+    "id": "university-of-mary-hardin-baylor",
+    "school": "University of Mary Hardin–Baylor",
+    "city": "Belton",
+    "state": "TX",
+    "conference": "American Southwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26106,
+    "stickerCost": 46874,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-mary-washington",
+    "school": "University of Mary Washington",
+    "city": "Fredericksburg",
+    "state": "VA",
+    "conference": "Coast to Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20667,
+    "stickerCost": 31137,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "marymount-university",
+    "school": "Marymount University",
+    "city": "Arlington",
+    "state": "VA",
+    "conference": "Atlantic East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29137,
+    "stickerCost": 57184,
+    "selectivity": "open"
+  },
+  {
+    "id": "maryville-college",
+    "school": "Maryville College",
+    "city": "Maryville",
+    "state": "TN",
+    "conference": "Collegiate Conference of the South<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19360,
+    "stickerCost": 54622,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "marywood-university",
+    "school": "Marywood University",
+    "city": "Scranton",
+    "state": "PA",
+    "conference": "Atlantic East Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23388,
+    "stickerCost": 55582,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-massachusetts-boston",
+    "school": "University of Massachusetts Boston",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17707,
+    "stickerCost": 30544,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "massachusetts-college-of-liberal-arts",
+    "school": "Massachusetts College of Liberal Arts",
+    "city": "North Adams",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16068,
+    "stickerCost": 26026,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-massachusetts-dartmouth",
+    "school": "University of Massachusetts Dartmouth",
+    "city": "Dartmouth",
+    "state": "MA",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20927,
+    "stickerCost": 33485,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "massachusetts-institute-of-technology",
+    "school": "Massachusetts Institute of Technology",
+    "city": "Cambridge",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20111,
+    "stickerCost": 82730,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "massachusetts-maritime-academy",
+    "school": "Massachusetts Maritime Academy",
+    "city": "Buzzards Bay",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21582,
+    "stickerCost": 31367,
+    "selectivity": "open"
+  },
+  {
+    "id": "mcdaniel-college",
+    "school": "McDaniel College",
+    "city": "Westminster",
+    "state": "MD",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21916,
+    "stickerCost": 65294,
+    "selectivity": "open"
+  },
+  {
+    "id": "mcmurry-university",
+    "school": "McMurry University",
+    "city": "Abilene",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19581,
+    "stickerCost": 43778,
+    "avgGpa": 3.1,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "medgar-evers-college",
+    "school": "Medgar Evers College",
+    "city": "Brooklyn",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 5718,
+    "stickerCost": 14771,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "meredith-college",
+    "school": "Meredith College",
+    "city": "Raleigh",
+    "state": "NC",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22488,
+    "stickerCost": 57313,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "messiah-university",
+    "school": "Messiah University",
+    "city": "Grantham",
+    "state": "PA",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26502,
+    "stickerCost": 55875,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "methodist-university",
+    "school": "Methodist University",
+    "city": "Fayetteville",
+    "state": "NC",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24704,
+    "stickerCost": 55796,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "middlebury-college",
+    "school": "Middlebury College",
+    "city": "Middlebury",
+    "state": "VT",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 31483,
+    "stickerCost": 85880,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "millikin-university",
+    "school": "Millikin University",
+    "city": "Decatur",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21989,
+    "stickerCost": 57475,
+    "avgGpa": 3.1,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "millsaps-college",
+    "school": "Millsaps College",
+    "city": "Jackson",
+    "state": "MS",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26034,
+    "stickerCost": 60061,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "milwaukee-school-of-engineering",
+    "school": "Milwaukee School of Engineering",
+    "city": "Milwaukee",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22453,
+    "stickerCost": 62648,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-minnesota-morris",
+    "school": "University of Minnesota Morris",
+    "city": "Morris",
+    "state": "MN",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 8837,
+    "stickerCost": 27039,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "misericordia-university",
+    "school": "Misericordia University",
+    "city": "Dallas",
+    "state": "PA",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 37485,
+    "stickerCost": 53648,
+    "selectivity": "open"
+  },
+  {
+    "id": "mississippi-university-for-women",
+    "school": "Mississippi University for Women",
+    "city": "Columbus",
+    "state": "MS",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 12411,
+    "stickerCost": 22225,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "mitchell-college",
+    "school": "Mitchell College",
+    "city": "New London",
+    "state": "CT",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30260,
+    "stickerCost": 55621,
+    "selectivity": "open"
+  },
+  {
+    "id": "monmouth-college",
+    "school": "Monmouth College",
+    "city": "Monmouth",
+    "state": "IL",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17133,
+    "stickerCost": 57157,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "montclair-state-university",
+    "school": "Montclair State University",
+    "city": "Montclair",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15566,
+    "stickerCost": 28305,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "moravian-university",
+    "school": "Moravian University",
+    "city": "Bethlehem",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30670,
+    "stickerCost": 65601,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "mount-aloysius-college",
+    "school": "Mount Aloysius College",
+    "city": "Cresson",
+    "state": "PA",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22344,
+    "stickerCost": 40435,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "mount-holyoke-college",
+    "school": "Mount Holyoke College",
+    "city": "South Hadley",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26441,
+    "stickerCost": 84926,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "mount-st-joseph-university",
+    "school": "Mount St. Joseph University",
+    "city": "Cincinnati",
+    "state": "OH",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16530,
+    "stickerCost": 46719,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "mount-saint-mary-college",
+    "school": "Mount Saint Mary College",
+    "city": "Newburgh",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25522,
+    "stickerCost": 55014,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-mount-saint-vincent",
+    "school": "University of Mount Saint Vincent",
+    "city": "Bronx",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21696,
+    "stickerCost": 54170,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-mount-union",
+    "school": "University of Mount Union",
+    "city": "Alliance",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23280,
+    "stickerCost": 49276,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "muhlenberg-college",
+    "school": "Muhlenberg College",
+    "city": "Allentown",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28905,
+    "stickerCost": 77270,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "muskingum-university",
+    "school": "Muskingum University",
+    "city": "New Concord",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19532,
+    "stickerCost": 44658,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "nazareth-university",
+    "school": "Nazareth University",
+    "city": "Pittsford",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29357,
+    "stickerCost": 58254,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "nebraska-wesleyan-university",
+    "school": "Nebraska Wesleyan University",
+    "city": "Lincoln",
+    "state": "NE",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18327,
+    "stickerCost": 53569,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "neumann-university",
+    "school": "Neumann University",
+    "city": "Aston",
+    "state": "PA",
+    "conference": "Atlantic East Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27804,
+    "stickerCost": 57180,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "new-england-college",
+    "school": "New England College",
+    "city": "Henniker",
+    "state": "NH",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26972,
+    "stickerCost": 59350,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-new-england",
+    "school": "University of New England",
+    "city": "Biddeford",
+    "state": "ME",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 38107,
+    "stickerCost": 63245,
+    "selectivity": "open"
+  },
+  {
+    "id": "the-college-of-new-jersey",
+    "school": "The College of New Jersey",
+    "city": "Ewing",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27646,
+    "stickerCost": 38860,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "state-university-of-new-york-at-brockport",
+    "school": "State University of New York at Brockport",
+    "city": "Brockport",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16353,
+    "stickerCost": 26046,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-canton",
+    "school": "State University of New York at Canton",
+    "city": "Canton",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15268,
+    "stickerCost": 24906,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-cobleskill",
+    "school": "State University of New York at Cobleskill",
+    "city": "Cobleskill",
+    "state": "NY",
+    "conference": "North Atlantic Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "state-university-of-new-york-at-cortland",
+    "school": "State University of New York at Cortland",
+    "city": "Cortland",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22345,
+    "stickerCost": 28108,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "state-university-of-new-york-at-delhi",
+    "school": "State University of New York at Delhi",
+    "city": "Delhi",
+    "state": "NY",
+    "conference": "North Atlantic Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17225,
+    "stickerCost": 26944,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-fredonia",
+    "school": "State University of New York at Fredonia",
+    "city": "Fredonia",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15897,
+    "stickerCost": 25879,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-geneseo",
+    "school": "State University of New York at Geneseo",
+    "city": "Geneseo",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18211,
+    "stickerCost": 27709,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "state-university-of-new-york-maritime-college",
+    "school": "State University of New York Maritime College",
+    "city": "The Bronx",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22367,
+    "stickerCost": 29786,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-morrisville",
+    "school": "State University of New York at Morrisville",
+    "city": "Morrisville",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15939,
+    "stickerCost": 26833,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-polytechnic-institute",
+    "school": "State University of New York Polytechnic Institute",
+    "city": "Marcy",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14164,
+    "stickerCost": 23741,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-new-paltz",
+    "school": "State University of New York at New Paltz",
+    "city": "New Paltz",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18809,
+    "stickerCost": 28428,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "state-university-of-new-york-at-old-westbury",
+    "school": "State University of New York at Old Westbury",
+    "city": "Old Westbury",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 11282,
+    "stickerCost": 21287,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-oneonta",
+    "school": "State University of New York at Oneonta",
+    "city": "Oneonta",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19158,
+    "stickerCost": 28821,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "state-university-of-new-york-at-oswego",
+    "school": "State University of New York at Oswego",
+    "city": "Oswego",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16236,
+    "stickerCost": 27052,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-plattsburgh",
+    "school": "State University of New York at Plattsburgh",
+    "city": "Plattsburgh",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17156,
+    "stickerCost": 28244,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-potsdam",
+    "school": "State University of New York at Potsdam",
+    "city": "Potsdam",
+    "state": "NY",
+    "conference": "State University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 13624,
+    "stickerCost": 25083,
+    "selectivity": "open"
+  },
+  {
+    "id": "state-university-of-new-york-at-purchase",
+    "school": "State University of New York at Purchase",
+    "city": "Purchase",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18913,
+    "stickerCost": 29043,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "new-york-university",
+    "school": "New York University",
+    "city": "New York",
+    "state": "NY",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 37050,
+    "stickerCost": 84374,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "nichols-college",
+    "school": "Nichols College",
+    "city": "Dudley",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 33036,
+    "stickerCost": 58310,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "north-carolina-wesleyan-university",
+    "school": "North Carolina Wesleyan University",
+    "city": "Rocky Mount",
+    "state": "NC",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17432,
+    "stickerCost": 49974,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "north-central-college",
+    "school": "North Central College",
+    "city": "Naperville",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21044,
+    "stickerCost": 57219,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "north-central-university",
+    "school": "North Central University",
+    "city": "Minneapolis",
+    "state": "MN",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25817,
+    "stickerCost": 44475,
+    "selectivity": "open"
+  },
+  {
+    "id": "north-park-university",
+    "school": "North Park University",
+    "city": "Chicago",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16948,
+    "stickerCost": 44172,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-northwestern-st-paul",
+    "school": "University of Northwestern - St. Paul",
+    "city": "Roseville",
+    "state": "MN",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27705,
+    "stickerCost": 51325,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "norwich-university",
+    "school": "Norwich University",
+    "city": "Northfield",
+    "state": "VT",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22257,
+    "stickerCost": 67357,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "notre-dame-of-maryland-university",
+    "school": "Notre Dame of Maryland University",
+    "city": "Baltimore",
+    "state": "MD",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19169,
+    "stickerCost": 59320,
+    "selectivity": "open"
+  },
+  {
+    "id": "oberlin-college",
+    "school": "Oberlin College",
+    "city": "Oberlin",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 38645,
+    "stickerCost": 87404,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "occidental-college",
+    "school": "Occidental College",
+    "city": "Los Angeles",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 38263,
+    "stickerCost": 84800,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "oglethorpe-university",
+    "school": "Oglethorpe University",
+    "city": "Atlanta",
+    "state": "GA",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19509,
+    "stickerCost": 60581,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "ohio-northern-university",
+    "school": "Ohio Northern University",
+    "city": "Ada",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24478,
+    "stickerCost": 53580,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "ohio-wesleyan-university",
+    "school": "Ohio Wesleyan University",
+    "city": "Delaware",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20897,
+    "stickerCost": 68424,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "university-of-olivet",
+    "school": "University of Olivet",
+    "city": "Olivet",
+    "state": "MI",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21393,
+    "stickerCost": 47069,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "otterbein-university",
+    "school": "Otterbein University",
+    "city": "Westerville",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19237,
+    "stickerCost": 48321,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-the-ozarks",
+    "school": "University of the Ozarks",
+    "city": "Clarksville",
+    "state": "AR",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17360,
+    "stickerCost": 38666,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "pacific-lutheran-university",
+    "school": "Pacific Lutheran University",
+    "city": "Tacoma",
+    "state": "WA",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19589,
+    "stickerCost": 62459,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "pacific-university",
+    "school": "Pacific University",
+    "city": "Forest Grove",
+    "state": "OR",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 35273,
+    "stickerCost": 72374,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "pennsylvania-college-of-technology",
+    "school": "Pennsylvania College of Technology",
+    "city": "Williamsport",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25110,
+    "stickerCost": 33192
+  },
+  {
+    "id": "pennsylvania-state-university-abington",
+    "school": "Pennsylvania State University, Abington",
+    "city": "Abington",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "pennsylvania-state-university-altoona",
+    "school": "Pennsylvania State University, Altoona",
+    "city": "Altoona",
+    "state": "PA",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "pennsylvania-state-university-berks-college",
+    "school": "Pennsylvania State University, Berks College",
+    "city": "Reading",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "pennsylvania-state-university-behrend",
+    "school": "Pennsylvania State University, Behrend",
+    "city": "Erie",
+    "state": "PA",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "pennsylvania-state-university-harrisburg",
+    "school": "Pennsylvania State University, Harrisburg",
+    "city": "Harrisburg",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "piedmont-university",
+    "school": "Piedmont University",
+    "city": "Demorest",
+    "state": "GA",
+    "conference": "Collegiate Conference of the South",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20599,
+    "stickerCost": 46801,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-pittsburgh-at-bradford",
+    "school": "University of Pittsburgh at Bradford",
+    "city": "Bradford",
+    "state": "PA",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15350,
+    "stickerCost": 30478,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-pittsburgh-at-greensburg",
+    "school": "University of Pittsburgh at Greensburg",
+    "city": "Greensburg",
+    "state": "PA",
+    "conference": "Allegheny Mountain Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17945,
+    "stickerCost": 30141,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "plymouth-state-university",
+    "school": "Plymouth State University",
+    "city": "Plymouth",
+    "state": "NH",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19216,
+    "stickerCost": 29644,
+    "selectivity": "open"
+  },
+  {
+    "id": "pomona-college-and-pitzer-college",
+    "school": "Pomona College and Pitzer College",
+    "city": "Claremont",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "principia-college",
+    "school": "Principia College",
+    "city": "Elsah",
+    "state": "IL",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "avgGpa": 3.7
+  },
+  {
+    "id": "university-of-puget-sound",
+    "school": "University of Puget Sound",
+    "city": "Tacoma",
+    "state": "WA",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 38394,
+    "stickerCost": 78378,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "ramapo-college",
+    "school": "Ramapo College",
+    "city": "Mahwah",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "randolph-college",
+    "school": "Randolph College",
+    "city": "Lynchburg",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15921,
+    "stickerCost": 45040,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "randolph-macon-college",
+    "school": "Randolph–Macon College",
+    "city": "Ashland",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27866,
+    "stickerCost": 63985,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-redlands",
+    "school": "University of Redlands",
+    "city": "Redlands",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30031,
+    "stickerCost": 76630,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "regis-college",
+    "school": "Regis College",
+    "city": "Weston",
+    "state": "MA",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27477,
+    "stickerCost": 65546,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "rensselaer-polytechnic-institute",
+    "school": "Rensselaer Polytechnic Institute",
+    "city": "Troy",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 36228,
+    "stickerCost": 82404,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "rhode-island-college",
+    "school": "Rhode Island College",
+    "city": "Providence",
+    "state": "RI",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 9478,
+    "stickerCost": 17454,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "rhodes-college",
+    "school": "Rhodes College",
+    "city": "Memphis",
+    "state": "TN",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28585,
+    "stickerCost": 71136,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "ripon-college",
+    "school": "Ripon College",
+    "city": "Ripon",
+    "state": "WI",
+    "conference": "Midwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20216,
+    "stickerCost": 63540,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "rivier-university",
+    "school": "Rivier University",
+    "city": "Nashua",
+    "state": "NH",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28082,
+    "stickerCost": 53499,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "roanoke-college",
+    "school": "Roanoke College",
+    "city": "Salem",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24503,
+    "stickerCost": 54283,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-rochester",
+    "school": "University of Rochester",
+    "city": "Rochester",
+    "state": "NY",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29278,
+    "stickerCost": 85962,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "rochester-institute-of-technology",
+    "school": "Rochester Institute of Technology",
+    "city": "Rochester",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 34906,
+    "stickerCost": 74626,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "rockford-university",
+    "school": "Rockford University",
+    "city": "Rockford",
+    "state": "IL",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22436,
+    "stickerCost": 49169,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "roger-williams-university",
+    "school": "Roger Williams University",
+    "city": "Bristol",
+    "state": "RI",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 37999,
+    "stickerCost": 61950,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "rose-hulman-institute-of-technology",
+    "school": "Rose-Hulman Institute of Technology",
+    "city": "Terre Haute",
+    "state": "IN",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 42513,
+    "stickerCost": 77890,
+    "avgGpa": 3.8,
+    "selectivity": "open"
+  },
+  {
+    "id": "rowan-university",
+    "school": "Rowan University",
+    "city": "Glassboro",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22408,
+    "stickerCost": 35842,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "rutgers-university-camden",
+    "school": "Rutgers University–Camden",
+    "city": "Camden",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18745,
+    "stickerCost": 35178,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "rutgers-university-newark",
+    "school": "Rutgers University–Newark",
+    "city": "Newark",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19703,
+    "stickerCost": 35654,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "russell-sage-college",
+    "school": "Russell Sage College",
+    "city": "Albany & Troy",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22917,
+    "stickerCost": 50607,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "college-of-saint-benedict",
+    "school": "College of Saint Benedict",
+    "city": "St. Joseph",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26640,
+    "stickerCost": 68453,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-catherine-university",
+    "school": "St. Catherine University",
+    "city": "St. Paul",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19764,
+    "stickerCost": 60476,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "saint-elizabeth-university",
+    "school": "Saint Elizabeth University",
+    "city": "Convent Station",
+    "state": "NJ",
+    "conference": "Atlantic East Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23125,
+    "stickerCost": 53075,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-john-fisher-university",
+    "school": "St. John Fisher University",
+    "city": "Pittsford",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28945,
+    "stickerCost": 55201,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "saint-john-s-university",
+    "school": "Saint John's University",
+    "city": "Collegeville",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25672,
+    "stickerCost": 68521,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-saint-joseph",
+    "school": "University of Saint Joseph",
+    "city": "West Hartford",
+    "state": "CT",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27989,
+    "stickerCost": 59900,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-joseph-s-university",
+    "school": "St. Joseph's University",
+    "city": "Brooklyn",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "st-joseph-s-university-x",
+    "school": "St. Joseph's University",
+    "city": "Long Island",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "saint-joseph-s-college-of-maine",
+    "school": "Saint Joseph's College of Maine",
+    "city": "Standish",
+    "state": "ME",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27555,
+    "stickerCost": 59782,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-lawrence-university",
+    "school": "St. Lawrence University",
+    "city": "Canton",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28651,
+    "stickerCost": 82000,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "saint-mary-s-college",
+    "school": "Saint Mary's College",
+    "city": "Notre Dame",
+    "state": "IN",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25292,
+    "stickerCost": 66478,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-mary-s-college-of-maryland",
+    "school": "St. Mary's College of Maryland",
+    "city": "St. Mary's City",
+    "state": "MD",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18441,
+    "stickerCost": 31865,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "saint-mary-s-university-of-minnesota",
+    "school": "Saint Mary's University of Minnesota",
+    "city": "Winona",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 11704,
+    "stickerCost": 57380,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-norbert-college",
+    "school": "St. Norbert College",
+    "city": "De Pere",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26172,
+    "stickerCost": 59422,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "st-olaf-college",
+    "school": "St. Olaf College",
+    "city": "Northfield",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23874,
+    "stickerCost": 71843,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "the-college-of-st-scholastica",
+    "school": "The College of St. Scholastica",
+    "city": "Duluth",
+    "state": "MN",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27846,
+    "stickerCost": 55103,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-st-thomas-texas",
+    "school": "University of St. Thomas (Texas)",
+    "city": "Houston",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "saint-vincent-college",
+    "school": "Saint Vincent College",
+    "city": "Latrobe",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23510,
+    "stickerCost": 56752,
+    "avgGpa": 3.25,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "salem-college",
+    "school": "Salem College",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18277,
+    "stickerCost": 48532,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "salem-state-university",
+    "school": "Salem State University",
+    "city": "Salem",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 15996,
+    "stickerCost": 28291,
+    "selectivity": "open"
+  },
+  {
+    "id": "salisbury-university",
+    "school": "Salisbury University",
+    "city": "Salisbury",
+    "state": "MD",
+    "conference": "Coast to Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17743,
+    "stickerCost": 28310,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "salve-regina-university",
+    "school": "Salve Regina University",
+    "city": "Newport",
+    "state": "RI",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 36967,
+    "stickerCost": 70630,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "sarah-lawrence-college",
+    "school": "Sarah Lawrence College",
+    "city": "Yonkers",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 41437,
+    "stickerCost": 82467,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "schreiner-university",
+    "school": "Schreiner University",
+    "city": "Kerrville",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21507,
+    "stickerCost": 48004,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-scranton",
+    "school": "University of Scranton",
+    "city": "Scranton",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 32568,
+    "stickerCost": 69552,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-the-south",
+    "school": "University of the South",
+    "city": "Sewanee",
+    "state": "TN",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "shenandoah-university",
+    "school": "Shenandoah University",
+    "city": "Winchester",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30298,
+    "stickerCost": 51928,
+    "selectivity": "open"
+  },
+  {
+    "id": "simmons-university",
+    "school": "Simmons University",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "Great Northeast Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25265,
+    "stickerCost": 63460,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "simpson-college",
+    "school": "Simpson College",
+    "city": "Indianola",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21936,
+    "stickerCost": 61227,
+    "avgGpa": 3.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "skidmore-college",
+    "school": "Skidmore College",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 32297,
+    "stickerCost": 85270,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "smith-college",
+    "school": "Smith College",
+    "city": "Northampton",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27579,
+    "stickerCost": 86030,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "university-of-southern-maine",
+    "school": "University of Southern Maine",
+    "city": "Portland",
+    "state": "ME",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 13596,
+    "stickerCost": 23717,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "southern-virginia-university",
+    "school": "Southern Virginia University",
+    "city": "Buena Vista",
+    "state": "VA",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22213,
+    "stickerCost": 34431,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "southwestern-university",
+    "school": "Southwestern University",
+    "city": "Georgetown",
+    "state": "TX",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29224,
+    "stickerCost": 67493,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "spalding-university",
+    "school": "Spalding University",
+    "city": "Louisville",
+    "state": "KY",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25491,
+    "stickerCost": 45530,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "springfield-college",
+    "school": "Springfield College",
+    "city": "Springfield",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30587,
+    "stickerCost": 60729,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "stevens-institute-of-technology",
+    "school": "Stevens Institute of Technology",
+    "city": "Hoboken",
+    "state": "NJ",
+    "conference": "MAC Freedom<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 41346,
+    "stickerCost": 79790,
+    "avgGpa": 3.9,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "stevenson-university",
+    "school": "Stevenson University",
+    "city": "Stevenson",
+    "state": "MD",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26505,
+    "stickerCost": 58394,
+    "selectivity": "open"
+  },
+  {
+    "id": "stockton-university",
+    "school": "Stockton University",
+    "city": "Pomona",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 20670,
+    "stickerCost": 35139,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "suffolk-university",
+    "school": "Suffolk University",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 29618,
+    "stickerCost": 65281,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "susquehanna-university",
+    "school": "Susquehanna University",
+    "city": "Selinsgrove",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 28819,
+    "stickerCost": 75410,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "swarthmore-college",
+    "school": "Swarthmore College",
+    "city": "Swarthmore",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23149,
+    "stickerCost": 84103,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "sweet-briar-college",
+    "school": "Sweet Briar College",
+    "city": "Sweet Briar",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17758,
+    "stickerCost": 43898,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "texas-lutheran-university",
+    "school": "Texas Lutheran University",
+    "city": "Seguin",
+    "state": "TX",
+    "conference": "Southern Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24654,
+    "stickerCost": 50002,
+    "selectivity": "open"
+  },
+  {
+    "id": "thiel-college",
+    "school": "Thiel College",
+    "city": "Greenville",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 22347,
+    "stickerCost": 53202,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "thomas-college",
+    "school": "Thomas College",
+    "city": "Waterville",
+    "state": "ME",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18885,
+    "stickerCost": 47198,
+    "selectivity": "open"
+  },
+  {
+    "id": "transylvania-university",
+    "school": "Transylvania University",
+    "city": "Lexington",
+    "state": "KY",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21913,
+    "stickerCost": 60993,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "trine-university",
+    "school": "Trine University",
+    "city": "Angola",
+    "state": "IN",
+    "conference": "Michigan Intercollegiate Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25355,
+    "stickerCost": 51109,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "trinity-college",
+    "school": "Trinity College",
+    "city": "Hartford",
+    "state": "CT",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 34832,
+    "stickerCost": 87840,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "trinity-university",
+    "school": "Trinity University",
+    "city": "San Antonio",
+    "state": "TX",
+    "conference": "Southern Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23464,
+    "stickerCost": 68224,
+    "avgGpa": 3.8,
+    "selectivity": "selective"
+  },
+  {
+    "id": "trinity-washington-university",
+    "school": "Trinity Washington University",
+    "city": "Washington",
+    "state": "DC",
+    "conference": "Independent",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 9302,
+    "stickerCost": 33903,
+    "selectivity": "open"
+  },
+  {
+    "id": "tufts-university",
+    "school": "Tufts University",
+    "city": "Medford",
+    "state": "MA",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 39998,
+    "stickerCost": 88300,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "union-college",
+    "school": "Union College",
+    "city": "Schenectady",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 34561,
+    "stickerCost": 84561,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "united-states-coast-guard-academy",
+    "school": "United States Coast Guard Academy",
+    "city": "New London",
+    "state": "CT",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "avgGpa": 3.7,
+    "selectivity": "selective"
+  },
+  {
+    "id": "united-states-merchant-marine-academy",
+    "school": "United States Merchant Marine Academy",
+    "city": "Kings Point",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 6174,
+    "stickerCost": 9168,
+    "avgGpa": 3.4,
+    "selectivity": "selective"
+  },
+  {
+    "id": "ursinus-college",
+    "school": "Ursinus College",
+    "city": "Collegeville",
+    "state": "PA",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30536,
+    "stickerCost": 76815,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "utica-university",
+    "school": "Utica University",
+    "city": "Utica",
+    "state": "NY",
+    "conference": "Empire 8",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19108,
+    "stickerCost": 37205,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-valley-forge",
+    "school": "University of Valley Forge",
+    "city": "Phoenixville",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 32265,
+    "stickerCost": 45422,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "vassar-college",
+    "school": "Vassar College",
+    "city": "Poughkeepsie",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 39343,
+    "stickerCost": 87419,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "vermont-state-university-castleton",
+    "school": "Vermont State University–Castleton",
+    "city": "Castleton",
+    "state": "VT",
+    "conference": "Little East Conference<br>",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "vermont-state-university-johnson",
+    "school": "Vermont State University–Johnson",
+    "city": "Johnson",
+    "state": "VT",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "vermont-state-university-lyndon",
+    "school": "Vermont State University–Lyndon",
+    "city": "Lyndonville",
+    "state": "VT",
+    "conference": "North Atlantic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "virginia-wesleyan-university",
+    "school": "Virginia Wesleyan University",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19676,
+    "stickerCost": 51255,
+    "avgGpa": 3.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "wabash-college",
+    "school": "Wabash College",
+    "city": "Crawfordsville",
+    "state": "IN",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24336,
+    "stickerCost": 65144,
+    "avgGpa": 3.4,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "wartburg-college",
+    "school": "Wartburg College",
+    "city": "Waverly",
+    "state": "IA",
+    "conference": "American Rivers Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 32908,
+    "stickerCost": 64359,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "washington-jefferson-college",
+    "school": "Washington & Jefferson College",
+    "city": "Washington",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25002,
+    "stickerCost": 42972,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "washington-and-lee-university",
+    "school": "Washington and Lee University",
+    "city": "Lexington",
+    "state": "VA",
+    "conference": "Old Dominion Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23781,
+    "stickerCost": 87000,
+    "avgGpa": 3.9,
+    "selectivity": "selective"
+  },
+  {
+    "id": "washington-college",
+    "school": "Washington College",
+    "city": "Chestertown",
+    "state": "MD",
+    "conference": "Centennial Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27898,
+    "stickerCost": 73314,
+    "avgGpa": 3.55,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "washington-university-in-st-louis",
+    "school": "Washington University in St. Louis",
+    "city": "St. Louis",
+    "state": "MO",
+    "conference": "University Athletic Association",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21786,
+    "stickerCost": 88488,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "waynesburg-university",
+    "school": "Waynesburg University",
+    "city": "Waynesburg",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18235,
+    "stickerCost": 44397,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "webster-university",
+    "school": "Webster University",
+    "city": "St. Louis",
+    "state": "MO",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27047,
+    "stickerCost": 51188,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "wellesley-college",
+    "school": "Wellesley College",
+    "city": "Wellesley",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25496,
+    "stickerCost": 86290,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "wentworth-institute-of-technology",
+    "school": "Wentworth Institute of Technology",
+    "city": "Boston",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 34170,
+    "stickerCost": 61096,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "wesleyan-university",
+    "school": "Wesleyan University",
+    "city": "Middletown",
+    "state": "CT",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 30177,
+    "stickerCost": 89020,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "western-connecticut-state-university",
+    "school": "Western Connecticut State University",
+    "city": "Danbury",
+    "state": "CT",
+    "conference": "Little East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17604,
+    "stickerCost": 24877,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "western-new-england-university",
+    "school": "Western New England University",
+    "city": "Springfield",
+    "state": "MA",
+    "conference": "Conference of New England",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27290,
+    "stickerCost": 60262,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "westfield-state-university",
+    "school": "Westfield State University",
+    "city": "Westfield",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16721,
+    "stickerCost": 27649,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "westminster-college",
+    "school": "Westminster College",
+    "city": "Fulton",
+    "state": "MO",
+    "conference": "St. Louis Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24314,
+    "stickerCost": 51532,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "westminster-college-x",
+    "school": "Westminster College",
+    "city": "New Wilmington",
+    "state": "PA",
+    "conference": "Presidents' Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 19859,
+    "stickerCost": 53003,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "wheaton-college",
+    "school": "Wheaton College",
+    "city": "Wheaton",
+    "state": "IL",
+    "conference": "College Conference of Illinois and Wisconsin",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26975,
+    "stickerCost": 59263,
+    "avgGpa": 3.8,
+    "selectivity": "open"
+  },
+  {
+    "id": "wheaton-college-x",
+    "school": "Wheaton College",
+    "city": "Norton",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "whitman-college",
+    "school": "Whitman College",
+    "city": "Walla Walla",
+    "state": "WA",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 33313,
+    "stickerCost": 78092,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "whittier-college",
+    "school": "Whittier College",
+    "city": "Whittier",
+    "state": "CA",
+    "conference": "Southern California Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25757,
+    "stickerCost": 63664,
+    "avgGpa": 3.7,
+    "selectivity": "open"
+  },
+  {
+    "id": "whitworth-university",
+    "school": "Whitworth University",
+    "city": "Spokane",
+    "state": "WA",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 26534,
+    "stickerCost": 68516,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "widener-university",
+    "school": "Widener University",
+    "city": "Chester",
+    "state": "PA",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25759,
+    "stickerCost": 70621,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "wilkes-university",
+    "school": "Wilkes University",
+    "city": "Wilkes-Barre",
+    "state": "PA",
+    "conference": "Landmark Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 27743,
+    "stickerCost": 56765,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "willamette-university",
+    "school": "Willamette University",
+    "city": "Salem",
+    "state": "OR",
+    "conference": "Northwest Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 25121,
+    "stickerCost": 67501,
+    "avgGpa": 3.8,
+    "selectivity": "open"
+  },
+  {
+    "id": "william-paterson-university",
+    "school": "William Paterson University",
+    "city": "Wayne",
+    "state": "NJ",
+    "conference": "New Jersey Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "william-peace-university",
+    "school": "William Peace University",
+    "city": "Raleigh",
+    "state": "NC",
+    "conference": "USA South Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21649,
+    "stickerCost": 49362,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "william-smith-college",
+    "school": "William Smith College",
+    "city": "Geneva",
+    "state": "NY",
+    "conference": "Liberty League",
+    "sports": [
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "williams-college",
+    "school": "Williams College",
+    "city": "Williamstown",
+    "state": "MA",
+    "conference": "New England Small College Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17716,
+    "stickerCost": 84860,
+    "avgGpa": 3.95,
+    "selectivity": "selective"
+  },
+  {
+    "id": "wilmington-college",
+    "school": "Wilmington College",
+    "city": "Wilmington",
+    "state": "OH",
+    "conference": "Ohio Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 24153,
+    "stickerCost": 43431,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "wilson-college",
+    "school": "Wilson College",
+    "city": "Chambersburg",
+    "state": "PA",
+    "conference": "United East Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 21741,
+    "stickerCost": 39344,
+    "avgGpa": 2.9,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-eau-claire",
+    "school": "University of Wisconsin–Eau Claire",
+    "city": "Eau Claire",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16550,
+    "stickerCost": 21705,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-la-crosse",
+    "school": "University of Wisconsin–La Crosse",
+    "city": "La Crosse",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16210,
+    "stickerCost": 19593,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "wisconsin-lutheran-college",
+    "school": "Wisconsin Lutheran College",
+    "city": "Milwaukee",
+    "state": "WI",
+    "conference": "Northern Athletics Collegiate Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23245,
+    "stickerCost": 48785,
+    "avgGpa": 3.55,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-oshkosh",
+    "school": "University of Wisconsin–Oshkosh",
+    "city": "Oshkosh",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14305,
+    "stickerCost": 19652,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-platteville",
+    "school": "University of Wisconsin–Platteville",
+    "city": "Platteville",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 16032,
+    "stickerCost": 21266,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-river-falls",
+    "school": "University of Wisconsin–River Falls",
+    "city": "River Falls",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14054,
+    "stickerCost": 19781,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-stevens-point",
+    "school": "University of Wisconsin–Stevens Point",
+    "city": "Stevens Point",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14559,
+    "stickerCost": 20079,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-stout",
+    "school": "University of Wisconsin–Stout",
+    "city": "Menomonie",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 17490,
+    "stickerCost": 22797,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-superior",
+    "school": "University of Wisconsin–Superior",
+    "city": "Superior",
+    "state": "WI",
+    "conference": "Upper Midwest Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 12220,
+    "stickerCost": 19860,
+    "avgGpa": 3.25,
+    "selectivity": "open"
+  },
+  {
+    "id": "university-of-wisconsin-whitewater",
+    "school": "University of Wisconsin–Whitewater",
+    "city": "Whitewater",
+    "state": "WI",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 14158,
+    "stickerCost": 18719,
+    "avgGpa": 3.1,
+    "selectivity": "open"
+  },
+  {
+    "id": "wittenberg-university",
+    "school": "Wittenberg University",
+    "city": "Springfield",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18649,
+    "stickerCost": 57799,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "college-of-wooster",
+    "school": "College of Wooster",
+    "city": "Wooster",
+    "state": "OH",
+    "conference": "North Coast Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 23458,
+    "stickerCost": 75656,
+    "avgGpa": 3.7,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "worcester-polytechnic-institute",
+    "school": "Worcester Polytechnic Institute",
+    "city": "Worcester",
+    "state": "MA",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 43071,
+    "stickerCost": 78679,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "worcester-state-university",
+    "school": "Worcester State University",
+    "city": "Worcester",
+    "state": "MA",
+    "conference": "Massachusetts State Collegiate Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 13381,
+    "stickerCost": 22874,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  },
+  {
+    "id": "yeshiva-university",
+    "school": "Yeshiva University",
+    "city": "New York",
+    "state": "NY",
+    "conference": "Skyline Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 49965,
+    "stickerCost": 70892,
+    "avgGpa": 3.8,
+    "selectivity": "moderate"
+  },
+  {
+    "id": "york-college-city-university-of-new-york",
+    "school": "York College, City University of New York",
+    "city": "Queens",
+    "state": "NY",
+    "conference": "City University of New York Athletic Conference",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ]
+  },
+  {
+    "id": "york-college-of-pennsylvania",
+    "school": "York College of Pennsylvania",
+    "city": "York",
+    "state": "PA",
+    "conference": "MAC Commonwealth<!--The D-III MAC brands its Commonwealth and Freedom leagues without the word \"Conference\".-->",
+    "sports": [
+      "mens-basketball",
+      "womens-basketball"
+    ],
+    "typicalNetCost": 18556,
+    "stickerCost": 37319,
+    "avgGpa": 3.4,
+    "selectivity": "open"
+  }
+]

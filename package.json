@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:build": "tsx scripts/build-school-list.ts",
+    "data:enrich": "tsx scripts/enrich-scorecard.ts",
+    "data:import": "tsx scripts/import-to-supabase.ts"
   },
   "dependencies": {
     "next": "16.2.7",
@@ -21,6 +24,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
     "tailwindcss": "^4",
+    "tsx": "^4.19.2",
     "typescript": "^5"
   }
 }
