@@ -16,17 +16,20 @@ Free for athletes. Monetized later via clubs and programs.
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Supabase
 (optional) · Groq (optional).
 
-## V1 scope — athlete side, three screens
+## Athlete flow — three screens (basketball-first as of phase 2)
 1. **Intake** (`/intake`) — sport/position, GPA, test, level played, film,
-   location, budget. Honesty copy throughout.
-2. **Honest assessment** (`/assessment`) — blunt plain-language verdict on
-   realistic division fit, with separate athletic + academic callouts.
-3. **Right-fit shortlist** (`/shortlist`) — up to ~18 ranked programs (athletic,
-   academic, financial, geographic). First card expanded with coach contact +
-   draft intro email.
+   location, budget. Honesty copy throughout. Default sport: men's basketball.
+2. **Honest assessment** (`/assessment`) — NO division verdict (telling an
+   athlete they're not D-I is patronizing). Two sections only: **"What makes you
+   a real recruit"** (genuine strengths) and **"Your honest challenge"** (one
+   blunt phrase). Coach-who-respects-you tone.
+3. **School discovery** (`/discover`) — Tinder-style swipe deck. Swipe/♥ to save,
+   swipe/✕ to pass, tap a card to expand. After the deck, saved schools list
+   with coach contact + draft intro **for verified coaches only**. Replaces the
+   old `/shortlist`.
 
-Not in v1: coach dashboard, marketplace, payments, automated outreach, film
-analysis.
+Not building: coach dashboard, auth, payments, outreach automation, film
+analysis. Stay in the athlete flow.
 
 ## Architecture notes
 - The athlete flow is a single mobile session. The working profile lives in
@@ -35,10 +38,17 @@ analysis.
   effects, hence the store hook).
 - **Assessment is semi-manual / rule-based** (`src/lib/assessment.ts`) on
   purpose. The moat is honest data + trust, not algorithmic complexity. Tune the
-  heuristics as outcome data accumulates; never inflate.
-- Programs + fit scoring: `src/lib/programs.ts`. The seed list is real,
-  under-the-radar schools but costs are approximate and coach contacts are
-  placeholder recruiting inboxes — verified data is the next build.
+  heuristics as outcome data accumulates; never inflate. `matchDivisions` and
+  `levelRank` are internal (ranking only, never displayed).
+- Programs + fit scoring: `src/lib/programs.ts`. Seed is 24 **real D-III
+  basketball** programs (accurate location/conference); costs are approximate,
+  win/loss records are PLACEHOLDERS, and only some `coachVerified`. The full
+  NCAA directory import is a future bulk-load into the `programs` table — schema
+  in `supabase/schema.sql` mirrors the `Program` type 1:1.
+- Fit weights (basketball/D-III): athletic 35 / academic 30 (hard gate) /
+  financial 20 / geographic 15. Win/loss is display-only, never a factor.
+- Photos: `SchoolPhoto` renders a generated initial-on-color placeholder when
+  `Program.photoUrl` is null; real photos slot in via that field.
 - **Supabase and Groq are both optional.** The app runs fully without keys
   (sessionStorage flow + deterministic intro template in `src/lib/draftIntro.ts`).
   Add keys via `.env.local` (see `.env.local.example`) to enable persistence +

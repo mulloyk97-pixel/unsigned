@@ -28,7 +28,7 @@ export default function Home() {
         {[
           ["No fee.", "Free for athletes and families, for real."],
           ["No inflation.", "We tell you the truth about your level, even when it stings."],
-          ["No noise.", "15-20 programs that fit you athletically, academically, and financially."],
+          ["No noise.", "Swipe through right-fit programs and save the ones that match you athletically, academically, and financially."],
         ].map(([head, body]) => (
           <li
             key={head}

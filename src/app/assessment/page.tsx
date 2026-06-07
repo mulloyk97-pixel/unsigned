@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useStoredProfile } from "@/lib/useProfile";
 import { buildAssessment } from "@/lib/assessment";
-import { DIVISION_LABEL } from "@/lib/types";
 
 export default function AssessmentPage() {
   const router = useRouter();
@@ -29,69 +28,29 @@ export default function AssessmentPage() {
       <div>
         <p className="text-sm font-medium text-accent">{profile.name}&apos;s honest read</p>
         <h1 className="mt-1 text-2xl font-bold tracking-tight text-ink">
-          The straight version.
+          Straight from a coach who respects you.
         </h1>
       </div>
 
-      {/* Blunt verdict up top */}
-      <div className="rounded-xl border-2 border-ink bg-card p-5">
-        <p className="text-[15px] leading-relaxed text-ink">{assessment.verdict}</p>
-      </div>
-
-      {/* Realistic divisions */}
-      <div>
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-muted">
-          Realistic divisions
+      <section className="rounded-xl border-2 border-accent bg-card p-5">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-accent">
+          What makes you a real recruit
         </h2>
-        <div className="mt-2 flex flex-wrap gap-2">
-          {assessment.athletic.realistic.map((d) => (
-            <span
-              key={d}
-              className="rounded-full bg-accent-soft px-3 py-1.5 text-sm font-medium text-accent"
-            >
-              {DIVISION_LABEL[d]}
-            </span>
-          ))}
-        </div>
-      </div>
-
-      {/* Athletic fit */}
-      <section className="rounded-xl border border-line bg-card p-5">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-muted">
-          Athletic fit
-        </h2>
-        <p className="mt-2 text-[15px] font-semibold text-ink">
-          {assessment.athletic.headline}
-        </p>
-        <p className="mt-2 text-sm leading-relaxed text-muted">
-          {assessment.athletic.detail}
-        </p>
-        {assessment.athletic.reach && (
-          <p className="mt-3 rounded-lg bg-warn-soft px-3 py-2.5 text-sm text-warn">
-            <span className="font-semibold">Reach check: </span>
-            {assessment.athletic.reach}
-          </p>
-        )}
+        <p className="mt-2 text-[15px] leading-relaxed text-ink">{assessment.strengths}</p>
       </section>
 
-      {/* Academic fit */}
-      <section className="rounded-xl border border-line bg-card p-5">
+      <section className="rounded-xl border-2 border-ink bg-card p-5">
         <h2 className="text-xs font-semibold uppercase tracking-wide text-muted">
-          Academic fit
+          Your honest challenge
         </h2>
-        <p className="mt-2 text-[15px] font-semibold text-ink">
-          {assessment.academic.headline}
-        </p>
-        <p className="mt-2 text-sm leading-relaxed text-muted">
-          {assessment.academic.detail}
-        </p>
+        <p className="mt-2 text-lg font-semibold leading-snug text-ink">{assessment.challenge}</p>
       </section>
 
       <Link
-        href="/shortlist"
+        href="/discover"
         className="rounded-xl bg-ink px-5 py-4 text-center font-semibold text-paper active:scale-[0.99] transition"
       >
-        Show my right-fit programs
+        Find schools that fit
       </Link>
       <Link href="/intake" className="text-center text-sm text-muted underline">
         Edit my info

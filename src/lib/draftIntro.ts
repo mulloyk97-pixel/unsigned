@@ -15,7 +15,7 @@ export function templateIntro(profile: AthleteProfile, program: Program): string
       ? `, ${profile.testType} ${profile.testScore}`
       : "";
 
-  return `Hi ${program.coachName},
+  return `Hi ${program.coachName ?? "Coach"},
 
 My name is ${profile.name}, a ${profile.position} in the class of ${profile.gradYear}. I'm reaching out because ${program.school} looks like a genuine fit for me academically, athletically, and financially -- not a long shot.
 

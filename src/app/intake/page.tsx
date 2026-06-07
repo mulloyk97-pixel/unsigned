@@ -33,7 +33,7 @@ export default function IntakePage() {
   const [form, setForm] = useState({
     name: "",
     gradYear: "2026",
-    sport: "mens-soccer" as Sport,
+    sport: "mens-basketball" as Sport,
     position: "",
     gpa: "",
     testType: "none" as TestType,

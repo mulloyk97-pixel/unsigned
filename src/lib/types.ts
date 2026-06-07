@@ -23,13 +23,15 @@ export type Sport =
   | "track-cross-country"
   | "lacrosse";
 
+// Basketball is the launch focus, so it leads the list. The `sports[]` field on
+// Program keeps the model sport-agnostic -- new sports add data, not schema.
 export const SPORTS: { value: Sport; label: string }[] = [
+  { value: "mens-basketball", label: "Men's Basketball" },
+  { value: "womens-basketball", label: "Women's Basketball" },
   { value: "mens-soccer", label: "Men's Soccer" },
   { value: "womens-soccer", label: "Women's Soccer" },
   { value: "baseball", label: "Baseball" },
   { value: "softball", label: "Softball" },
-  { value: "mens-basketball", label: "Men's Basketball" },
-  { value: "womens-basketball", label: "Women's Basketball" },
   { value: "volleyball", label: "Volleyball" },
   { value: "football", label: "Football" },
   { value: "track-cross-country", label: "Track & Cross Country" },
@@ -78,20 +80,14 @@ export interface AthleteProfile {
 
 export type AcademicOpenness = "selective" | "moderate" | "open";
 
+// Phase 2: we no longer show athletes a "you're a D-III player" verdict -- they
+// already know they're not D-I, and saying it is patronizing. Instead we give
+// them what a coach who respects them would: their real edge and the one honest
+// thing to fix. matchDivisions stays for ranking only; it is never displayed.
 export interface Assessment {
-  athletic: {
-    realistic: Division[];
-    reach: string | null; // honest reach note, or null
-    headline: string;
-    detail: string;
-  };
-  academic: {
-    openness: AcademicOpenness;
-    headline: string;
-    detail: string;
-  };
-  verdict: string; // blunt plain-language summary
-  matchDivisions: Division[]; // divisions used to build the shortlist
+  strengths: string; // "What makes you a real recruit" — 1-2 sentences
+  challenge: string; // "Your honest challenge" — one blunt phrase, no softening
+  matchDivisions: Division[]; // internal, ranking only (not rendered)
 }
 
 export interface Program {
@@ -104,11 +100,23 @@ export interface Program {
   region: Region;
   sports: Sport[];
   selectivity: AcademicOpenness; // how hard it is to get in
-  avgGpa: number;
+  avgGpa: number; // avg admitted-student GPA (academic gate at D-III)
   stickerCost: number; // published cost of attendance
   typicalNetCost: number; // honest typical net price after aid
-  coachName: string;
-  coachEmail: string;
+  // Athletic competitiveness of the program, 1 (developing) – 5 (perennial
+  // contender / nationally ranked). Used to judge whether the athlete's level
+  // matches the program's typical recruit. Not shown to the athlete.
+  athleticTier: number;
+  // Coach contact is only surfaced once verified. Defaults to false; contact
+  // fields stay null until our data team (or a club partner) confirms them.
+  coachVerified: boolean;
+  coachName: string | null;
+  coachEmail: string | null;
+  // PLACEHOLDER DATA — needs enrichment. Display-only; never a ranking factor.
+  winLossLastSeason: string | null;
+  // null -> render the generated placeholder (SchoolPhoto). Real campus/team
+  // photos slot in here later (CDN/Supabase storage URL).
+  photoUrl: string | null;
   blurb: string; // why this program is an under-the-radar fit
 }
 
