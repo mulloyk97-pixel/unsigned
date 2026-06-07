@@ -16,6 +16,24 @@ Free for athletes. Monetized later via clubs and programs.
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Supabase
 (optional) · Groq (optional).
 
+## Design system (dark, athletic — "scout report, not SaaS")
+Tokens live in `src/app/globals.css` (`@theme inline`); use the semantic
+utilities, not raw hexes:
+- `bg-bg` #0C0C0D · `bg-surface` #161618 · `bg-elevated` #1E1E21 ·
+  `border-line` #2A2A2D · `text-fg` #F5F5F5 · `text-muted` #8A8A8F ·
+  `text-accent`/`bg-accent` #F97316 (`accent-hover` #EA6C0A) ·
+  `text-success` #22C55E · `text-danger` #EF4444.
+- Soft fills via opacity, e.g. `bg-accent/10`, `border-success/30`.
+- Fonts (next/font): **Barlow Condensed** for headings/big numbers
+  (`font-head`, applied to h1–h3 automatically), **Inter** for body
+  (`font-sans`). Stats use `.tnum` (tabular-nums).
+- Rules: dark only, no white/gray surfaces, no default-blue links (accent
+  orange), radius ≤ 12px (`rounded-xl` cards, `rounded-lg` buttons/inputs,
+  `rounded-full` pills only), no drop shadows, no gradient buttons. Every
+  screen is capped at **430px** centered (`AppChrome` owns the container).
+- Microcopy is human and sport-specific everywhere (empty states, errors,
+  placeholders) — never "No results" / "Loading…" / "Enter your X".
+
 ## Athlete flow — three screens (basketball-first as of phase 2)
 1. **Intake** (`/intake`) — sport/position, GPA, test, level played, film,
    location, budget. Honesty copy throughout. Default sport: men's basketball.
@@ -30,6 +48,26 @@ Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Supabase
 
 Not building: coach dashboard, auth, payments, outreach automation, film
 analysis. Stay in the athlete flow.
+
+## Tab navigation + profile (phase 2b)
+- `AppChrome` (`src/components/AppChrome.tsx`) is the app shell: a top bar
+  (avatar → `/profile`, `+` placeholder) and bottom tab bar — **Explore**
+  (`/discover`), **Highlights** (`/highlights`, placeholder), **Messages**
+  (`/messages`, placeholder). It's route-aware: onboarding/landing (`/`,
+  `/intake`, `/assessment`) keep a plain brand header, no tabs.
+- **`/profile` — the athlete recruiting card** (what coaches will see). Header
+  (uploadable photo, name/grad/HS/location, not reorderable) + stat blocks
+  (Academic GPA/ACT/SAT, Athletic height/weight/position/PPG/RPG/APG) that are
+  **drag-reorderable** and have a **★ "feature this"** toggle (featured stats
+  pin to a prominent top strip). All stats stay visible to coaches regardless of
+  order — no hiding GPA. Plus a highlights list (YouTube/Hudl links; YouTube
+  thumbnails derived from the video id; store URL only). Edit-mode toggle.
+- State lives in `src/lib/athleteCard.ts` — a localStorage-backed
+  `useSyncExternalStore` store, prefilled from the intake profile. The
+  `athlete_profiles` / `highlight_clips` tables (in `supabase/schema.sql`) are
+  the future home once auth exists; not wired yet.
+- `ReorderList` (`src/components/ReorderList.tsx`) is a ref-free, touch-friendly
+  pointer drag-reorder; parent owns the order.
 
 ## Architecture notes
 - The athlete flow is a single mobile session. The working profile lives in

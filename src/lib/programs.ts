@@ -27,11 +27,15 @@ interface RawSchool {
   state: string;
   conference: string;
   sports: string[];
-  // optional enrichment (written by enrich-scorecard.ts)
+  // optional enrichment (written by the data:* scripts)
   selectivity?: AcademicOpenness;
   avgGpa?: number;
   stickerCost?: number;
   typicalNetCost?: number;
+  schoolUrl?: string;
+  photoUrl?: string;
+  photoCredit?: string;
+  winLossLastSeason?: string;
 }
 
 // Conservative placeholders for un-enriched schools. Flagged here on purpose.
@@ -110,8 +114,10 @@ function normalize(raw: RawSchool): Program {
     coachVerified: false,
     coachName: null,
     coachEmail: null,
-    winLossLastSeason: null, // PLACEHOLDER — needs enrichment, display-only
-    photoUrl: null, // null -> generated SchoolPhoto placeholder
+    winLossLastSeason: raw.winLossLastSeason ?? null, // scraped, flagged unofficial in UI
+    photoUrl: raw.photoUrl ?? null, // null -> generated SchoolPhoto placeholder
+    photoCredit: raw.photoCredit ?? null,
+    schoolUrl: raw.schoolUrl ?? null,
     blurb: `${raw.conference} program in ${raw.city}, ${raw.state}.`,
   };
   return { ...base, ...CURATED[raw.id] };

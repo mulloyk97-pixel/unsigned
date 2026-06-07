@@ -50,9 +50,9 @@ export default function DraftIntro({
       <button
         onClick={generate}
         disabled={loading}
-        className="rounded-lg bg-ink px-4 py-3 text-sm font-semibold text-paper active:scale-[0.99] transition disabled:opacity-60"
+        className="rounded-lg bg-accent px-4 py-3 text-sm font-semibold text-bg active:scale-[0.99] transition disabled:opacity-60"
       >
-        {loading ? "Writing your draft…" : "Draft an honest intro email"}
+        {loading ? "Writing your intro…" : "Draft an honest intro email"}
       </button>
     );
   }
@@ -63,26 +63,24 @@ export default function DraftIntro({
         readOnly
         value={draft}
         rows={12}
-        className="w-full rounded-lg border border-line bg-paper p-3 text-sm text-ink leading-relaxed"
+        className="w-full rounded-lg border border-line bg-bg p-3 text-sm text-fg leading-relaxed"
       />
       <div className="flex gap-2">
         <button
           onClick={copy}
-          className="flex-1 rounded-lg bg-ink px-4 py-2.5 text-sm font-semibold text-paper active:scale-[0.99] transition"
+          className="flex-1 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-bg active:scale-[0.99] transition"
         >
           {copied ? "Copied" : "Copy"}
         </button>
         <button
           onClick={generate}
           disabled={loading}
-          className="rounded-lg border border-line px-4 py-2.5 text-sm font-medium text-ink"
+          className="rounded-lg border border-accent px-4 py-2.5 text-sm font-medium text-accent"
         >
           Redo
         </button>
       </div>
-      <p className="text-xs text-muted">
-        Read it before you send. Make it yours — coaches can tell.
-      </p>
+      <p className="text-xs text-muted">Read it before you send. Make it yours — coaches can tell.</p>
     </div>
   );
 }

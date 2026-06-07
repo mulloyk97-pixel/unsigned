@@ -20,10 +20,10 @@ const US_STATES = [
   "VA","WA","WV","WI","WY",
 ];
 
-const labelCls = "block text-sm font-medium text-ink mb-1.5";
+const labelCls = "block text-sm font-semibold text-fg mb-1.5";
 const helpCls = "text-xs text-muted mb-1.5";
 const inputCls =
-  "w-full rounded-lg border border-line bg-card px-3.5 py-3 text-[15px] text-ink outline-none focus:border-accent";
+  "w-full rounded-lg border border-line bg-surface px-3.5 py-3 text-[15px] text-fg outline-none focus:border-accent placeholder:text-muted";
 
 export default function IntakePage() {
   const router = useRouter();
@@ -53,7 +53,7 @@ export default function IntakePage() {
     setError(null);
 
     const gpa = parseFloat(form.gpa);
-    if (!form.name.trim()) return setError("Add your name so coaches know who's reaching out.");
+    if (!form.name.trim()) return setError("Add your name — coaches need to know who's reaching out.");
     if (Number.isNaN(gpa) || gpa < 0 || gpa > 4.0) return setError("Enter a GPA on a 0–4.0 scale.");
     if (!form.position.trim()) return setError("Add your position.");
     if (!form.level) return setError("Pick the level you've honestly played at.");
@@ -69,9 +69,7 @@ export default function IntakePage() {
       gpa,
       testType: form.testType,
       testScore:
-        form.testType !== "none" && form.testScore
-          ? parseInt(form.testScore, 10)
-          : null,
+        form.testType !== "none" && form.testScore ? parseInt(form.testScore, 10) : null,
       level: form.level,
       filmLink: form.filmLink.trim(),
       state: form.state,
@@ -80,136 +78,99 @@ export default function IntakePage() {
     };
 
     saveProfile(profile);
-    void saveProfileRemote(profile); // best-effort, non-blocking
+    void saveProfileRemote(profile);
     router.push("/assessment");
   }
 
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight text-ink">
-          Tell us the truth, we&apos;ll do the same.
-        </h1>
-        <p className="mt-2 text-[15px] text-muted">
-          The more honest you are here, the more useful your assessment. There
-          are no wrong answers — only the ones that lead you to programs that
-          will actually recruit you.
+        <h1 className="font-head text-3xl font-bold tracking-tight text-fg">TELL US THE TRUTH.</h1>
+        <p className="mt-2 text-[15px] leading-relaxed text-muted">
+          We&apos;ll do the same. The more honest you are here, the more useful your read. There are
+          no wrong answers — only the ones that send you chasing the wrong level.
         </p>
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
         <div>
           <label className={labelCls} htmlFor="name">Your name</label>
-          <input
-            id="name" className={inputCls} value={form.name}
-            onChange={(e) => update("name", e.target.value)}
-            placeholder="Jordan Rivera"
-          />
+          <input id="name" className={inputCls} value={form.name}
+            onChange={(e) => update("name", e.target.value)} placeholder="First and last" />
         </div>
 
         <div className="grid grid-cols-2 gap-3">
           <div>
             <label className={labelCls} htmlFor="gradYear">Grad year</label>
-            <select
-              id="gradYear" className={inputCls} value={form.gradYear}
-              onChange={(e) => update("gradYear", e.target.value)}
-            >
-              {["2026", "2027", "2028", "2029"].map((y) => (
-                <option key={y} value={y}>{y}</option>
-              ))}
+            <select id="gradYear" className={inputCls} value={form.gradYear}
+              onChange={(e) => update("gradYear", e.target.value)}>
+              {["2026", "2027", "2028", "2029"].map((y) => <option key={y} value={y}>{y}</option>)}
             </select>
           </div>
           <div>
             <label className={labelCls} htmlFor="state">Home state</label>
-            <select
-              id="state" className={inputCls} value={form.state}
-              onChange={(e) => update("state", e.target.value)}
-            >
-              <option value="">Select…</option>
-              {US_STATES.map((s) => (
-                <option key={s} value={s}>{s}</option>
-              ))}
+            <select id="state" className={inputCls} value={form.state}
+              onChange={(e) => update("state", e.target.value)}>
+              <option value="">Pick one</option>
+              {US_STATES.map((s) => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
         </div>
 
         <div>
           <label className={labelCls} htmlFor="sport">Sport</label>
-          <select
-            id="sport" className={inputCls} value={form.sport}
-            onChange={(e) => update("sport", e.target.value as Sport)}
-          >
-            {SPORTS.map((s) => (
-              <option key={s.value} value={s.value}>{s.label}</option>
-            ))}
+          <select id="sport" className={inputCls} value={form.sport}
+            onChange={(e) => update("sport", e.target.value as Sport)}>
+            {SPORTS.map((s) => <option key={s.value} value={s.value}>{s.label}</option>)}
           </select>
         </div>
 
         <div>
           <label className={labelCls} htmlFor="position">Position</label>
-          <input
-            id="position" className={inputCls} value={form.position}
-            onChange={(e) => update("position", e.target.value)}
-            placeholder="Center back, outfielder, point guard…"
-          />
+          <input id="position" className={inputCls} value={form.position}
+            onChange={(e) => update("position", e.target.value)} placeholder="Point guard, wing, forward…" />
         </div>
 
         <div>
-          <label className={labelCls} htmlFor="gpa">GPA (0–4.0)</label>
-          <input
-            id="gpa" className={inputCls} value={form.gpa} inputMode="decimal"
-            onChange={(e) => update("gpa", e.target.value)}
-            placeholder="3.4"
-          />
+          <label className={labelCls} htmlFor="gpa">GPA</label>
+          <input id="gpa" className={inputCls} value={form.gpa} inputMode="decimal"
+            onChange={(e) => update("gpa", e.target.value)} placeholder="Be real. Coaches check transcripts." />
         </div>
 
         <div className="grid grid-cols-2 gap-3">
           <div>
             <label className={labelCls} htmlFor="testType">Test (optional)</label>
-            <select
-              id="testType" className={inputCls} value={form.testType}
-              onChange={(e) => update("testType", e.target.value as TestType)}
-            >
-              <option value="none">None / not taken</option>
+            <select id="testType" className={inputCls} value={form.testType}
+              onChange={(e) => update("testType", e.target.value as TestType)}>
+              <option value="none">Haven&apos;t taken it</option>
               <option value="SAT">SAT</option>
               <option value="ACT">ACT</option>
             </select>
           </div>
           <div>
             <label className={labelCls} htmlFor="testScore">Score</label>
-            <input
-              id="testScore" className={inputCls} value={form.testScore}
-              inputMode="numeric" disabled={form.testType === "none"}
+            <input id="testScore" className={inputCls} value={form.testScore} inputMode="numeric"
+              disabled={form.testType === "none"}
               onChange={(e) => update("testScore", e.target.value)}
-              placeholder={form.testType === "ACT" ? "24" : "1100"}
-            />
+              placeholder={form.testType === "ACT" ? "e.g. 24" : "e.g. 1100"} />
           </div>
         </div>
 
         <fieldset>
           <legend className={labelCls}>Level you&apos;ve honestly played</legend>
-          <p className={helpCls}>
-            Be real with this one — it&apos;s the single biggest factor in an
-            accurate read. Nobody sees it but you.
-          </p>
+          <p className={helpCls}>Be real here too — it&apos;s the biggest factor in an accurate read. Nobody sees it but you.</p>
           <div className="flex flex-col gap-2">
             {COMPETITION_LEVELS.map((lvl) => (
-              <label
-                key={lvl.value}
+              <label key={lvl.value}
                 className={`flex items-start gap-3 rounded-lg border p-3 cursor-pointer transition ${
-                  form.level === lvl.value
-                    ? "border-accent bg-accent-soft"
-                    : "border-line bg-card"
-                }`}
-              >
-                <input
-                  type="radio" name="level" value={lvl.value}
+                  form.level === lvl.value ? "border-accent bg-accent/10" : "border-line bg-surface"
+                }`}>
+                <input type="radio" name="level" value={lvl.value}
                   checked={form.level === lvl.value}
                   onChange={() => update("level", lvl.value)}
-                  className="mt-1 accent-[var(--color-accent)]"
-                />
+                  className="mt-1 accent-[var(--color-accent)]" />
                 <span>
-                  <span className="block text-[15px] font-medium text-ink">{lvl.label}</span>
+                  <span className="block text-[15px] font-medium text-fg">{lvl.label}</span>
                   <span className="block text-xs text-muted">{lvl.help}</span>
                 </span>
               </label>
@@ -219,42 +180,24 @@ export default function IntakePage() {
 
         <div>
           <label className={labelCls} htmlFor="filmLink">Film link (optional)</label>
-          <p className={helpCls}>Hudl, YouTube, Google Drive — whatever you&apos;ve got.</p>
-          <input
-            id="filmLink" className={inputCls} value={form.filmLink}
-            inputMode="url"
-            onChange={(e) => update("filmLink", e.target.value)}
-            placeholder="https://hudl.com/…"
-          />
+          <input id="filmLink" className={inputCls} value={form.filmLink} inputMode="url"
+            onChange={(e) => update("filmLink", e.target.value)} placeholder="Paste your Hudl or YouTube link" />
         </div>
 
         <div>
-          <label className={labelCls} htmlFor="budget">
-            Family budget per year (optional)
-          </label>
-          <p className={helpCls}>
-            The honest net cost you can carry after aid. We&apos;ll only show
-            programs that can realistically work.
-          </p>
-          <input
-            id="budget" className={inputCls} value={form.budgetPerYear}
-            inputMode="numeric"
-            onChange={(e) => update("budgetPerYear", e.target.value)}
-            placeholder="20000"
-          />
+          <label className={labelCls} htmlFor="budget">Family budget per year (optional)</label>
+          <p className={helpCls}>The honest net cost you can carry after aid. We&apos;ll only show schools that can actually work.</p>
+          <input id="budget" className={inputCls} value={form.budgetPerYear} inputMode="numeric"
+            onChange={(e) => update("budgetPerYear", e.target.value)} placeholder="e.g. 20000" />
         </div>
 
         {error && (
-          <p className="rounded-lg bg-warn-soft px-3.5 py-3 text-sm text-warn">
-            {error}
-          </p>
+          <p className="rounded-lg border border-danger/30 bg-danger/10 px-3.5 py-3 text-sm text-danger">{error}</p>
         )}
 
-        <button
-          type="submit" disabled={submitting}
-          className="rounded-xl bg-ink px-5 py-4 font-semibold text-paper active:scale-[0.99] transition disabled:opacity-60"
-        >
-          {submitting ? "Reading your profile…" : "See my honest assessment"}
+        <button type="submit" disabled={submitting}
+          className="rounded-lg bg-accent px-5 py-4 font-semibold text-bg active:scale-[0.99] transition disabled:opacity-60">
+          {submitting ? "Reading your profile…" : "See my honest read"}
         </button>
       </form>
     </div>

@@ -24,6 +24,7 @@ const FIELDS = [
   "id",
   "school.name",
   "school.state",
+  "school.school_url",
   "latest.cost.avg_net_price.overall",
   "latest.cost.attendance.academic_year",
   "latest.admissions.sat_scores.average.overall",
@@ -143,6 +144,8 @@ async function main() {
       continue;
     }
     matched++;
+    const url = hit["school.school_url"] as string | null;
+    if (url) s.schoolUrl = url.startsWith("http") ? url : `https://${url}`;
     const net = hit["latest.cost.avg_net_price.overall"] as number | null;
     const sticker = hit["latest.cost.attendance.academic_year"] as number | null;
     const sat = hit["latest.admissions.sat_scores.average.overall"] as number | null;

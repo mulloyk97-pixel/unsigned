@@ -7,27 +7,28 @@ import DraftIntro from "./DraftIntro";
 
 const SWIPE_THRESHOLD = 110;
 
-// --- small presentational helpers -----------------------------------------
-
 function shortDivision(d: Program["division"]): string {
   return d === "DIII" ? "D-III" : d;
 }
 
-function scoreColor(score: number): string {
-  if (score >= 80) return "text-accent";
-  if (score >= 60) return "text-ink";
-  return "text-muted";
+function Pill({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+  return (
+    <span className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide ${className}`}>
+      {children}
+    </span>
+  );
 }
 
 function VerifiedBadge({ verified }: { verified: boolean }) {
   return verified ? (
-    <span className="rounded-full bg-accent-soft px-2.5 py-1 text-xs font-semibold text-accent">
-      ✓ Coach verified
-    </span>
+    <Pill className="border-success/30 bg-success/10 text-success normal-case">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="20 6 9 17 4 12" />
+      </svg>
+      Coach verified
+    </Pill>
   ) : (
-    <span className="rounded-full bg-line/60 px-2.5 py-1 text-xs font-medium text-muted">
-      Coach unverified
-    </span>
+    <Pill className="border-line bg-surface text-muted normal-case">Coach unverified</Pill>
   );
 }
 
@@ -51,7 +52,7 @@ function financialNote(profile: AthleteProfile, program: Program): string {
   return `Typical net ~$${net}k/yr is well above your ~$${budget}k budget — likely a stretch.`;
 }
 
-// Visual content of a school card, shared by the deck and the saved list.
+// Scout-report card: full-width photo, then content with clear hierarchy.
 function CardFace({
   match,
   profile,
@@ -64,52 +65,56 @@ function CardFace({
   const { program, fitScore, why } = match;
   return (
     <div className="flex flex-col">
-      <div className="relative h-44 w-full">
-        <SchoolPhoto name={program.school} photoUrl={program.photoUrl} className="h-44 w-full" />
-        <span className="absolute top-3 left-3 rounded-full bg-ink/85 px-2.5 py-1 text-xs font-semibold text-paper">
-          {shortDivision(program.division)}
+      <div className="relative w-full aspect-video">
+        <SchoolPhoto name={program.school} photoUrl={program.photoUrl} className="h-full w-full" />
+        <span className="absolute top-3 left-3">
+          <Pill className="border-line bg-bg/80 text-fg backdrop-blur">{shortDivision(program.division)}</Pill>
         </span>
-        <span className="absolute top-3 right-3 rounded-full bg-paper/90 px-2.5 py-1 text-xs font-medium text-ink">
-          {/* PLACEHOLDER record — needs enrichment, display only */}
-          {program.winLossLastSeason ? `${program.winLossLastSeason} last yr` : "record TBD"}
+        <span className="absolute top-3 right-3">
+          {/* PLACEHOLDER record — display only, needs enrichment */}
+          <Pill className="border-line bg-bg/80 text-muted backdrop-blur normal-case">
+            {program.winLossLastSeason ? `${program.winLossLastSeason} last yr` : "record TBD"}
+          </Pill>
         </span>
       </div>
 
-      <div className="p-4 flex flex-col gap-2">
+      <div className="p-4 flex flex-col gap-3">
         <div className="flex items-start justify-between gap-3">
-          <div>
-            <h3 className="font-semibold text-ink leading-tight">{program.school}</h3>
-            <p className="text-xs text-muted mt-0.5">
+          <div className="min-w-0">
+            <h3 className="font-head text-xl font-bold leading-tight text-fg">{program.school}</h3>
+            <p className="text-xs text-muted mt-1">
               {program.conference} · {program.city}, {program.state}
             </p>
           </div>
-          <span className={`text-lg font-bold shrink-0 ${scoreColor(fitScore)}`}>
-            {fitScore}
-            <span className="text-[10px] font-normal text-muted">/100</span>
-          </span>
+          <div className="text-right shrink-0 leading-none">
+            <span className="font-head text-4xl font-bold text-accent tnum">{fitScore}</span>
+            <p className="text-[10px] uppercase tracking-wide text-muted mt-0.5">Fit score</p>
+          </div>
         </div>
 
         <VerifiedBadge verified={program.coachVerified} />
 
-        <p className="text-sm text-ink mt-1">{why}</p>
+        <p className="text-sm leading-relaxed text-fg/90">{why}</p>
 
         {expanded && (
-          <div className="mt-2 flex flex-col gap-3 border-t border-line pt-3">
-            <p className="text-sm text-muted leading-relaxed">{program.blurb}</p>
+          <div className="mt-1 flex flex-col gap-4 border-t border-line pt-4">
+            <p className="text-sm leading-relaxed text-muted">{program.blurb}</p>
+
+            <Detail label="Academic fit">{academicNote(profile, program)}</Detail>
+            <Detail label="Financial fit">{financialNote(profile, program)}</Detail>
+
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted">Academic fit</p>
-              <p className="text-sm text-ink mt-1">{academicNote(profile, program)}</p>
-            </div>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted">Financial fit</p>
-              <p className="text-sm text-ink mt-1">{financialNote(profile, program)}</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-muted mb-2">Highlight clips</p>
+              <div className="rounded-lg border border-dashed border-line p-3 text-center text-xs text-muted">
+                Film breakdowns are coming. For now, lead with your own clips when you reach out.
+              </div>
             </div>
 
             {program.coachVerified ? (
-              <div className="flex flex-col gap-2">
-                <div className="rounded-lg bg-paper border border-line p-3">
-                  <p className="text-xs text-muted">Coach contact (verified)</p>
-                  <p className="text-sm font-medium text-ink mt-0.5">{program.coachName}</p>
+              <div className="flex flex-col gap-3">
+                <div className="rounded-lg border border-line bg-bg p-3">
+                  <p className="text-[11px] uppercase tracking-wide text-success">Coach contact · verified</p>
+                  <p className="text-sm font-medium text-fg mt-1">{program.coachName}</p>
                   {program.coachEmail && (
                     <a href={`mailto:${program.coachEmail}`} className="text-sm text-accent underline break-all">
                       {program.coachEmail}
@@ -119,14 +124,36 @@ function CardFace({
                 <DraftIntro profile={profile} program={program} />
               </div>
             ) : (
-              <p className="rounded-lg bg-warn-soft px-3 py-2.5 text-sm text-warn">
-                Coach contact isn&apos;t verified yet — we won&apos;t hand you an address we can&apos;t
-                stand behind. Save it and we&apos;ll notify you when it&apos;s confirmed.
-              </p>
+              <div className="rounded-lg border border-line bg-bg p-3">
+                <p className="text-sm text-fg">Coach contact coming soon.</p>
+                <p className="text-xs text-muted mt-1">
+                  We only show contacts we&apos;ve confirmed — no guesses. Until then, save it and
+                  find the staff yourself:
+                </p>
+                <a
+                  href={`https://www.google.com/search?q=${encodeURIComponent(
+                    `${program.school} ${profile.sport.includes("womens") ? "women's" : "men's"} basketball coaching staff`,
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-sm font-medium text-accent"
+                >
+                  Find the coaching staff →
+                </a>
+              </div>
             )}
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+function Detail({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <p className="text-[11px] font-semibold uppercase tracking-wide text-muted">{label}</p>
+      <p className="text-sm text-fg mt-1 leading-relaxed">{children}</p>
     </div>
   );
 }
@@ -161,7 +188,7 @@ export default function SwipeDeck({
   }
 
   function finalize() {
-    if (!leaving) return; // ignore snap-back transitions
+    if (!leaving) return;
     if (leaving === "right" && current) setSaved((s) => [...s, current]);
     setLeaving(null);
     setDx(0);
@@ -198,23 +225,18 @@ export default function SwipeDeck({
   }
 
   const transform = leaving
-    ? `translateX(${leaving === "right" ? "120%" : "-120%"}) rotate(${leaving === "right" ? 16 : -16}deg)`
+    ? `translateX(${leaving === "right" ? "120%" : "-120%"}) rotate(${leaving === "right" ? 14 : -14}deg)`
     : `translateX(${dx}px) rotate(${dx * 0.04}deg)`;
 
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between text-sm">
-        <span className="text-muted">
-          {index + 1} of {matches.length}
-        </span>
-        <span className="font-medium text-accent">{saved.length} saved</span>
+        <span className="text-muted tnum">{index + 1} / {matches.length}</span>
+        <span className="font-semibold text-accent tnum">{saved.length} saved</span>
       </div>
 
-      {/* card stack */}
-      <div className="relative h-[460px]">
-        {next && (
-          <div className="absolute inset-x-2 top-2 bottom-0 rounded-2xl border border-line bg-card opacity-60 scale-[0.97]" />
-        )}
+      <div className="relative h-[470px]">
+        {next && <div className="absolute inset-x-2 top-2 bottom-0 rounded-xl border border-line bg-surface/60 scale-[0.97]" />}
 
         <div
           onPointerDown={onPointerDown}
@@ -222,42 +244,39 @@ export default function SwipeDeck({
           onPointerUp={onPointerUp}
           onTransitionEnd={finalize}
           style={{ transform, transition: dragging ? "none" : "transform 0.32s ease" }}
-          className="absolute inset-0 overflow-y-auto rounded-2xl border border-line bg-card shadow-sm touch-pan-y select-none cursor-grab active:cursor-grabbing"
+          className="absolute inset-0 overflow-y-auto rounded-xl border border-line bg-surface no-scrollbar touch-pan-y select-none"
         >
-          {/* swipe intent overlays */}
           <span
-            className="pointer-events-none absolute top-4 right-4 z-10 rounded-lg border-2 border-accent px-3 py-1 text-sm font-bold text-accent rotate-12"
+            className="pointer-events-none absolute top-5 right-5 z-10 rounded-lg border-2 border-success px-3 py-1 text-base font-bold uppercase text-success rotate-12"
             style={{ opacity: dx > 0 ? Math.min(dx / SWIPE_THRESHOLD, 1) : 0 }}
           >
-            SAVE
+            Save
           </span>
           <span
-            className="pointer-events-none absolute top-4 left-4 z-10 rounded-lg border-2 border-warn px-3 py-1 text-sm font-bold text-warn -rotate-12"
+            className="pointer-events-none absolute top-5 left-5 z-10 rounded-lg border-2 border-danger px-3 py-1 text-base font-bold uppercase text-danger -rotate-12"
             style={{ opacity: dx < 0 ? Math.min(-dx / SWIPE_THRESHOLD, 1) : 0 }}
           >
-            PASS
+            Pass
           </span>
 
           {current && <CardFace match={current} profile={profile} expanded={expanded} />}
         </div>
       </div>
 
-      <p className="text-center text-xs text-muted">
-        Tap the card for details · swipe or use the buttons to decide
-      </p>
+      <p className="text-center text-xs text-muted">Tap for the full report · swipe or use the buttons</p>
 
       <div className="flex items-center justify-center gap-6">
         <button
           onClick={() => commit("left")}
           aria-label="Pass"
-          className="h-16 w-16 rounded-full border border-line bg-card text-2xl text-warn active:scale-95 transition shadow-sm"
+          className="h-16 w-16 rounded-full border border-line bg-surface text-2xl text-danger active:scale-95 transition"
         >
           ✕
         </button>
         <button
           onClick={() => commit("right")}
           aria-label="Save"
-          className="h-16 w-16 rounded-full bg-accent text-2xl text-white active:scale-95 transition shadow-sm"
+          className="h-16 w-16 rounded-full bg-accent text-2xl text-bg active:scale-95 transition"
         >
           ♥
         </button>
@@ -266,7 +285,7 @@ export default function SwipeDeck({
   );
 }
 
-// --- saved list (shown after the deck is exhausted) ------------------------
+// --- saved list ------------------------------------------------------------
 
 function SavedList({
   saved,
@@ -280,14 +299,14 @@ function SavedList({
   if (saved.length === 0) {
     return (
       <div className="flex flex-col gap-4">
-        <div className="rounded-xl border border-line bg-card p-5">
-          <h2 className="font-semibold text-ink">You passed on all {total}.</h2>
-          <p className="mt-2 text-sm text-muted">
-            No shame in being picky — but the right-fit schools here will actually recruit you. Give
-            it another pass with an open mind.
+        <div className="rounded-xl border border-line bg-surface p-5">
+          <h2 className="font-head text-2xl font-bold text-fg">You passed on all {total}.</h2>
+          <p className="mt-2 text-sm leading-relaxed text-muted">
+            Being picky is fine — but these were the schools most likely to actually recruit you.
+            Take another run with an open mind.
           </p>
         </div>
-        <a href="/discover" className="rounded-xl bg-ink px-5 py-4 text-center font-semibold text-paper">
+        <a href="/discover" className="rounded-lg bg-accent px-5 py-3.5 text-center font-semibold text-bg active:scale-[0.99] transition">
           Start over
         </a>
       </div>
@@ -297,23 +316,23 @@ function SavedList({
   return (
     <div className="flex flex-col gap-5">
       <div>
-        <p className="text-sm font-medium text-accent">Your list ({saved.length})</p>
-        <h1 className="mt-1 text-2xl font-bold tracking-tight text-ink">Schools you saved.</h1>
-        <p className="mt-2 text-[15px] text-muted">
-          For verified coaches, reach out with the draft below. We won&apos;t share contacts we
+        <p className="text-xs font-semibold uppercase tracking-wide text-accent tnum">Your list · {saved.length}</p>
+        <h1 className="mt-1 font-head text-3xl font-bold tracking-tight text-fg">Schools you saved</h1>
+        <p className="mt-2 text-[15px] leading-relaxed text-muted">
+          Reach out to verified coaches with the draft below. We won&apos;t hand you a contact we
           haven&apos;t confirmed.
         </p>
       </div>
 
       <div className="flex flex-col gap-3">
         {saved.map((match) => (
-          <div key={match.program.id} className="rounded-xl border border-line bg-card overflow-hidden">
+          <div key={match.program.id} className="rounded-xl border border-line bg-surface overflow-hidden">
             <CardFace match={match} profile={profile} expanded={true} />
           </div>
         ))}
       </div>
 
-      <a href="/discover" className="text-center text-sm text-muted underline">
+      <a href="/discover" className="text-center text-sm font-medium text-accent">
         Swipe through the rest again
       </a>
     </div>

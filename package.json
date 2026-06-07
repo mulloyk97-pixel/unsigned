@@ -9,6 +9,7 @@
     "lint": "eslint",
     "data:build": "tsx scripts/build-school-list.ts",
     "data:enrich": "tsx scripts/enrich-scorecard.ts",
+    "data:photos": "tsx scripts/enrich-photos.ts",
     "data:import": "tsx scripts/import-to-supabase.ts"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
+    "playwright-core": "^1.60.0",
     "tailwindcss": "^4",
     "tsx": "^4.19.2",
     "typescript": "^5"

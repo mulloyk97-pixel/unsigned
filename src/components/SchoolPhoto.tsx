@@ -1,14 +1,8 @@
-// School photo with a generated placeholder for V1.
+// School photo with a generated placeholder.
 //
-// When `photoUrl` is null we render the school's initial on a deterministic
-// colored background. Real campus/team photos slot in later by populating
-// Program.photoUrl (CDN or Supabase storage URL) -- no other change needed.
-
-function hueFromName(name: string): number {
-  let h = 0;
-  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360;
-  return h;
-}
+// When `photoUrl` is null we render the school's initial on a dark surface tile.
+// Real campus photos slot in by populating Program.photoUrl. The placeholder is
+// flat (no gradient) to match the scout-report aesthetic.
 
 export function SchoolPhoto({
   name,
@@ -20,20 +14,18 @@ export function SchoolPhoto({
   className?: string;
 }) {
   if (photoUrl) {
-    // eslint-disable-next-line @next/next/no-img-element -- remote arbitrary hosts; revisit with next/image + domains when real photos land
-    return <img src={photoUrl} alt={name} className={`object-cover ${className}`} />;
+    // eslint-disable-next-line @next/next/no-img-element -- arbitrary remote hosts; revisit with next/image when photos move to our CDN
+    return <img src={photoUrl} alt={name} className={`object-cover bg-elevated ${className}`} />;
   }
 
   const initial = name.trim().charAt(0).toUpperCase() || "?";
-  const hue = hueFromName(name);
 
   return (
     <div
-      className={`flex items-center justify-center text-white font-bold ${className}`}
-      style={{ background: `linear-gradient(135deg, hsl(${hue} 48% 40%), hsl(${(hue + 28) % 360} 52% 30%))` }}
-      aria-label={`${name} (placeholder image)`}
+      className={`flex items-center justify-center bg-elevated ${className}`}
+      aria-label={`${name} (no photo yet)`}
     >
-      <span className="text-5xl drop-shadow-sm">{initial}</span>
+      <span className="font-head text-6xl font-bold text-muted/40">{initial}</span>
     </div>
   );
 }

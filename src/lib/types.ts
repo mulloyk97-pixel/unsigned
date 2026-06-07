@@ -112,11 +112,18 @@ export interface Program {
   coachVerified: boolean;
   coachName: string | null;
   coachEmail: string | null;
-  // PLACEHOLDER DATA — needs enrichment. Display-only; never a ranking factor.
+  // PLACEHOLDER/enrichment — display-only; never a ranking factor. Scraped W-L
+  // is flagged "unofficial" in the UI.
   winLossLastSeason: string | null;
-  // null -> render the generated placeholder (SchoolPhoto). Real campus/team
-  // photos slot in here later (CDN/Supabase storage URL).
+  // Campus photo from Wikimedia Commons (CC-licensed) when available, else null
+  // -> SchoolPhoto placeholder. photoCredit is the Commons file page for
+  // attribution.
   photoUrl: string | null;
+  photoCredit: string | null;
+  // Official school site (College Scorecard). Anchors the coach-verification
+  // pipeline: until WE verify a contact, the card points athletes to the real
+  // athletics staff directory rather than showing an unverified address.
+  schoolUrl: string | null;
   blurb: string; // why this program is an under-the-radar fit
 }
 

@@ -54,3 +54,72 @@ create table if not exists programs (
 
 create index if not exists programs_sports_idx on programs using gin (sports);
 create index if not exists programs_division_idx on programs (division);
+
+-- ---------------------------------------------------------------------------
+-- Phase 2 additions (athlete profiles, highlights, coaches, saves).
+-- Documented here ahead of wiring; the app currently runs the profile card on
+-- localStorage (see src/lib/athleteCard.ts). These land when auth exists.
+-- ---------------------------------------------------------------------------
+
+-- The athlete recruiting card. featured_stats / section_order are stat-key
+-- arrays controlling prominence + display order; all stat values stay visible.
+create table if not exists athlete_profiles (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid,                       -- FK to auth.users once auth exists
+  photo_url text,
+  name text,
+  grad_year int,
+  high_school text,
+  location text,
+  gpa numeric,
+  act int,
+  sat int,
+  height text,
+  weight text,
+  position text,
+  ppg numeric,
+  rpg numeric,
+  apg numeric,
+  featured_stats text[] default '{}',
+  section_order text[] default '{}',
+  created_at timestamptz default now()
+);
+
+create table if not exists highlight_clips (
+  id uuid primary key default gen_random_uuid(),
+  athlete_id uuid references athlete_profiles(id) on delete cascade,
+  url text not null,
+  title text,
+  description text,
+  thumbnail_url text,
+  created_at timestamptz default now()
+);
+
+-- Coach accounts. Verification is manual for now (admin sets verified = true).
+create table if not exists coach_profiles (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid,
+  name text,
+  school text,
+  sport text,
+  verified boolean not null default false,
+  created_at timestamptz default now()
+);
+
+-- Athlete saves a school from Explore.
+create table if not exists saved_schools (
+  id uuid primary key default gen_random_uuid(),
+  athlete_id uuid references athlete_profiles(id) on delete cascade,
+  program_id text references programs(id),
+  created_at timestamptz default now(),
+  unique (athlete_id, program_id)
+);
+
+-- Coach saves an athlete from browse.
+create table if not exists saved_athletes (
+  id uuid primary key default gen_random_uuid(),
+  coach_id uuid references coach_profiles(id) on delete cascade,
+  athlete_id uuid references athlete_profiles(id) on delete cascade,
+  created_at timestamptz default now(),
+  unique (coach_id, athlete_id)
+);
