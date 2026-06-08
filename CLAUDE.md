@@ -49,6 +49,32 @@ utilities, not raw hexes:
 Not building: coach dashboard, auth, payments, outreach automation, film
 analysis. Stay in the athlete flow.
 
+## Auth + accounts (Supabase)
+- Accent is **green** (`#22C55E`) as of the signup build (was orange).
+- Entry is the **hero** (`/`) → "I'm an athlete" (`/signup/athlete`) / "I'm a
+  coach" (`/signup/coach`) / "Sign in" (`/signin`). Auth screens render their
+  own full-bleed layout (see `BARE_ROUTES` in `AppChrome`).
+- **Supabase Auth** via `@supabase/ssr`: browser client `src/lib/supabase/client.ts`
+  (lazy singleton — never instantiate at module top level or it breaks build),
+  server client `src/lib/supabase/server.ts`, session refresh + route gating in
+  `src/middleware.ts` (auth-presence only; user_type/verified checked in pages).
+- `src/lib/auth.ts`: signUpAthlete/signUpCoach/signIn/signOut/getSessionProfile.
+  Signup writes `profiles.user_type` + the athlete/coach row. Coaches start
+  `verified=false` → `/coaches` shows a "Verification pending" gate (admin flips
+  the flag manually via service role). Routing: athletes→`/discover`,
+  coaches→`/coaches`.
+- **Setup required to run auth** (it won't function without it): create a
+  Supabase project, run `supabase/schema.sql` (tables + RLS), turn OFF email
+  confirmation, put the URL + anon key in `.env.local`. See `.env.local.example`.
+- **Known integration gap:** `/discover` + the profile card still read the
+  working athlete profile from local storage; `signUpAthlete` bridges by seeding
+  it (GPA/budget aren't collected at signup — added on the profile card). Next
+  step is unifying that local copy with the Supabase `athlete_profiles` row.
+- Coach browse (`/coaches`): verified-only; mirrors Explore with athlete cards
+  (`AthleteDeck`), a filter bottom sheet (position/grad/state/min GPA), saved
+  list, and a coach bottom tab bar (Discover/Saved/Messages). Reads
+  `athlete_profiles` via `src/lib/coachData.ts`.
+
 ## Tab navigation + profile (phase 2b)
 - `AppChrome` (`src/components/AppChrome.tsx`) is the app shell: a top bar
   (avatar → `/profile`, `+` placeholder) and bottom tab bar — **Explore**

@@ -8,6 +8,9 @@ import { useAthleteCard } from "@/lib/athleteCard";
 // screens; onboarding/landing keep a minimal brand header. Everything is capped
 // at 430px and centered — mobile-first, no desktop layouts.
 const TAB_ROUTES = ["/discover", "/highlights", "/messages", "/profile"];
+// Auth screens + the coach section render their own full-bleed layout (no
+// athlete chrome).
+const BARE_ROUTES = ["/signin", "/signup", "/coaches"];
 
 const TABS = [
   { href: "/discover", label: "Explore", icon: CompassIcon },
@@ -20,6 +23,11 @@ const SHELL = "mx-auto w-full max-w-[430px]";
 export default function AppChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const inApp = TAB_ROUTES.some((r) => pathname === r || pathname.startsWith(r + "/"));
+  const bare = pathname === "/" || BARE_ROUTES.some((r) => pathname === r || pathname.startsWith(r + "/"));
+
+  if (bare) {
+    return <main className={`${SHELL} flex-1 flex flex-col`}>{children}</main>;
+  }
 
   if (!inApp) {
     return (

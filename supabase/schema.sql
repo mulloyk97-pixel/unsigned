@@ -71,6 +71,9 @@ create table if not exists athlete_profiles (
   grad_year int,
   high_school text,
   location text,
+  state text,                         -- two-letter home state
+  sport text,                         -- e.g. 'mens-basketball'
+  level text,                         -- competition level played (matching signal)
   gpa numeric,
   act int,
   sat int,
@@ -102,6 +105,7 @@ create table if not exists coach_profiles (
   name text,
   school text,
   sport text,
+  role text,                          -- 'head' | 'assistant'
   verified boolean not null default false,
   created_at timestamptz default now()
 );
@@ -123,3 +127,67 @@ create table if not exists saved_athletes (
   created_at timestamptz default now(),
   unique (coach_id, athlete_id)
 );
+
+-- ---------------------------------------------------------------------------
+-- Auth: account-type routing + row-level security.
+-- ---------------------------------------------------------------------------
+
+-- One row per auth user, set at signup. Drives routing (athlete vs coach).
+create table if not exists profiles (
+  id uuid primary key references auth.users(id) on delete cascade,
+  user_type text not null check (user_type in ('athlete', 'coach')),
+  created_at timestamptz default now()
+);
+
+-- athlete_profiles / coach_profiles link to auth.users via user_id.
+alter table athlete_profiles
+  add column if not exists user_id uuid references auth.users(id) on delete cascade;
+alter table coach_profiles
+  add column if not exists user_id uuid references auth.users(id) on delete cascade;
+alter table coach_profiles add column if not exists role text;
+
+-- Helper: is the current user a verified coach?
+create or replace function is_verified_coach() returns boolean
+language sql security definer stable as $$
+  select exists (
+    select 1 from coach_profiles c
+    where c.user_id = auth.uid() and c.verified
+  );
+$$;
+
+alter table profiles enable row level security;
+alter table athlete_profiles enable row level security;
+alter table coach_profiles enable row level security;
+alter table highlight_clips enable row level security;
+alter table saved_schools enable row level security;
+alter table saved_athletes enable row level security;
+
+-- profiles: a user manages only their own row.
+create policy "own profile" on profiles
+  for all using (auth.uid() = id) with check (auth.uid() = id);
+
+-- athlete_profiles: owner full access; verified coaches may read everyone.
+create policy "athlete owns profile" on athlete_profiles
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+create policy "verified coaches read athletes" on athlete_profiles
+  for select using (is_verified_coach());
+
+-- highlight_clips: owner full access; verified coaches may read.
+create policy "athlete owns clips" on highlight_clips
+  for all using (auth.uid() = (select user_id from athlete_profiles a where a.id = athlete_id))
+  with check (auth.uid() = (select user_id from athlete_profiles a where a.id = athlete_id));
+create policy "verified coaches read clips" on highlight_clips
+  for select using (is_verified_coach());
+
+-- coach_profiles: owner manages own; verified flag is set manually by an admin
+-- (service role bypasses RLS).
+create policy "coach owns profile" on coach_profiles
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+-- saves: each side manages only its own saves.
+create policy "athlete owns saved schools" on saved_schools
+  for all using (auth.uid() = (select user_id from athlete_profiles a where a.id = athlete_id))
+  with check (auth.uid() = (select user_id from athlete_profiles a where a.id = athlete_id));
+create policy "coach owns saved athletes" on saved_athletes
+  for all using (auth.uid() = (select user_id from coach_profiles c where c.id = coach_id))
+  with check (auth.uid() = (select user_id from coach_profiles c where c.id = coach_id));

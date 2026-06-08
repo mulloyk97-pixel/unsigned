@@ -2,40 +2,32 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-8">
-      <section className="pt-4">
-        <p className="text-sm font-semibold uppercase tracking-wide text-accent">For overlooked athletes</p>
-        <h1 className="mt-3 font-head text-5xl font-bold leading-[0.95] tracking-tight text-fg">
-          FIND OUT WHERE YOU CAN <span className="text-accent">ACTUALLY</span> PLAY.
-        </h1>
-        <p className="mt-4 text-[15px] leading-relaxed text-muted">
-          Every paid service inflates your profile to justify the bill. We don&apos;t. Unsigned gives
-          you an honest read on your real level, then the right-fit D-III, NAIA, and JUCO programs
-          you&apos;ve never heard of.
-        </p>
-      </section>
+    <div className="flex flex-1 flex-col items-center justify-between px-5 py-12 text-center">
+      <div className="pt-10">
+        <h1 className="font-head text-6xl font-bold tracking-tight text-fg">UNSIGNED</h1>
+      </div>
 
-      <Link
-        href="/intake"
-        className="rounded-lg bg-accent px-5 py-4 text-center font-semibold text-bg active:scale-[0.99] transition"
-      >
-        Get my honest assessment
-      </Link>
+      <p className="max-w-[300px] text-lg leading-snug text-muted">
+        The honest recruiting platform for overlooked athletes.
+      </p>
 
-      <ul className="flex flex-col gap-3 text-[15px]">
-        {[
-          ["No fee.", "Free for athletes and families. For real."],
-          ["No inflation.", "We tell you the truth about your level, even when it stings."],
-          ["No noise.", "Swipe through right-fit programs and save the ones that match your game, grades, and budget."],
-        ].map(([head, body]) => (
-          <li key={head} className="rounded-xl border border-line bg-surface p-4">
-            <span className="font-semibold text-fg">{head}</span>{" "}
-            <span className="text-muted">{body}</span>
-          </li>
-        ))}
-      </ul>
-
-      <p className="text-xs text-muted">About 3 minutes. No account required.</p>
+      <div className="w-full flex flex-col gap-3">
+        <Link
+          href="/signup/athlete"
+          className="rounded-lg bg-accent px-5 py-4 text-center font-semibold text-bg active:scale-[0.99] transition"
+        >
+          I&apos;m an athlete
+        </Link>
+        <Link
+          href="/signup/coach"
+          className="rounded-lg border border-accent px-5 py-4 text-center font-semibold text-accent active:scale-[0.99] transition"
+        >
+          I&apos;m a coach
+        </Link>
+        <Link href="/signin" className="mt-2 text-sm text-muted">
+          Already have an account? <span className="text-fg underline">Sign in</span>
+        </Link>
+      </div>
     </div>
   );
 }
