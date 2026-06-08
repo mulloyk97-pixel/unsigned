@@ -36,6 +36,12 @@ interface RawSchool {
   photoUrl?: string;
   photoCredit?: string;
   winLossLastSeason?: string;
+  // Scraped candidates from scripts/scrape-coaches.ts. Present but NOT shown to
+  // athletes until coachVerified flips true (manual). coachReview marks records
+  // where multiple emails were found and a human should pick.
+  coachEmail?: string | null;
+  coachName?: string | null;
+  coachReview?: boolean;
 }
 
 // Conservative placeholders for un-enriched schools. Flagged here on purpose.
@@ -111,9 +117,9 @@ function normalize(raw: RawSchool): Program {
     stickerCost: raw.stickerCost ?? DEFAULTS.stickerCost,
     typicalNetCost: raw.typicalNetCost ?? DEFAULTS.typicalNetCost,
     athleticTier: DEFAULTS.athleticTier,
-    coachVerified: false,
-    coachName: null,
-    coachEmail: null,
+    coachVerified: false, // never set by scraping — manual only
+    coachName: raw.coachName ?? null,
+    coachEmail: raw.coachEmail ?? null, // candidate; hidden until coachVerified
     winLossLastSeason: raw.winLossLastSeason ?? null, // scraped, flagged unofficial in UI
     photoUrl: raw.photoUrl ?? null, // null -> generated SchoolPhoto placeholder
     photoCredit: raw.photoCredit ?? null,

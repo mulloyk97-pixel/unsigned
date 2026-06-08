@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { AthleteProfile } from "./types";
+import { supabaseBrowser, supabaseConfigured } from "./supabase/client";
 
 // The athlete recruiting card — what coaches will see. Persisted in
 // localStorage for now (durable across sessions); the athlete_profiles +
@@ -160,6 +161,52 @@ export function addClip(input: { url: string; title: string; description?: strin
 export function removeClip(id: string) {
   const c = read();
   commit({ ...c, clips: c.clips.filter((cl) => cl.id !== id) });
+}
+
+// --- Supabase sync ---------------------------------------------------------
+// Push the card to the signed-in athlete's athlete_profiles row so coaches see
+// real numbers (GPA, ACT, position, stats…) instead of dashes. This is the
+// unification of the local card with the DB. No-op when not configured / not
+// signed in (e.g. the local-only dev flow).
+
+function numOrNull(s: string): number | null {
+  const n = parseFloat(s);
+  return Number.isFinite(n) ? n : null;
+}
+function intOrNull(s: string): number | null {
+  const n = parseInt(s, 10);
+  return Number.isFinite(n) ? n : null;
+}
+
+export async function syncCardToSupabase(card: AthleteCard = read()): Promise<void> {
+  if (!supabaseConfigured) return;
+  const supabase = supabaseBrowser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return;
+
+  await supabase
+    .from("athlete_profiles")
+    .update({
+      photo_url: card.photoUrl,
+      name: card.name || null,
+      grad_year: intOrNull(card.gradYear),
+      high_school: card.highSchool || null,
+      location: card.location || null,
+      gpa: numOrNull(card.gpa),
+      act: intOrNull(card.act),
+      sat: intOrNull(card.sat),
+      height: card.height || null,
+      weight: card.weight || null,
+      position: card.position || null,
+      ppg: numOrNull(card.ppg),
+      rpg: numOrNull(card.rpg),
+      apg: numOrNull(card.apg),
+      featured_stats: card.featured,
+      section_order: card.order,
+    })
+    .eq("user_id", user.id);
 }
 
 // Derive a thumbnail straight from the YouTube video id — no API/CORS needed.

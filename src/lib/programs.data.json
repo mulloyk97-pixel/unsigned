@@ -14,7 +14,9 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/adrian-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Herrick_Tower_Adrian_College.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Herrick_Tower_Adrian_College.JPG",
+    "schoolUrl": "http://www.adrian.edu",
+    "coachEmail": "jdurell@adrian.edu"
   },
   {
     "id": "agnes-scott-college",
@@ -30,7 +32,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/agnes-scott-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Agnes_Scott_College_-_Buttrick_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Agnes_Scott_College_-_Buttrick_Hall.jpg",
+    "schoolUrl": "http://www.agnesscott.edu"
   },
   {
     "id": "albertus-magnus-college",
@@ -46,7 +49,10 @@
     "stickerCost": 59407,
     "selectivity": "moderate",
     "photoUrl": "/programs/albertus-magnus-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Albertus_Magnus_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Albertus_Magnus_College.jpg",
+    "schoolUrl": "https://www.albertus.edu/",
+    "coachEmail": "moliver@albertus.edu",
+    "coachName": "Recruiting Coordinator"
   },
   {
     "id": "albion-college",
@@ -62,7 +68,8 @@
     "stickerCost": 69986,
     "selectivity": "open",
     "photoUrl": "/programs/albion-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Honors_Outside.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Honors_Outside.jpg",
+    "schoolUrl": "https://www.albion.edu/"
   },
   {
     "id": "albright-college",
@@ -78,7 +85,9 @@
     "stickerCost": 43711,
     "selectivity": "open",
     "photoUrl": "/programs/albright-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Albright_college_admin_postcard_1947.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Albright_college_admin_postcard_1947.jpg",
+    "schoolUrl": "https://www.albright.edu/home/",
+    "coachEmail": "schumocenter@albright.edu"
   },
   {
     "id": "alfred-university",
@@ -95,7 +104,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/alfred-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alfred_University_Powell_Campus_Center.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alfred_University_Powell_Campus_Center.jpg",
+    "schoolUrl": "https://www.alfred.edu/"
   },
   {
     "id": "alfred-state-college",
@@ -108,7 +118,8 @@
       "womens-basketball"
     ],
     "photoUrl": "/programs/alfred-state-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alfred_State_College_Aerial.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alfred_State_College_Aerial.jpg",
+    "schoolUrl": "http://www.alfredstate.edu"
   },
   {
     "id": "allegheny-college",
@@ -125,7 +136,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/allegheny-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Ruter_Hall%2C_Allegheny_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Ruter_Hall%2C_Allegheny_College.jpg",
+    "schoolUrl": "http://www.allegheny.edu"
   },
   {
     "id": "alma-college",
@@ -141,7 +153,8 @@
     "stickerCost": 63650,
     "selectivity": "moderate",
     "photoUrl": "/programs/alma-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:McIntyre_Mall.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:McIntyre_Mall.JPG",
+    "schoolUrl": "https://www.alma.edu/"
   },
   {
     "id": "alvernia-university",
@@ -156,7 +169,10 @@
     "typicalNetCost": 28138,
     "stickerCost": 57565,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.alvernia.edu",
+    "coachEmail": "gradandadult@alvernia.edu",
+    "coachReview": true
   },
   {
     "id": "alverno-college",
@@ -171,7 +187,8 @@
     "stickerCost": 51362,
     "selectivity": "open",
     "photoUrl": "/programs/alverno-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alverno_college_postcard.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alverno_college_postcard.jpg",
+    "schoolUrl": "http://www.alverno.edu"
   },
   {
     "id": "amherst-college",
@@ -188,7 +205,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/amherst-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Frost_Library%2C_Amherst_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Frost_Library%2C_Amherst_College.jpg",
+    "schoolUrl": "https://www.amherst.edu/"
   },
   {
     "id": "anderson-university",
@@ -220,7 +238,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/arcadia-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Heinz_Hall%2C_Arcadia_University_01.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Heinz_Hall%2C_Arcadia_University_01.JPG",
+    "schoolUrl": "https://www.arcadia.edu/",
+    "coachEmail": "athletics@arcadia.edu"
   },
   {
     "id": "asbury-university",
@@ -236,7 +256,8 @@
     "stickerCost": 47459,
     "selectivity": "moderate",
     "photoUrl": "/programs/asbury-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hager_Administration_Building%2C_northeastern_angle_distant.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hager_Administration_Building%2C_northeastern_angle_distant.jpg",
+    "schoolUrl": "http://www.asbury.edu"
   },
   {
     "id": "augsburg-university",
@@ -253,7 +274,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/augsburg-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Augsburg_Old_Main.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Augsburg_Old_Main.jpg",
+    "schoolUrl": "https://www.augsburg.edu/"
   },
   {
     "id": "augustana-college",
@@ -285,7 +307,9 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/aurora-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Aurora_College_Complex.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Aurora_College_Complex.JPG",
+    "schoolUrl": "https://aurora.edu",
+    "coachEmail": "athletics@aurora.edu"
   },
   {
     "id": "austin-college",
@@ -302,7 +326,10 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/austin-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:AdminAC.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:AdminAC.JPG",
+    "schoolUrl": "http://www.austincollege.edu",
+    "coachEmail": "mfilander@austincollege.edu",
+    "coachReview": true
   },
   {
     "id": "averett-university",
@@ -319,7 +346,8 @@
     "avgGpa": 3.25,
     "selectivity": "moderate",
     "photoUrl": "/programs/averett-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Averett_college_va_postcard.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Averett_college_va_postcard.jpg",
+    "schoolUrl": "https://www.averett.edu/"
   },
   {
     "id": "babson-college",
@@ -336,7 +364,8 @@
     "avgGpa": 3.9,
     "selectivity": "selective",
     "photoUrl": "/programs/babson-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Tomasso_Hall%2C_Babson_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Tomasso_Hall%2C_Babson_College.jpg",
+    "schoolUrl": "https://www.babson.edu/"
   },
   {
     "id": "baldwin-wallace-university",
@@ -353,7 +382,11 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/baldwin-wallace-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Baldwin_Wallace_University.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Baldwin_Wallace_University.jpg",
+    "schoolUrl": "https://www.bw.edu/",
+    "coachEmail": "bharriso@bw.edu",
+    "coachName": "Brian Harrison",
+    "coachReview": true
   },
   {
     "id": "bard-college",
@@ -370,7 +403,8 @@
     "avgGpa": 3.8,
     "selectivity": "moderate",
     "photoUrl": "/programs/bard-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bard_College_-_IMG_7991.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bard_College_-_IMG_7991.JPG",
+    "schoolUrl": "https://www.bard.edu/"
   },
   {
     "id": "baruch-college",
@@ -381,7 +415,10 @@
     "sports": [
       "mens-basketball",
       "womens-basketball"
-    ]
+    ],
+    "schoolUrl": "http://www.baruch.cuny.edu",
+    "photoUrl": "/programs/baruch-college.png",
+    "photoCredit": "http://www.baruch.cuny.edu"
   },
   {
     "id": "bates-college",
@@ -398,7 +435,8 @@
     "avgGpa": 3.9,
     "selectivity": "selective",
     "photoUrl": "/programs/bates-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bates_College_Chapel.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bates_College_Chapel.jpg",
+    "schoolUrl": "http://www.bates.edu/"
   },
   {
     "id": "belhaven-university",
@@ -413,7 +451,9 @@
     "typicalNetCost": 15676,
     "stickerCost": 39793,
     "avgGpa": 3.25,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.belhaven.edu",
+    "coachEmail": "admission@belhaven.edu"
   },
   {
     "id": "beloit-college",
@@ -430,7 +470,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/beloit-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Middle_College_of_Beloit_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Middle_College_of_Beloit_College.jpg",
+    "schoolUrl": "http://www.beloit.edu"
   },
   {
     "id": "benedictine-university",
@@ -447,7 +488,9 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/benedictine-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Dan_and_Ada_Rice_Athletic_Center.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Dan_and_Ada_Rice_Athletic_Center.jpg",
+    "schoolUrl": "http://www.ben.edu",
+    "coachEmail": "cjanssens@ben.edu"
   },
   {
     "id": "berea-college",
@@ -464,7 +507,8 @@
     "avgGpa": 3.55,
     "selectivity": "selective",
     "photoUrl": "/programs/berea-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:20140310_CampusShots_CAC_(4)_(13090607645).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:20140310_CampusShots_CAC_(4)_(13090607645).jpg",
+    "schoolUrl": "http://www.berea.edu"
   },
   {
     "id": "berry-college",
@@ -481,7 +525,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/berry-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mary_Hall_at_Berry_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mary_Hall_at_Berry_College.jpg",
+    "schoolUrl": "http://www.berry.edu"
   },
   {
     "id": "bethany-college",
@@ -511,7 +556,10 @@
     "typicalNetCost": 20148,
     "stickerCost": 41013,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.blc.edu",
+    "photoUrl": "/programs/bethany-lutheran-college.jpg",
+    "photoCredit": "http://www.blc.edu"
   },
   {
     "id": "bethel-university",
@@ -558,7 +606,11 @@
     "avgGpa": 2.9,
     "selectivity": "moderate",
     "photoUrl": "/programs/bluffton-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:HPIM1151_(99721297).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:HPIM1151_(99721297).jpg",
+    "schoolUrl": "http://www.bluffton.edu",
+    "coachEmail": "clarks@bluffton.edu",
+    "coachName": "Seth Clark",
+    "coachReview": true
   },
   {
     "id": "bowdoin-college",
@@ -575,7 +627,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/bowdoin-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hubbardhallb.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hubbardhallb.jpg",
+    "schoolUrl": "https://www.bowdoin.edu/"
   },
   {
     "id": "brandeis-university",
@@ -590,7 +643,10 @@
     "typicalNetCost": 35736,
     "stickerCost": 86448,
     "avgGpa": 3.9,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.brandeis.edu/",
+    "coachEmail": "baseball@brandeis.edu",
+    "coachReview": true
   },
   {
     "id": "bridgewater-college",
@@ -607,7 +663,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/bridgewater-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bridgewater_College_-_panoramio_-_Idawriter.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bridgewater_College_-_panoramio_-_Idawriter.jpg",
+    "schoolUrl": "https://www.bridgewater.edu/"
   },
   {
     "id": "bridgewater-state-university",
@@ -624,7 +681,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/bridgewater-state-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Boyden_Hall%2C_Bridgewater_State_University.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Boyden_Hall%2C_Bridgewater_State_University.jpg",
+    "schoolUrl": "https://bridgew.edu"
   },
   {
     "id": "brooklyn-college",
@@ -641,7 +699,8 @@
     "avgGpa": 3.25,
     "selectivity": "moderate",
     "photoUrl": "/programs/brooklyn-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:East_Quad_at_Brooklyn_College_(March_2009).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:East_Quad_at_Brooklyn_College_(March_2009).jpg",
+    "schoolUrl": "https://www.brooklyn.edu/"
   },
   {
     "id": "bryn-mawr-college",
@@ -655,7 +714,10 @@
     "typicalNetCost": 31759,
     "stickerCost": 83250,
     "avgGpa": 3.8,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://www.brynmawr.edu/",
+    "photoUrl": "/programs/bryn-mawr-college.png",
+    "photoCredit": "https://www.brynmawr.edu/"
   },
   {
     "id": "buena-vista-university",
@@ -670,7 +732,8 @@
     "typicalNetCost": 18846,
     "stickerCost": 54222,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.bvu.edu/"
   },
   {
     "id": "buffalo-state-university",
@@ -685,7 +748,10 @@
     "typicalNetCost": 11346,
     "stickerCost": 24279,
     "avgGpa": 3.1,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://suny.buffalostate.edu/",
+    "photoUrl": "/programs/buffalo-state-university.png",
+    "photoCredit": "https://suny.buffalostate.edu/"
   },
   {
     "id": "cairn-university",
@@ -696,7 +762,10 @@
     "sports": [
       "mens-basketball",
       "womens-basketball"
-    ]
+    ],
+    "schoolUrl": "http://www.cairn.edu",
+    "photoUrl": "/programs/cairn-university.jpg",
+    "photoCredit": "http://www.cairn.edu"
   },
   {
     "id": "california-institute-of-technology",
@@ -710,7 +779,8 @@
     ],
     "typicalNetCost": 16075,
     "stickerCost": 86886,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://caltech.edu"
   },
   {
     "id": "california-lutheran-university",
@@ -725,7 +795,11 @@
     "typicalNetCost": 30109,
     "stickerCost": 68426,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.callutheran.edu/",
+    "photoUrl": "/programs/california-lutheran-university.jpg",
+    "photoCredit": "http://www.callutheran.edu/",
+    "coachEmail": "stockard@callutheran.edu"
   },
   {
     "id": "university-of-california-santa-cruz",
@@ -739,7 +813,8 @@
     ],
     "typicalNetCost": 17890,
     "stickerCost": 41179,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://ucsc.edu"
   },
   {
     "id": "calvin-university",
@@ -754,7 +829,10 @@
     "typicalNetCost": 22992,
     "stickerCost": 54222,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://calvin.edu",
+    "photoUrl": "/programs/calvin-university.webp",
+    "photoCredit": "https://calvin.edu"
   },
   {
     "id": "capital-university",
@@ -769,7 +847,10 @@
     "typicalNetCost": 22576,
     "stickerCost": 57130,
     "avgGpa": 3.1,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.capital.edu/",
+    "photoUrl": "/programs/capital-university.svg",
+    "photoCredit": "https://www.capital.edu/"
   },
   {
     "id": "carleton-college",
@@ -784,7 +865,8 @@
     "typicalNetCost": 25407,
     "stickerCost": 84893,
     "avgGpa": 3.95,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://www.carleton.edu/"
   },
   {
     "id": "carnegie-mellon-university",
@@ -799,7 +881,10 @@
     "typicalNetCost": 31944,
     "stickerCost": 83654,
     "avgGpa": 3.95,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://cmu.edu",
+    "coachEmail": "jsimon2@andrew.cmu.edu",
+    "coachName": "Justin Simon"
   },
   {
     "id": "carroll-university",
@@ -814,7 +899,12 @@
     "typicalNetCost": 15193,
     "stickerCost": 52639,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.carrollu.edu",
+    "photoUrl": "/programs/carroll-university.jpg",
+    "photoCredit": "http://www.carrollu.edu",
+    "coachEmail": "mschulis@carrollu.edu",
+    "coachReview": true
   },
   {
     "id": "carthage-college",
@@ -829,7 +919,10 @@
     "typicalNetCost": 26565,
     "stickerCost": 50822,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.carthage.edu",
+    "photoUrl": "/programs/carthage-college.jpg",
+    "photoCredit": "http://www.carthage.edu"
   },
   {
     "id": "case-western-reserve-university",
@@ -844,7 +937,10 @@
     "typicalNetCost": 41190,
     "stickerCost": 85851,
     "avgGpa": 3.95,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://case.edu",
+    "photoUrl": "/programs/case-western-reserve-university.jpg",
+    "photoCredit": "https://case.edu"
   },
   {
     "id": "catholic-university-of-america",
@@ -858,7 +954,8 @@
     ],
     "typicalNetCost": 29561,
     "stickerCost": 75481,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.catholic.edu/"
   },
   {
     "id": "cedar-crest-college",
@@ -872,7 +969,10 @@
     "typicalNetCost": 18659,
     "stickerCost": 57206,
     "avgGpa": 3.7,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.cedarcrest.edu/",
+    "photoUrl": "/programs/cedar-crest-college.jpg",
+    "photoCredit": "https://www.cedarcrest.edu/"
   },
   {
     "id": "centenary-college-of-louisiana",
@@ -887,7 +987,10 @@
     "typicalNetCost": 23624,
     "stickerCost": 60620,
     "avgGpa": 3.25,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.centenary.edu",
+    "coachEmail": "dorr@centenary.edu",
+    "coachReview": true
   },
   {
     "id": "centenary-university",
@@ -902,7 +1005,8 @@
     "typicalNetCost": 20503,
     "stickerCost": 52362,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.centenarycollege.edu"
   },
   {
     "id": "central-college",
@@ -932,7 +1036,9 @@
     "typicalNetCost": 20781,
     "stickerCost": 67787,
     "avgGpa": 3.7,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.centre.edu/",
+    "coachEmail": "brad.fields@centre.edu"
   },
   {
     "id": "chapman-university",
@@ -947,7 +1053,8 @@
     "typicalNetCost": 46555,
     "stickerCost": 83146,
     "avgGpa": 3.7,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.chapman.edu/"
   },
   {
     "id": "chatham-university",
@@ -962,7 +1069,9 @@
     "typicalNetCost": 29954,
     "stickerCost": 61261,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.chatham.edu",
+    "coachEmail": "chathamadmissions@chatham.edu"
   },
   {
     "id": "university-of-chicago",
@@ -977,7 +1086,9 @@
     "typicalNetCost": 14860,
     "stickerCost": 90360,
     "avgGpa": 3.95,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://uchicago.edu/",
+    "coachEmail": "ejroberts@uchicago.edu"
   },
   {
     "id": "christopher-newport-university",
@@ -992,7 +1103,8 @@
     "typicalNetCost": 23015,
     "stickerCost": 33766,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.cnu.edu/"
   },
   {
     "id": "city-college-of-new-york",
@@ -1007,7 +1119,8 @@
     "typicalNetCost": 5127,
     "stickerCost": 14110,
     "avgGpa": 3.1,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://ccny.cuny.edu"
   },
   {
     "id": "claremont-mckenna-college-harvey-mudd-college-and-scripps-college",
@@ -1033,7 +1146,10 @@
     "typicalNetCost": 28714,
     "stickerCost": 68432,
     "avgGpa": 3.8,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.clarku.edu",
+    "photoUrl": "/programs/clark-university.jpg",
+    "photoCredit": "http://www.clarku.edu"
   },
   {
     "id": "clarkson-university",
@@ -1048,7 +1164,8 @@
     "typicalNetCost": 30305,
     "stickerCost": 79022,
     "avgGpa": 3.7,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://clarkson.edu/"
   },
   {
     "id": "coe-college",
@@ -1063,7 +1180,11 @@
     "typicalNetCost": 18745,
     "stickerCost": 67372,
     "avgGpa": 3.55,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.coe.edu",
+    "photoUrl": "/programs/coe-college.png",
+    "photoCredit": "http://www.coe.edu",
+    "coachEmail": "admission@coe.edu"
   },
   {
     "id": "colby-college",
@@ -1078,7 +1199,8 @@
     "typicalNetCost": 17180,
     "stickerCost": 85420,
     "avgGpa": 3.95,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://colby.edu"
   },
   {
     "id": "colby-sawyer-college",
@@ -1092,7 +1214,10 @@
     ],
     "typicalNetCost": 27431,
     "stickerCost": 38527,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.colby-sawyer.edu/",
+    "photoUrl": "/programs/colby-sawyer-college.jpg",
+    "photoCredit": "https://www.colby-sawyer.edu/"
   },
   {
     "id": "colorado-college",
@@ -1107,7 +1232,10 @@
     "typicalNetCost": 33375,
     "stickerCost": 86921,
     "avgGpa": 3.8,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "http://www.coloradocollege.edu",
+    "photoUrl": "/programs/colorado-college.jpg",
+    "photoCredit": "http://www.coloradocollege.edu"
   },
   {
     "id": "concordia-college",
@@ -1132,7 +1260,10 @@
     ],
     "typicalNetCost": 18436,
     "stickerCost": 45383,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.cuchicago.edu/",
+    "photoUrl": "/programs/concordia-university-chicago.jpg",
+    "photoCredit": "https://www.cuchicago.edu/"
   },
   {
     "id": "concordia-university-texas",
@@ -1147,7 +1278,10 @@
     "typicalNetCost": 23131,
     "stickerCost": 53020,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.concordia.edu/",
+    "photoUrl": "/programs/concordia-university-texas.jpg",
+    "photoCredit": "https://www.concordia.edu/"
   },
   {
     "id": "concordia-university-wisconsin",
@@ -1162,7 +1296,12 @@
     "typicalNetCost": 36201,
     "stickerCost": 53315,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.cuw.edu/",
+    "photoUrl": "/programs/concordia-university-wisconsin.jpg",
+    "photoCredit": "https://www.cuw.edu/",
+    "coachEmail": "emilie.morrow@cuw.edu",
+    "coachReview": true
   },
   {
     "id": "connecticut-college",
@@ -1177,7 +1316,8 @@
     "typicalNetCost": 36175,
     "stickerCost": 84623,
     "avgGpa": 3.9,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.connecticutcollege.edu"
   },
   {
     "id": "cornell-college",
@@ -1192,7 +1332,8 @@
     "typicalNetCost": 23634,
     "stickerCost": 66249,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.cornellcollege.edu"
   },
   {
     "id": "covenant-college",
@@ -1207,7 +1348,10 @@
     "typicalNetCost": 26265,
     "stickerCost": 57467,
     "avgGpa": 3.7,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.covenant.edu",
+    "photoUrl": "/programs/covenant-college.png",
+    "photoCredit": "http://www.covenant.edu"
   },
   {
     "id": "crown-college",
@@ -1236,7 +1380,8 @@
     "typicalNetCost": 29207,
     "stickerCost": 64020,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.curry.edu/"
   },
   {
     "id": "university-of-dallas",
@@ -1251,7 +1396,8 @@
     "typicalNetCost": 22610,
     "stickerCost": 68583,
     "avgGpa": 3.55,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://udallas.edu/"
   },
   {
     "id": "dean-college",
@@ -1265,7 +1411,10 @@
     ],
     "typicalNetCost": 30684,
     "stickerCost": 64889,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.dean.edu/",
+    "photoUrl": "/programs/dean-college.png",
+    "photoCredit": "https://www.dean.edu/"
   },
   {
     "id": "delaware-valley-university",
@@ -1280,7 +1429,10 @@
     "typicalNetCost": 28278,
     "stickerCost": 59933,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.delval.edu",
+    "photoUrl": "/programs/delaware-valley-university.jpg",
+    "photoCredit": "http://www.delval.edu"
   },
   {
     "id": "denison-university",
@@ -1295,7 +1447,10 @@
     "typicalNetCost": 40007,
     "stickerCost": 81900,
     "avgGpa": 3.8,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "http://www.denison.edu",
+    "photoUrl": "/programs/denison-university.jpg",
+    "photoCredit": "http://www.denison.edu"
   },
   {
     "id": "depauw-university",
@@ -1310,7 +1465,12 @@
     "typicalNetCost": 22264,
     "stickerCost": 74320,
     "avgGpa": 3.7,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.depauw.edu/",
+    "photoUrl": "/programs/depauw-university.jpg",
+    "photoCredit": "https://www.depauw.edu/",
+    "coachEmail": "melyndalink@depauw.edu",
+    "coachReview": true
   },
   {
     "id": "desales-university",
@@ -1325,7 +1485,9 @@
     "typicalNetCost": 31643,
     "stickerCost": 62745,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.desales.edu/",
+    "coachEmail": "mitchell.hivner@desales.edu"
   },
   {
     "id": "dickinson-college",
@@ -1340,7 +1502,8 @@
     "typicalNetCost": 37607,
     "stickerCost": 82902,
     "avgGpa": 3.8,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.dickinson.edu"
   },
   {
     "id": "dominican-university",
@@ -1370,7 +1533,8 @@
     "typicalNetCost": 24280,
     "stickerCost": 65301,
     "avgGpa": 3.55,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://drew.edu"
   },
   {
     "id": "university-of-dubuque",
@@ -1387,7 +1551,9 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-dubuque.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:UnivDubuque1.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:UnivDubuque1.JPG",
+    "schoolUrl": "http://www.dbq.edu",
+    "coachEmail": "udsportsinfo@dbq.edu"
   },
   {
     "id": "earlham-college",
@@ -1402,7 +1568,10 @@
     "typicalNetCost": 24714,
     "stickerCost": 67684,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.earlham.edu",
+    "photoUrl": "/programs/earlham-college.png",
+    "photoCredit": "http://www.earlham.edu"
   },
   {
     "id": "east-texas-baptist-university",
@@ -1416,7 +1585,8 @@
     ],
     "typicalNetCost": 23911,
     "stickerCost": 44211,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.etbu.edu/"
   },
   {
     "id": "eastern-connecticut-state-university",
@@ -1431,7 +1601,10 @@
     "typicalNetCost": 21067,
     "stickerCost": 31983,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.easternct.edu/",
+    "photoUrl": "/programs/eastern-connecticut-state-university.jpg",
+    "photoCredit": "http://www.easternct.edu/"
   },
   {
     "id": "eastern-mennonite-university",
@@ -1446,7 +1619,8 @@
     "typicalNetCost": 24588,
     "stickerCost": 56756,
     "avgGpa": 3.9,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://emu.edu/"
   },
   {
     "id": "eastern-university",
@@ -1474,7 +1648,12 @@
     ],
     "typicalNetCost": 26113,
     "stickerCost": 50903,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.edgewood.edu",
+    "photoUrl": "/programs/edgewood-university.jpg",
+    "photoCredit": "http://www.edgewood.edu",
+    "coachEmail": "ecsportsmedicine@edgewood.edu",
+    "coachReview": true
   },
   {
     "id": "elizabethtown-college",
@@ -1489,7 +1668,8 @@
     "typicalNetCost": 26598,
     "stickerCost": 50865,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.etown.edu/"
   },
   {
     "id": "elmhurst-university",
@@ -1504,7 +1684,10 @@
     "typicalNetCost": 24185,
     "stickerCost": 54679,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.elmhurst.edu/",
+    "photoUrl": "/programs/elmhurst-university.jpg",
+    "photoCredit": "http://www.elmhurst.edu/"
   },
   {
     "id": "elmira-college",
@@ -1519,7 +1702,10 @@
     "typicalNetCost": 22386,
     "stickerCost": 52449,
     "avgGpa": 3.7,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.elmira.edu",
+    "photoUrl": "/programs/elmira-college.jpg",
+    "photoCredit": "http://www.elmira.edu"
   },
   {
     "id": "elms-college",
@@ -1530,7 +1716,12 @@
     "sports": [
       "mens-basketball",
       "womens-basketball"
-    ]
+    ],
+    "schoolUrl": "http://www.elms.edu",
+    "photoUrl": "/programs/elms-college.jpg",
+    "photoCredit": "http://www.elms.edu",
+    "coachEmail": "southallr@elms.edu",
+    "coachReview": true
   },
   {
     "id": "emerson-college",
@@ -1545,7 +1736,10 @@
     "typicalNetCost": 49180,
     "stickerCost": 80399,
     "avgGpa": 3.7,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://emerson.edu/",
+    "photoUrl": "/programs/emerson-college.jpg",
+    "photoCredit": "https://emerson.edu/"
   },
   {
     "id": "emmanuel-college",
@@ -1575,7 +1769,10 @@
     "typicalNetCost": 22585,
     "stickerCost": 83622,
     "avgGpa": 3.95,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://emory.edu",
+    "photoUrl": "/programs/emory-university.jpg",
+    "photoCredit": "https://emory.edu"
   },
   {
     "id": "endicott-college",
@@ -1590,7 +1787,11 @@
     "typicalNetCost": 40654,
     "stickerCost": 59328,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.endicott.edu",
+    "photoUrl": "/programs/endicott-college.png",
+    "photoCredit": "http://www.endicott.edu",
+    "coachEmail": "athletics@endicott.edu"
   },
   {
     "id": "eureka-college",
@@ -1605,7 +1806,12 @@
     "typicalNetCost": 17349,
     "stickerCost": 39578,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.eureka.edu/",
+    "photoUrl": "/programs/eureka-college.jpg",
+    "photoCredit": "https://www.eureka.edu/",
+    "coachEmail": "cwilde@eureka.edu",
+    "coachName": "Golf Head"
   },
   {
     "id": "fairleigh-dickinson-university-florham",
@@ -1619,7 +1825,11 @@
     ],
     "typicalNetCost": 22829,
     "stickerCost": 54204,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.fdu.edu/",
+    "photoUrl": "/programs/fairleigh-dickinson-university-florham.png",
+    "photoCredit": "https://www.fdu.edu/",
+    "coachEmail": "c.carbonetto@fdu.edu"
   },
   {
     "id": "farmingdale-state-college",
@@ -1634,7 +1844,10 @@
     "typicalNetCost": 10867,
     "stickerCost": 18966,
     "avgGpa": 3.25,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.farmingdale.edu/",
+    "photoUrl": "/programs/farmingdale-state-college.jpg",
+    "photoCredit": "https://www.farmingdale.edu/"
   },
   {
     "id": "fitchburg-state-university",
@@ -1649,7 +1862,10 @@
     "typicalNetCost": 14262,
     "stickerCost": 25555,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.fitchburgstate.edu/",
+    "coachEmail": "mburke43@fitchburgstate.edu",
+    "coachReview": true
   },
   {
     "id": "framingham-state-university",
@@ -1664,7 +1880,11 @@
     "typicalNetCost": 16114,
     "stickerCost": 27413,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.framingham.edu/",
+    "coachEmail": "dmorris5@framingham.edu",
+    "coachName": "Morris Jr",
+    "coachReview": true
   },
   {
     "id": "franciscan-university-of-steubenville",
@@ -1679,7 +1899,10 @@
     "typicalNetCost": 23589,
     "stickerCost": 44580,
     "avgGpa": 3.55,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://franciscan.edu/",
+    "photoUrl": "/programs/franciscan-university-of-steubenville.jpg",
+    "photoCredit": "https://franciscan.edu/"
   },
   {
     "id": "franklin-marshall-college",
@@ -1694,7 +1917,9 @@
     "typicalNetCost": 36425,
     "stickerCost": 85776,
     "avgGpa": 3.8,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "http://www.fandm.edu",
+    "coachEmail": "websters@fandm.edu"
   },
   {
     "id": "franklin-college",
@@ -1724,7 +1949,11 @@
     "typicalNetCost": 15845,
     "stickerCost": 40374,
     "avgGpa": 2.9,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://gallaudet.edu",
+    "photoUrl": "/programs/gallaudet-university.jpg",
+    "photoCredit": "https://gallaudet.edu",
+    "coachEmail": "sam.atkinson@gallaudet.edu"
   },
   {
     "id": "geneva-college",
@@ -1737,7 +1966,11 @@
       "womens-basketball"
     ],
     "typicalNetCost": 25890,
-    "stickerCost": 45407
+    "stickerCost": 45407,
+    "schoolUrl": "https://www.geneva.edu/",
+    "photoUrl": "/programs/geneva-college.jpg",
+    "photoCredit": "https://www.geneva.edu/",
+    "coachEmail": "athletics@geneva.edu"
   },
   {
     "id": "george-fox-university",
@@ -1752,7 +1985,8 @@
     "typicalNetCost": 31679,
     "stickerCost": 58644,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.georgefox.edu"
   },
   {
     "id": "gettysburg-college",
@@ -1767,7 +2001,10 @@
     "typicalNetCost": 31490,
     "stickerCost": 81960,
     "avgGpa": 3.8,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.gettysburg.edu",
+    "coachEmail": "pod@gettysburg.edu",
+    "coachReview": true
   },
   {
     "id": "gordon-college",
@@ -1797,7 +2034,12 @@
     "typicalNetCost": 22470,
     "stickerCost": 70544,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.goucher.edu",
+    "photoUrl": "/programs/goucher-college.jpg",
+    "photoCredit": "http://www.goucher.edu",
+    "coachEmail": "stephanie.johnson@goucher.edu",
+    "coachReview": true
   },
   {
     "id": "greensboro-college",
@@ -1811,7 +2053,10 @@
     ],
     "typicalNetCost": 17882,
     "stickerCost": 35165,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.greensboro.edu",
+    "photoUrl": "/programs/greensboro-college.jpg",
+    "photoCredit": "https://www.greensboro.edu"
   },
   {
     "id": "greenville-university",
@@ -1826,7 +2071,10 @@
     "typicalNetCost": 19533,
     "stickerCost": 45091,
     "avgGpa": 3.1,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.greenville.edu",
+    "photoUrl": "/programs/greenville-university.jpg",
+    "photoCredit": "http://www.greenville.edu"
   },
   {
     "id": "grinnell-college",
@@ -1843,7 +2091,8 @@
     "avgGpa": 3.9,
     "selectivity": "selective",
     "photoUrl": "/programs/grinnell-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Grinnell_002.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Grinnell_002.JPG",
+    "schoolUrl": "https://grinnell.edu"
   },
   {
     "id": "grove-city-college",
@@ -1858,7 +2107,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/grove-city-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Grove_City_College_Campus.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Grove_City_College_Campus.jpg",
+    "schoolUrl": "https://www.gcc.edu/"
   },
   {
     "id": "guilford-college",
@@ -1875,7 +2125,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/guilford-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Guilfordcollegewalkway.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Guilfordcollegewalkway.jpg",
+    "schoolUrl": "https://www.guilford.edu"
   },
   {
     "id": "gustavus-adolphus-college",
@@ -1892,7 +2143,8 @@
     "avgGpa": 3.7,
     "selectivity": "moderate",
     "photoUrl": "/programs/gustavus-adolphus-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Gustavus_Adolphus_Old_Main.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Gustavus_Adolphus_Old_Main.jpg",
+    "schoolUrl": "http://www.gustavus.edu"
   },
   {
     "id": "gwynedd-mercy-university",
@@ -1907,7 +2159,8 @@
     "typicalNetCost": 27483,
     "stickerCost": 55786,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.gmercyu.edu/"
   },
   {
     "id": "hamilton-college",
@@ -1924,7 +2177,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/hamilton-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hamilton_College_theater.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hamilton_College_theater.jpg",
+    "schoolUrl": "http://www.hamilton.edu"
   },
   {
     "id": "hamline-university",
@@ -1941,7 +2195,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/hamline-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hamline_University_Old_Main.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hamline_University_Old_Main.jpg",
+    "schoolUrl": "http://www.hamline.edu",
+    "coachEmail": "campusrec@hamline.edu"
   },
   {
     "id": "hampden-sydney-college",
@@ -1958,7 +2214,8 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/hampden-sydney-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Morton_Hall_Front_Facade.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Morton_Hall_Front_Facade.jpg",
+    "schoolUrl": "https://www.hsc.edu/"
   },
   {
     "id": "hanover-college",
@@ -1975,7 +2232,10 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/hanover-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hendricks_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hendricks_Hall.jpg",
+    "schoolUrl": "https://www.hanover.edu/",
+    "coachEmail": "acosta@hanover.edu",
+    "coachReview": true
   },
   {
     "id": "hardin-simmons-university",
@@ -1992,7 +2252,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/hardin-simmons-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Johnson_Building%2C_HSU%2C_Abilene%2C_TX_IMG_6333.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Johnson_Building%2C_HSU%2C_Abilene%2C_TX_IMG_6333.JPG",
+    "schoolUrl": "https://www.hsutx.edu/"
   },
   {
     "id": "university-of-hartford",
@@ -2007,7 +2268,8 @@
     "typicalNetCost": 30282,
     "stickerCost": 64729,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.hartford.edu/"
   },
   {
     "id": "hartwick-college",
@@ -2022,7 +2284,10 @@
     "typicalNetCost": 31320,
     "stickerCost": 68614,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.hartwick.edu/",
+    "photoUrl": "/programs/hartwick-college.png",
+    "photoCredit": "https://www.hartwick.edu/"
   },
   {
     "id": "haverford-college",
@@ -2039,7 +2304,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/haverford-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Haverfordfounders.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Haverfordfounders.jpg",
+    "schoolUrl": "https://www.haverford.edu/"
   },
   {
     "id": "heidelberg-university",
@@ -2056,7 +2322,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/heidelberg-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Friedrichsbau_Heidelberg_Altstadt_Bunsen_Statue.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Friedrichsbau_Heidelberg_Altstadt_Bunsen_Statue.JPG",
+    "schoolUrl": "https://www.uni-heidelberg.de/"
   },
   {
     "id": "hendrix-college",
@@ -2073,7 +2340,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/hendrix-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:President's_House%2C_Hendrix_College.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:President's_House%2C_Hendrix_College.JPG",
+    "schoolUrl": "https://www.hendrix.edu/"
   },
   {
     "id": "hilbert-college",
@@ -2089,7 +2357,9 @@
     "stickerCost": 42114,
     "selectivity": "open",
     "photoUrl": "/programs/hilbert-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:NFTA_Metro_Bus_16_%40_Hilbert_College%2C_Hamburg%2C_New_York_-_20230322.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:NFTA_Metro_Bus_16_%40_Hilbert_College%2C_Hamburg%2C_New_York_-_20230322.jpg",
+    "schoolUrl": "http://www.hilbert.edu",
+    "coachEmail": "dvincent@hilbert.edu"
   },
   {
     "id": "hiram-college",
@@ -2105,7 +2375,8 @@
     "stickerCost": 40572,
     "selectivity": "open",
     "photoUrl": "/programs/hiram-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hiramkennedycenterfront.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hiramkennedycenterfront.jpg",
+    "schoolUrl": "https://www.hiram.edu/"
   },
   {
     "id": "hobart-college",
@@ -2130,7 +2401,10 @@
     "typicalNetCost": 20896,
     "stickerCost": 58698,
     "avgGpa": 3.55,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.hollins.edu",
+    "photoUrl": "/programs/hollins-university.webp",
+    "photoCredit": "http://www.hollins.edu"
   },
   {
     "id": "hood-college",
@@ -2146,7 +2420,10 @@
     "stickerCost": 61219,
     "selectivity": "open",
     "photoUrl": "/programs/hood-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alumnae_Hall_Hood_College_MD1.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Alumnae_Hall_Hood_College_MD1.jpg",
+    "schoolUrl": "https://www.hood.edu/",
+    "coachEmail": "baseball@hood.edu",
+    "coachReview": true
   },
   {
     "id": "hope-college",
@@ -2178,7 +2455,10 @@
     "typicalNetCost": 20519,
     "stickerCost": 31143,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.houghton.edu",
+    "photoUrl": "/programs/houghton-university.jpg",
+    "photoCredit": "http://www.houghton.edu"
   },
   {
     "id": "howard-payne-university",
@@ -2193,7 +2473,10 @@
     "typicalNetCost": 23627,
     "stickerCost": 46766,
     "avgGpa": 3.1,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.hputx.edu",
+    "photoUrl": "/programs/howard-payne-university.jpg",
+    "photoCredit": "http://www.hputx.edu"
   },
   {
     "id": "hunter-college",
@@ -2210,7 +2493,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/hunter-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hunter_College_West%2C_NYC.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hunter_College_West%2C_NYC.jpg",
+    "schoolUrl": "https://hunter.cuny.edu/"
   },
   {
     "id": "huntingdon-college",
@@ -2227,7 +2511,10 @@
     "avgGpa": 3.25,
     "selectivity": "moderate",
     "photoUrl": "/programs/huntingdon-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Huntingdon_College_Houghton_Library.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Huntingdon_College_Houghton_Library.JPG",
+    "schoolUrl": "https://www.huntingdon.edu/",
+    "coachEmail": "elevanda@hawks.huntingdon.edu",
+    "coachReview": true
   },
   {
     "id": "husson-university",
@@ -2244,7 +2531,10 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/husson-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Husson_University_sign.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Husson_University_sign.jpg",
+    "schoolUrl": "https://www.husson.edu/",
+    "coachEmail": "green-hamannm@husson.edu",
+    "coachReview": true
   },
   {
     "id": "illinois-college",
@@ -2261,7 +2551,8 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/illinois-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lincoln_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lincoln_Hall.jpg",
+    "schoolUrl": "https://www.ic.edu/"
   },
   {
     "id": "illinois-institute-of-technology",
@@ -2278,7 +2569,8 @@
     "avgGpa": 3.7,
     "selectivity": "moderate",
     "photoUrl": "/programs/illinois-institute-of-technology.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:IIT_Main_Building.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:IIT_Main_Building.jpg",
+    "schoolUrl": "http://www.iit.edu"
   },
   {
     "id": "illinois-wesleyan-university",
@@ -2312,7 +2604,10 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/immaculata-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Immaculata_U_Chesco_PA.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Immaculata_U_Chesco_PA.JPG",
+    "schoolUrl": "https://www.immaculata.edu/",
+    "coachEmail": "admiss@immaculata.edu",
+    "coachReview": true
   },
   {
     "id": "ithaca-college",
@@ -2329,7 +2624,10 @@
     "avgGpa": 3.7,
     "selectivity": "moderate",
     "photoUrl": "/programs/ithaca-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Park_Center_for_Business_and_Sustainable_Enterprise%2C_Ithaca_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Park_Center_for_Business_and_Sustainable_Enterprise%2C_Ithaca_College.jpg",
+    "schoolUrl": "https://www.ithaca.edu/",
+    "coachEmail": "dvalesente@ithaca.edu",
+    "coachReview": true
   },
   {
     "id": "john-carroll-university",
@@ -2346,7 +2644,8 @@
     "avgGpa": 3.7,
     "selectivity": "open",
     "photoUrl": "/programs/john-carroll-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Administration_Building_(Saint_Ignatius_Hall)%2C_John_Carroll_University%2C_University_Heights%2C_OH_-_52997610328.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Administration_Building_(Saint_Ignatius_Hall)%2C_John_Carroll_University%2C_University_Heights%2C_OH_-_52997610328.jpg",
+    "schoolUrl": "https://www.jcu.edu/"
   },
   {
     "id": "john-jay-college-of-criminal-justice",
@@ -2361,7 +2660,10 @@
     "typicalNetCost": 3203,
     "stickerCost": 14212,
     "avgGpa": 3.25,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://new.jjay.cuny.edu/",
+    "coachEmail": "baseball@jjay.cuny.edu",
+    "coachReview": true
   },
   {
     "id": "johns-hopkins-university",
@@ -2378,7 +2680,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/johns-hopkins-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Johns_Hopkins'_Historic_Dome_-_panoramio.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Johns_Hopkins'_Historic_Dome_-_panoramio.jpg",
+    "schoolUrl": "https://jhu.edu"
   },
   {
     "id": "johnson-wales-university",
@@ -2389,7 +2692,8 @@
     "sports": [
       "mens-basketball",
       "womens-basketball"
-    ]
+    ],
+    "schoolUrl": "https://www.jwu.edu/"
   },
   {
     "id": "juniata-college",
@@ -2406,7 +2710,10 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/juniata-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Carnegie_museum.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Carnegie_museum.jpg",
+    "schoolUrl": "https://www.juniata.edu/",
+    "coachEmail": "dehaveb@juniata.edu",
+    "coachReview": true
   },
   {
     "id": "kalamazoo-college",
@@ -2423,7 +2730,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/kalamazoo-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Kalamazoo_College_Fieldhouse_(October_2016).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Kalamazoo_College_Fieldhouse_(October_2016).jpg",
+    "schoolUrl": "https://www.kzoo.edu/"
   },
   {
     "id": "kean-university",
@@ -2440,7 +2748,8 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/kean-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Liberty_Hall_Fire_Co._and_Visitor_Center%2C_Union%2C_NJ.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Liberty_Hall_Fire_Co._and_Visitor_Center%2C_Union%2C_NJ.jpg",
+    "schoolUrl": "https://www.kean.edu/"
   },
   {
     "id": "keene-state-college",
@@ -2457,7 +2766,8 @@
     "avgGpa": 3.7,
     "selectivity": "open",
     "photoUrl": "/programs/keene-state-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:KeeneStateCollegecampus_May2019.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:KeeneStateCollegecampus_May2019.jpg",
+    "schoolUrl": "http://www.keene.edu"
   },
   {
     "id": "kenyon-college",
@@ -2474,7 +2784,8 @@
     "avgGpa": 3.8,
     "selectivity": "selective",
     "photoUrl": "/programs/kenyon-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Kenyon_College_Ransom_Hall_2.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Kenyon_College_Ransom_Hall_2.jpg",
+    "schoolUrl": "https://www.kenyon.edu/"
   },
   {
     "id": "keuka-college",
@@ -2491,7 +2802,8 @@
     "avgGpa": 3.7,
     "selectivity": "moderate",
     "photoUrl": "/programs/keuka-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Ball_Hall%2C_Keuka_College%2C_NY.jpeg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Ball_Hall%2C_Keuka_College%2C_NY.jpeg",
+    "schoolUrl": "https://www.keuka.edu/"
   },
   {
     "id": "keystone-college",
@@ -2505,7 +2817,11 @@
     ],
     "typicalNetCost": 22051,
     "stickerCost": 32071,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.keystone.edu/",
+    "photoUrl": "/programs/keystone-college.jpg",
+    "photoCredit": "https://www.keystone.edu/",
+    "coachEmail": "ryan.novitsky@keystone.edu"
   },
   {
     "id": "king-s-college",
@@ -2550,7 +2866,13 @@
     "typicalNetCost": 20794,
     "stickerCost": 47111,
     "avgGpa": 3.1,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.laroche.edu/",
+    "photoUrl": "/programs/la-roche-university.jpg",
+    "photoCredit": "https://www.laroche.edu/",
+    "coachEmail": "herman.carmichael@laroche.edu",
+    "coachName": "Hermie Carmichael",
+    "coachReview": true
   },
   {
     "id": "university-of-la-verne",
@@ -2567,7 +2889,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-la-verne.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Founders_Hall%2C_University_of_La_Verne.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Founders_Hall%2C_University_of_La_Verne.jpg",
+    "schoolUrl": "https://laverne.edu"
   },
   {
     "id": "lagrange-college",
@@ -2583,7 +2906,8 @@
     "stickerCost": 49681,
     "selectivity": "moderate",
     "photoUrl": "/programs/lagrange-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Academic_Quadrangle.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Academic_Quadrangle.jpg",
+    "schoolUrl": "https://www.lagrange.edu/"
   },
   {
     "id": "lake-forest-college",
@@ -2598,7 +2922,8 @@
     "typicalNetCost": 28673,
     "stickerCost": 70655,
     "avgGpa": 3.7,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.lakeforest.edu/"
   },
   {
     "id": "lakeland-university",
@@ -2614,7 +2939,8 @@
     "stickerCost": 48840,
     "selectivity": "open",
     "photoUrl": "/programs/lakeland-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:LakelandCollegeOldMainHall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:LakelandCollegeOldMainHall.jpg",
+    "schoolUrl": "http://www.lakeland.edu"
   },
   {
     "id": "lancaster-bible-college",
@@ -2631,7 +2957,8 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/lancaster-bible-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lancaster-bible-college-facility.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lancaster-bible-college-facility.jpg",
+    "schoolUrl": "https://www.lbc.edu"
   },
   {
     "id": "lasell-university",
@@ -2648,7 +2975,10 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/lasell-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:East_Hall%2C_Lasell_College%2C_Auburndale_MA.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:East_Hall%2C_Lasell_College%2C_Auburndale_MA.jpg",
+    "schoolUrl": "http://www.lasell.edu/",
+    "coachEmail": "jmarcoux@lasell.edu",
+    "coachReview": true
   },
   {
     "id": "lawrence-university",
@@ -2665,7 +2995,9 @@
     "avgGpa": 3.7,
     "selectivity": "moderate",
     "photoUrl": "/programs/lawrence-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Main_Hall_at_Lawrence_University.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Main_Hall_at_Lawrence_University.jpg",
+    "schoolUrl": "https://www.lawrence.edu/",
+    "coachEmail": "james.downer@lawrence.edu"
   },
   {
     "id": "lebanon-valley-college",
@@ -2682,7 +3014,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/lebanon-valley-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:LVC_Peace_Garden.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:LVC_Peace_Garden.jpg",
+    "schoolUrl": "http://www.lvc.edu"
   },
   {
     "id": "lehman-college",
@@ -2697,7 +3030,8 @@
     "typicalNetCost": 3148,
     "stickerCost": 14121,
     "avgGpa": 2.9,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.lehman.edu/"
   },
   {
     "id": "lesley-university",
@@ -2713,7 +3047,9 @@
     "stickerCost": 51538,
     "selectivity": "open",
     "photoUrl": "/programs/lesley-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lesley_College_Admissions_Building_-_IMG_1339.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lesley_College_Admissions_Building_-_IMG_1339.jpg",
+    "schoolUrl": "http://www.lesley.edu",
+    "coachEmail": "admissions@lesley.edu"
   },
   {
     "id": "letourneau-university",
@@ -2728,7 +3064,8 @@
     "typicalNetCost": 28185,
     "stickerCost": 51124,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.letu.edu"
   },
   {
     "id": "lewis-clark-college",
@@ -2745,7 +3082,8 @@
     "avgGpa": 3.9,
     "selectivity": "open",
     "photoUrl": "/programs/lewis-clark-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:L%26C_Frank_Manor_House.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:L%26C_Frank_Manor_House.JPG",
+    "schoolUrl": "http://www.lclark.edu/"
   },
   {
     "id": "linfield-university",
@@ -2761,7 +3099,8 @@
     "stickerCost": 65935,
     "selectivity": "open",
     "photoUrl": "/programs/linfield-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:RileyCenter_(Linfield_College).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:RileyCenter_(Linfield_College).jpg",
+    "schoolUrl": "https://www.linfield.edu/"
   },
   {
     "id": "loras-college",
@@ -2777,7 +3116,8 @@
     "stickerCost": 50537,
     "selectivity": "open",
     "photoUrl": "/programs/loras-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:LorasCollegeKeaneHall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:LorasCollegeKeaneHall.jpg",
+    "schoolUrl": "http://www.loras.edu"
   },
   {
     "id": "luther-college",
@@ -2807,7 +3147,10 @@
     "typicalNetCost": 19140,
     "stickerCost": 64105,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.lycoming.edu/",
+    "photoUrl": "/programs/lycoming-college.png",
+    "photoCredit": "https://www.lycoming.edu/"
   },
   {
     "id": "university-of-lynchburg",
@@ -2824,7 +3167,8 @@
     "avgGpa": 3.25,
     "selectivity": "moderate",
     "photoUrl": "/programs/university-of-lynchburg.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lynchburg_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Lynchburg_College.jpg",
+    "schoolUrl": "http://www.lynchburg.edu"
   },
   {
     "id": "lyon-college",
@@ -2841,7 +3185,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/lyon-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:LyonBuilding.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:LyonBuilding.jpg",
+    "schoolUrl": "https://www.lyon.edu/"
   },
   {
     "id": "macalester-college",
@@ -2856,7 +3201,10 @@
     "typicalNetCost": 32149,
     "stickerCost": 82991,
     "avgGpa": 3.9,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://www.macalester.edu/",
+    "photoUrl": "/programs/macalester-college.jpg",
+    "photoCredit": "https://www.macalester.edu/"
   },
   {
     "id": "university-of-maine-at-farmington",
@@ -2871,7 +3219,8 @@
     "typicalNetCost": 16857,
     "stickerCost": 25822,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.umf.maine.edu/"
   },
   {
     "id": "maine-maritime-academy",
@@ -2888,7 +3237,8 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/maine-maritime-academy.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Main_Campus%2C_Maine_Maritime_Academy_in_Castine_IMG_2377.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Main_Campus%2C_Maine_Maritime_Academy_in_Castine_IMG_2377.JPG",
+    "schoolUrl": "https://mainemaritime.edu/"
   },
   {
     "id": "university-of-maine-at-presque-isle",
@@ -2902,7 +3252,10 @@
     ],
     "typicalNetCost": 7035,
     "stickerCost": 19113,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.umpi.edu/",
+    "photoUrl": "/programs/university-of-maine-at-presque-isle.png",
+    "photoCredit": "https://www.umpi.edu/"
   },
   {
     "id": "manchester-university",
@@ -2918,7 +3271,8 @@
     "stickerCost": 49993,
     "selectivity": "open",
     "photoUrl": "/programs/manchester-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Whitworth_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Whitworth_Hall.jpg",
+    "schoolUrl": "https://manchester.ac.uk"
   },
   {
     "id": "manhattanville-university",
@@ -2935,7 +3289,8 @@
     "avgGpa": 3.8,
     "selectivity": "open",
     "photoUrl": "/programs/manhattanville-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Reid_Hall%2C_Manhattanville_College.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Reid_Hall%2C_Manhattanville_College.jpg",
+    "schoolUrl": "http://www.manhattanville.edu"
   },
   {
     "id": "maranatha-baptist-university",
@@ -2950,7 +3305,8 @@
     "typicalNetCost": 26005,
     "stickerCost": 37092,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.mbu.edu"
   },
   {
     "id": "marian-university",
@@ -2982,7 +3338,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/marietta-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Fayerweather_Hall%2C_Marietta_College%2C_4th_Street_and_Putnam_Street%2C_Marietta%2C_OH_-_54307461396.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Fayerweather_Hall%2C_Marietta_College%2C_4th_Street_and_Putnam_Street%2C_Marietta%2C_OH_-_54307461396.jpg",
+    "schoolUrl": "http://www.marietta.edu"
   },
   {
     "id": "martin-luther-college",
@@ -2999,7 +3356,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/martin-luther-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:OldMainMLC.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:OldMainMLC.jpg",
+    "schoolUrl": "https://mlc-wels.edu/"
   },
   {
     "id": "mary-baldwin-university",
@@ -3014,7 +3372,8 @@
     "typicalNetCost": 12756,
     "stickerCost": 45935,
     "photoUrl": "/programs/mary-baldwin-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mary_Baldwin_College_Staunton_VA_Main.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mary_Baldwin_College_Staunton_VA_Main.JPG",
+    "schoolUrl": "https://marybaldwin.edu"
   },
   {
     "id": "university-of-mary-hardin-baylor",
@@ -3031,7 +3390,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-mary-hardin-baylor.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Parker_Academic_Center%2C_Belton%2C_TX_IMG_5560.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Parker_Academic_Center%2C_Belton%2C_TX_IMG_5560.JPG",
+    "schoolUrl": "http://www.umhb.edu"
   },
   {
     "id": "university-of-mary-washington",
@@ -3046,7 +3406,10 @@
     "typicalNetCost": 20667,
     "stickerCost": 31137,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.umw.edu/",
+    "photoUrl": "/programs/university-of-mary-washington.png",
+    "photoCredit": "https://www.umw.edu/"
   },
   {
     "id": "marymount-university",
@@ -3062,7 +3425,8 @@
     "stickerCost": 57184,
     "selectivity": "open",
     "photoUrl": "/programs/marymount-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Marymount_Ballston.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Marymount_Ballston.jpg",
+    "schoolUrl": "https://marymount.edu/"
   },
   {
     "id": "maryville-college",
@@ -3079,7 +3443,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/maryville-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bartlett-hall-mc-tn1.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Bartlett-hall-mc-tn1.jpg",
+    "schoolUrl": "http://www.maryvillecollege.edu"
   },
   {
     "id": "marywood-university",
@@ -3094,7 +3459,10 @@
     "typicalNetCost": 23388,
     "stickerCost": 55582,
     "avgGpa": 3.4,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.marywood.edu/",
+    "photoUrl": "/programs/marywood-university.jpg",
+    "photoCredit": "http://www.marywood.edu/"
   },
   {
     "id": "university-of-massachusetts-boston",
@@ -3109,7 +3477,8 @@
     "typicalNetCost": 17707,
     "stickerCost": 30544,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.umb.edu/"
   },
   {
     "id": "massachusetts-college-of-liberal-arts",
@@ -3123,7 +3492,10 @@
     ],
     "typicalNetCost": 16068,
     "stickerCost": 26026,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.mcla.edu/",
+    "coachEmail": "kiara.burgos-santiago@mcla.edu",
+    "coachReview": true
   },
   {
     "id": "university-of-massachusetts-dartmouth",
@@ -3140,7 +3512,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-massachusetts-dartmouth.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:UMass_Dartmouth_Panorama.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:UMass_Dartmouth_Panorama.jpg",
+    "schoolUrl": "http://www.umassd.edu",
+    "coachEmail": "8590830ceef84309826fc8e372e29c68@umassd.edu"
   },
   {
     "id": "massachusetts-institute-of-technology",
@@ -3157,7 +3531,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/massachusetts-institute-of-technology.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:MIT_Dome_night1_Edit.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:MIT_Dome_night1_Edit.jpg",
+    "schoolUrl": "https://mit.edu"
   },
   {
     "id": "massachusetts-maritime-academy",
@@ -3171,7 +3546,8 @@
     ],
     "typicalNetCost": 21582,
     "stickerCost": 31367,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.maritime.edu/"
   },
   {
     "id": "mcdaniel-college",
@@ -3185,7 +3561,9 @@
     ],
     "typicalNetCost": 21916,
     "stickerCost": 65294,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.mcdaniel.edu",
+    "coachEmail": "admissions@mcdaniel.edu"
   },
   {
     "id": "mcmurry-university",
@@ -3202,7 +3580,8 @@
     "avgGpa": 3.1,
     "selectivity": "moderate",
     "photoUrl": "/programs/mcmurry-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:McMurry_University_Administration_Building.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:McMurry_University_Administration_Building.jpg",
+    "schoolUrl": "https://mcm.edu/"
   },
   {
     "id": "medgar-evers-college",
@@ -3217,7 +3596,10 @@
     "typicalNetCost": 5718,
     "stickerCost": 14771,
     "avgGpa": 2.9,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.mec.cuny.edu/",
+    "photoUrl": "/programs/medgar-evers-college.jpg",
+    "photoCredit": "https://www.mec.cuny.edu/"
   },
   {
     "id": "meredith-college",
@@ -3233,7 +3615,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/meredith-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Meredith_College.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Meredith_College.JPG",
+    "schoolUrl": "https://www.meredith.edu/",
+    "coachEmail": "myersj@meredith.edu"
   },
   {
     "id": "messiah-university",
@@ -3250,7 +3634,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/messiah-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:High-center.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:High-center.jpg",
+    "schoolUrl": "https://www.messiah.edu/"
   },
   {
     "id": "methodist-university",
@@ -3267,7 +3652,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/methodist-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Methodist_college_nc_postcard_1961.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Methodist_college_nc_postcard_1961.jpg",
+    "schoolUrl": "https://www.methodist.edu/"
   },
   {
     "id": "middlebury-college",
@@ -3284,7 +3670,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/middlebury-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:McCardellBicentennialHall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:McCardellBicentennialHall.jpg",
+    "schoolUrl": "https://www.middlebury.edu/"
   },
   {
     "id": "millikin-university",
@@ -3299,7 +3686,8 @@
     "typicalNetCost": 21989,
     "stickerCost": 57475,
     "avgGpa": 3.1,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.millikin.edu"
   },
   {
     "id": "millsaps-college",
@@ -3316,7 +3704,8 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/millsaps-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Millsaps_College._(8758699435).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Millsaps_College._(8758699435).jpg",
+    "schoolUrl": "http://www.millsaps.edu"
   },
   {
     "id": "milwaukee-school-of-engineering",
@@ -3333,7 +3722,8 @@
     "avgGpa": 3.8,
     "selectivity": "moderate",
     "photoUrl": "/programs/milwaukee-school-of-engineering.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Milwaukee_September_2022_27_(Valentin_Blatz_Brewing_Company_Office_Building-MSOE_Alumni_Partnership_Center).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Milwaukee_September_2022_27_(Valentin_Blatz_Brewing_Company_Office_Building-MSOE_Alumni_Partnership_Center).jpg",
+    "schoolUrl": "https://www.msoe.edu/"
   },
   {
     "id": "university-of-minnesota-morris",
@@ -3350,7 +3740,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-minnesota-morris.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:West_Central_School_of_Agriculture_and_Experiment_Station_Historic_District.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:West_Central_School_of_Agriculture_and_Experiment_Station_Historic_District.jpg",
+    "schoolUrl": "https://morris.umn.edu/"
   },
   {
     "id": "misericordia-university",
@@ -3366,7 +3757,9 @@
     "stickerCost": 53648,
     "selectivity": "open",
     "photoUrl": "/programs/misericordia-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mercy_Hall_Misericordia_University_exterior_06.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mercy_Hall_Misericordia_University_exterior_06.jpg",
+    "schoolUrl": "https://www.misericordia.edu/",
+    "coachEmail": "scrispell@misericordia.edu"
   },
   {
     "id": "mississippi-university-for-women",
@@ -3383,7 +3776,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/mississippi-university-for-women.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Front_Campus_picture_of_Mississippi_University_for_Women.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Front_Campus_picture_of_Mississippi_University_for_Women.jpg",
+    "schoolUrl": "https://www.muw.edu/"
   },
   {
     "id": "mitchell-college",
@@ -3399,7 +3793,9 @@
     "stickerCost": 55621,
     "selectivity": "open",
     "photoUrl": "/programs/mitchell-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mitchell_college_ct_postcard.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mitchell_college_ct_postcard.jpg",
+    "schoolUrl": "http://www.mitchell.edu",
+    "coachEmail": "admissions@mitchell.edu"
   },
   {
     "id": "monmouth-college",
@@ -3416,7 +3812,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/monmouth-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Monmouth_College_-_Wallace_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Monmouth_College_-_Wallace_Hall.jpg",
+    "schoolUrl": "https://www.monmouthcollege.edu/"
   },
   {
     "id": "montclair-state-university",
@@ -3433,7 +3830,8 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/montclair-state-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:MSU_Childrens_Center_jeh.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:MSU_Childrens_Center_jeh.jpg",
+    "schoolUrl": "https://www.montclair.edu/"
   },
   {
     "id": "moravian-university",
@@ -3450,7 +3848,8 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/moravian-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Moravian_College_Bethlehem_2924px.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Moravian_College_Bethlehem_2924px.jpg",
+    "schoolUrl": "https://www.moravian.edu/"
   },
   {
     "id": "mount-aloysius-college",
@@ -3467,7 +3866,8 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/mount-aloysius-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mount_Aloysius_College_Aerial.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mount_Aloysius_College_Aerial.jpg",
+    "schoolUrl": "https://www.mtaloy.edu/"
   },
   {
     "id": "mount-holyoke-college",
@@ -3483,7 +3883,8 @@
     "avgGpa": 3.9,
     "selectivity": "moderate",
     "photoUrl": "/programs/mount-holyoke-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Commencement-day_scene_at_Mount_Holyoke_College%2C_a_private_women's_liberal_arts_college_in_South_Hadley%2C_Massachusetts%2C_by_Carol_M._Highsmith%2C_2019%2C_from_the_Library_of_Congress_-_master-pnp-highsm-57700-57718a.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Commencement-day_scene_at_Mount_Holyoke_College%2C_a_private_women's_liberal_arts_college_in_South_Hadley%2C_Massachusetts%2C_by_Carol_M._Highsmith%2C_2019%2C_from_the_Library_of_Congress_-_master-pnp-highsm-57700-57718a.jpg",
+    "schoolUrl": "http://www.mtholyoke.edu"
   },
   {
     "id": "mount-st-joseph-university",
@@ -3500,7 +3901,8 @@
     "avgGpa": 3.4,
     "selectivity": "moderate",
     "photoUrl": "/programs/mount-st-joseph-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mount_Saint_Joseph.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mount_Saint_Joseph.jpg",
+    "schoolUrl": "https://www.msj.edu/"
   },
   {
     "id": "mount-saint-mary-college",
@@ -3517,7 +3919,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/mount-saint-mary-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mount_St_Mary's_Motherhouse%2C_Newburgh%2C_NY.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Mount_St_Mary's_Motherhouse%2C_Newburgh%2C_NY.jpg",
+    "schoolUrl": "http://www.msmc.edu",
+    "coachEmail": "athletics@msmc.edu"
   },
   {
     "id": "university-of-mount-saint-vincent",
@@ -3532,7 +3936,10 @@
     "typicalNetCost": 21696,
     "stickerCost": 54170,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.mountsaintvincent.edu",
+    "photoUrl": "/programs/university-of-mount-saint-vincent.jpg",
+    "photoCredit": "http://www.mountsaintvincent.edu"
   },
   {
     "id": "university-of-mount-union",
@@ -3549,7 +3956,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-mount-union.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Chapman_Hall_UMU.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Chapman_Hall_UMU.jpg",
+    "schoolUrl": "https://www.mountunion.edu/"
   },
   {
     "id": "muhlenberg-college",
@@ -3566,7 +3974,8 @@
     "avgGpa": 3.7,
     "selectivity": "open",
     "photoUrl": "/programs/muhlenberg-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:HaasCollegeCenterMuhlenbergbd90cfe84482b61f87d98590b454139b.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:HaasCollegeCenterMuhlenbergbd90cfe84482b61f87d98590b454139b.jpg",
+    "schoolUrl": "http://www.muhlenberg.edu"
   },
   {
     "id": "muskingum-university",
@@ -3583,7 +3992,10 @@
     "avgGpa": 3.1,
     "selectivity": "open",
     "photoUrl": "/programs/muskingum-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:JohnsonHallSide.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:JohnsonHallSide.jpg",
+    "schoolUrl": "https://www.muskingum.edu/",
+    "coachEmail": "kwinters@muskingum.edu",
+    "coachReview": true
   },
   {
     "id": "nazareth-university",
@@ -3598,7 +4010,8 @@
     "typicalNetCost": 29357,
     "stickerCost": 58254,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.naz.edu"
   },
   {
     "id": "nebraska-wesleyan-university",
@@ -3613,7 +4026,8 @@
     "typicalNetCost": 18327,
     "stickerCost": 53569,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.nebrwesleyan.edu/"
   },
   {
     "id": "neumann-university",
@@ -3630,7 +4044,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/neumann-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Neumann_College_Abessinio_Building_3000px.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Neumann_College_Abessinio_Building_3000px.jpg",
+    "schoolUrl": "https://www.neumann.edu/"
   },
   {
     "id": "new-england-college",
@@ -3646,7 +4061,9 @@
     "stickerCost": 59350,
     "selectivity": "open",
     "photoUrl": "/programs/new-england-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:John_Lyons_Academic_Center_on_the_New_England_College_campus.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:John_Lyons_Academic_Center_on_the_New_England_College_campus.jpg",
+    "schoolUrl": "https://www.nec.edu/",
+    "coachEmail": "ddecew@nec.edu"
   },
   {
     "id": "university-of-new-england",
@@ -3677,7 +4094,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/the-college-of-new-jersey.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:GreenHall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:GreenHall.jpg",
+    "schoolUrl": "http://www.tcnj.edu"
   },
   {
     "id": "state-university-of-new-york-at-brockport",
@@ -3694,7 +4112,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-at-brockport.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Brockport_Hartwell_Hall.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Brockport_Hartwell_Hall.JPG",
+    "schoolUrl": "https://www.brockport.edu/"
   },
   {
     "id": "state-university-of-new-york-at-canton",
@@ -3711,7 +4130,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-at-canton.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Canton_entrance.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Canton_entrance.jpg",
+    "schoolUrl": "https://www.canton.edu/",
+    "coachEmail": "sports@canton.edu"
   },
   {
     "id": "state-university-of-new-york-at-cobleskill",
@@ -3722,7 +4143,9 @@
     "sports": [
       "mens-basketball",
       "womens-basketball"
-    ]
+    ],
+    "schoolUrl": "http://www.cobleskill.edu/",
+    "coachEmail": "admissions@cobleskill.edu"
   },
   {
     "id": "state-university-of-new-york-at-cortland",
@@ -3737,7 +4160,8 @@
     "typicalNetCost": 22345,
     "stickerCost": 28108,
     "avgGpa": 3.7,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www2.cortland.edu"
   },
   {
     "id": "state-university-of-new-york-at-delhi",
@@ -3752,7 +4176,9 @@
     "typicalNetCost": 17225,
     "stickerCost": 26944,
     "avgGpa": 2.9,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.delhi.edu",
+    "coachEmail": "enroll@delhi.edu"
   },
   {
     "id": "state-university-of-new-york-at-fredonia",
@@ -3769,7 +4195,10 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-at-fredonia.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Fredonia_-_20200427_-_04_-_Mason_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Fredonia_-_20200427_-_04_-_Mason_Hall.jpg",
+    "schoolUrl": "https://www.fredonia.edu",
+    "coachEmail": "admissions@fredonia.edu",
+    "coachReview": true
   },
   {
     "id": "state-university-of-new-york-at-geneseo",
@@ -3786,7 +4215,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/state-university-of-new-york-at-geneseo.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Doty_Building_at_SUNY_Geneseo.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Doty_Building_at_SUNY_Geneseo.jpg",
+    "schoolUrl": "https://www.geneseo.edu/"
   },
   {
     "id": "state-university-of-new-york-maritime-college",
@@ -3803,7 +4233,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-maritime-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Maritime_College_from_the_water.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:SUNY_Maritime_College_from_the_water.jpg",
+    "schoolUrl": "https://www.sunymaritime.edu/",
+    "coachEmail": "jclifford@sunymaritime.edu"
   },
   {
     "id": "state-university-of-new-york-at-morrisville",
@@ -3818,7 +4250,11 @@
     "typicalNetCost": 15939,
     "stickerCost": 26833,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.morrisville.edu/",
+    "photoUrl": "/programs/state-university-of-new-york-at-morrisville.png",
+    "photoCredit": "https://www.morrisville.edu/",
+    "coachEmail": "athletics@morrisville.edu"
   },
   {
     "id": "state-university-of-new-york-polytechnic-institute",
@@ -3835,7 +4271,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-polytechnic-institute.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:CampusCenteeSUNYPI.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:CampusCenteeSUNYPI.jpg",
+    "schoolUrl": "https://sunypoly.edu/"
   },
   {
     "id": "state-university-of-new-york-at-new-paltz",
@@ -3852,7 +4289,9 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/state-university-of-new-york-at-new-paltz.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Van_den_Berg_Hall_-_SUNY_New_Paltz.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Van_den_Berg_Hall_-_SUNY_New_Paltz.JPG",
+    "schoolUrl": "http://www.newpaltz.edu",
+    "coachEmail": "23a91568c25445b59da21c4f2b7aded8@newpaltz.edu"
   },
   {
     "id": "state-university-of-new-york-at-old-westbury",
@@ -3866,7 +4305,12 @@
     ],
     "typicalNetCost": 11282,
     "stickerCost": 21287,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.oldwestbury.edu",
+    "photoUrl": "/programs/state-university-of-new-york-at-old-westbury.jpg",
+    "photoCredit": "http://www.oldwestbury.edu",
+    "coachEmail": "pastuchr@oldwestbury.edu",
+    "coachName": "Pastuch Interim"
   },
   {
     "id": "state-university-of-new-york-at-oneonta",
@@ -3881,7 +4325,8 @@
     "typicalNetCost": 19158,
     "stickerCost": 28821,
     "avgGpa": 3.55,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.oneonta.edu"
   },
   {
     "id": "state-university-of-new-york-at-oswego",
@@ -3898,7 +4343,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-at-oswego.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:New_York_-_Sheldon_Hall_-_20240227141145.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:New_York_-_Sheldon_Hall_-_20240227141145.jpg",
+    "schoolUrl": "https://ww1.oswego.edu/",
+    "coachEmail": "oswegosid@oswego.edu"
   },
   {
     "id": "state-university-of-new-york-at-plattsburgh",
@@ -3915,7 +4362,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-at-plattsburgh.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hawkins_Hall%2C_State_University_of_New_York_at_Plattsburgh.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hawkins_Hall%2C_State_University_of_New_York_at_Plattsburgh.JPG",
+    "schoolUrl": "https://www.plattsburgh.edu/"
   },
   {
     "id": "state-university-of-new-york-at-potsdam",
@@ -3929,7 +4377,8 @@
     ],
     "typicalNetCost": 13624,
     "stickerCost": 25083,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.potsdam.edu/"
   },
   {
     "id": "state-university-of-new-york-at-purchase",
@@ -3946,7 +4395,8 @@
     "avgGpa": 3.7,
     "selectivity": "open",
     "photoUrl": "/programs/state-university-of-new-york-at-purchase.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Outback-Fortawesome.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Outback-Fortawesome.jpg",
+    "schoolUrl": "http://www.purchase.edu"
   },
   {
     "id": "new-york-university",
@@ -3963,7 +4413,8 @@
     "avgGpa": 3.95,
     "selectivity": "selective",
     "photoUrl": "/programs/new-york-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:NYU07.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:NYU07.JPG",
+    "schoolUrl": "https://nyu.edu"
   },
   {
     "id": "nichols-college",
@@ -3980,7 +4431,9 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/nichols-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Nichols_College%2C_Dudley%2C_MA.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Nichols_College%2C_Dudley%2C_MA.jpg",
+    "schoolUrl": "http://www.nichols.edu",
+    "coachEmail": "admissions@nichols.edu"
   },
   {
     "id": "north-carolina-wesleyan-university",
@@ -3997,7 +4450,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/north-carolina-wesleyan-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Nc_wesleyan_univ_aerial.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Nc_wesleyan_univ_aerial.jpg",
+    "schoolUrl": "https://ncwu.edu/"
   },
   {
     "id": "north-central-college",
@@ -4012,7 +4466,8 @@
     "typicalNetCost": 21044,
     "stickerCost": 57219,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://northcentralcollege.edu"
   },
   {
     "id": "north-central-university",
@@ -4028,7 +4483,8 @@
     "stickerCost": 44475,
     "selectivity": "open",
     "photoUrl": "/programs/north-central-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:North_Central_University.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:North_Central_University.jpg",
+    "schoolUrl": "https://www.northcentral.edu/"
   },
   {
     "id": "north-park-university",
@@ -4045,7 +4501,8 @@
     "avgGpa": 3.55,
     "selectivity": "moderate",
     "photoUrl": "/programs/north-park-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Old_Main_NPU.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Old_Main_NPU.jpg",
+    "schoolUrl": "https://www.northpark.edu/"
   },
   {
     "id": "university-of-northwestern-st-paul",
@@ -4060,7 +4517,10 @@
     "typicalNetCost": 27705,
     "stickerCost": 51325,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.unwsp.edu/",
+    "photoUrl": "/programs/university-of-northwestern-st-paul.jpg",
+    "photoCredit": "https://www.unwsp.edu/"
   },
   {
     "id": "norwich-university",
@@ -4077,7 +4537,8 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/norwich-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:NorwichUniversityWinter.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:NorwichUniversityWinter.JPG",
+    "schoolUrl": "https://www.norwich.edu/"
   },
   {
     "id": "notre-dame-of-maryland-university",
@@ -4091,7 +4552,9 @@
     ],
     "typicalNetCost": 19169,
     "stickerCost": 59320,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://ndm.edu",
+    "coachEmail": "events@ndm.edu"
   },
   {
     "id": "oberlin-college",
@@ -4106,7 +4569,8 @@
     "typicalNetCost": 38645,
     "stickerCost": 87404,
     "avgGpa": 3.9,
-    "selectivity": "selective"
+    "selectivity": "selective",
+    "schoolUrl": "https://www.oberlin.edu/"
   },
   {
     "id": "occidental-college",
@@ -4123,7 +4587,8 @@
     "avgGpa": 3.9,
     "selectivity": "moderate",
     "photoUrl": "/programs/occidental-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Johnson_Student_Center_and_Freeman_College_Union_(cropped).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Johnson_Student_Center_and_Freeman_College_Union_(cropped).jpg",
+    "schoolUrl": "http://www.oxy.edu"
   },
   {
     "id": "oglethorpe-university",
@@ -4140,7 +4605,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/oglethorpe-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Oglehorpe_circa_1940.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Oglehorpe_circa_1940.jpg",
+    "schoolUrl": "https://oglethorpe.edu/"
   },
   {
     "id": "ohio-northern-university",
@@ -4157,7 +4623,10 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/ohio-northern-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hill_Memorial_Building_from_northeast.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Hill_Memorial_Building_from_northeast.jpg",
+    "schoolUrl": "http://www.onu.edu/",
+    "coachEmail": "t-simmons@onu.edu",
+    "coachReview": true
   },
   {
     "id": "ohio-wesleyan-university",
@@ -4174,7 +4643,8 @@
     "avgGpa": 3.7,
     "selectivity": "moderate",
     "photoUrl": "/programs/ohio-wesleyan-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:ElliottHallOWU.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:ElliottHallOWU.jpg",
+    "schoolUrl": "https://www.owu.edu/"
   },
   {
     "id": "university-of-olivet",
@@ -4191,7 +4661,10 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-olivet.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Burrage_Library_.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Burrage_Library_.jpg",
+    "schoolUrl": "https://www.uolivet.edu/",
+    "coachEmail": "admissions@uolivet.edu",
+    "coachReview": true
   },
   {
     "id": "otterbein-university",
@@ -4208,7 +4681,8 @@
     "avgGpa": 3.55,
     "selectivity": "open",
     "photoUrl": "/programs/otterbein-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Towers_Hall_%E2%80%94_Otterbein_University.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Towers_Hall_%E2%80%94_Otterbein_University.jpg",
+    "schoolUrl": "https://www.otterbein.edu/"
   },
   {
     "id": "university-of-the-ozarks",
@@ -4225,7 +4699,8 @@
     "avgGpa": 3.25,
     "selectivity": "moderate",
     "photoUrl": "/programs/university-of-the-ozarks.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:U_of_O_Walker_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:U_of_O_Walker_Hall.jpg",
+    "schoolUrl": "http://www.ozarks.edu"
   },
   {
     "id": "pacific-lutheran-university",
@@ -4242,7 +4717,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/pacific-lutheran-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Harstad_Hall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Harstad_Hall.jpg",
+    "schoolUrl": "https://www.plu.edu/",
+    "coachEmail": "athletics@plu.edu"
   },
   {
     "id": "pacific-university",
@@ -4259,7 +4736,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/pacific-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Pacific_University_entrance_sign.JPG"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Pacific_University_entrance_sign.JPG",
+    "schoolUrl": "http://www.pacificu.edu"
   },
   {
     "id": "pennsylvania-college-of-technology",
@@ -4274,7 +4752,8 @@
     "typicalNetCost": 25110,
     "stickerCost": 33192,
     "photoUrl": "/programs/pennsylvania-college-of-technology.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Madigan_Library_2019.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Madigan_Library_2019.jpg",
+    "schoolUrl": "http://www.pct.edu"
   },
   {
     "id": "pennsylvania-state-university-abington",
@@ -4346,7 +4825,8 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/piedmont-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Piedmont-daniel.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Piedmont-daniel.jpg",
+    "schoolUrl": "https://www.piedmont.edu/"
   },
   {
     "id": "university-of-pittsburgh-at-bradford",
@@ -4363,7 +4843,11 @@
     "avgGpa": 3.25,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-pittsburgh-at-bradford.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Duke_Engineering_Building.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Duke_Engineering_Building.jpg",
+    "schoolUrl": "https://www.upb.pitt.edu/",
+    "coachEmail": "das764@pitt.edu",
+    "coachName": "Daniel Smay",
+    "coachReview": true
   },
   {
     "id": "university-of-pittsburgh-at-greensburg",
@@ -4380,7 +4864,9 @@
     "avgGpa": 3.4,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-pittsburgh-at-greensburg.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:UPGbridge_(1).jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:UPGbridge_(1).jpg",
+    "schoolUrl": "http://www.greensburg.pitt.edu/",
+    "coachEmail": "athletics@greensburg.pitt.edu"
   },
   {
     "id": "plymouth-state-university",
@@ -4396,7 +4882,8 @@
     "stickerCost": 29644,
     "selectivity": "open",
     "photoUrl": "/programs/plymouth-state-university.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:PlymouthNH_PlymouthStateU_RoundsHall.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:PlymouthNH_PlymouthStateU_RoundsHall.jpg",
+    "schoolUrl": "https://www.plymouth.edu/"
   },
   {
     "id": "pomona-college-and-pitzer-college",
@@ -4421,7 +4908,8 @@
     ],
     "avgGpa": 3.7,
     "photoUrl": "/programs/principia-college.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:Principia-chapel-LARGE2.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:Principia-chapel-LARGE2.jpg",
+    "schoolUrl": "https://www.principiacollege.edu/"
   },
   {
     "id": "university-of-puget-sound",
@@ -4438,7 +4926,8 @@
     "avgGpa": 3.7,
     "selectivity": "open",
     "photoUrl": "/programs/university-of-puget-sound.jpg",
-    "photoCredit": "https://commons.wikimedia.org/wiki/File:UPS_-_Langdon%2C_Harrington%2C_%26_Schiff_Halls_01.jpg"
+    "photoCredit": "https://commons.wikimedia.org/wiki/File:UPS_-_Langdon%2C_Harrington%2C_%26_Schiff_Halls_01.jpg",
+    "schoolUrl": "https://www.pugetsound.edu/"
   },
   {
     "id": "ramapo-college",
@@ -4631,7 +5120,10 @@
     "typicalNetCost": 29278,
     "stickerCost": 85962,
     "avgGpa": 3.9,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.rochester.edu/",
+    "photoUrl": "/programs/university-of-rochester.png",
+    "photoCredit": "https://www.rochester.edu/"
   },
   {
     "id": "rochester-institute-of-technology",
@@ -4646,7 +5138,8 @@
     "typicalNetCost": 34906,
     "stickerCost": 74626,
     "avgGpa": 3.8,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "https://www.rit.edu/"
   },
   {
     "id": "rockford-university",
@@ -4712,7 +5205,10 @@
     "typicalNetCost": 22408,
     "stickerCost": 35842,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.rowan.edu/",
+    "photoUrl": "/programs/rowan-university.jpg",
+    "photoCredit": "https://www.rowan.edu/"
   },
   {
     "id": "rutgers-university-camden",
@@ -5094,7 +5590,11 @@
     "typicalNetCost": 17743,
     "stickerCost": 28310,
     "avgGpa": 3.55,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.salisbury.edu",
+    "photoUrl": "/programs/salisbury-university.jpg",
+    "photoCredit": "http://www.salisbury.edu",
+    "coachEmail": "athletics@salisbury.edu"
   },
   {
     "id": "salve-regina-university",
@@ -5490,7 +5990,8 @@
     "typicalNetCost": 22347,
     "stickerCost": 53202,
     "avgGpa": 3.4,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.thiel.edu/"
   },
   {
     "id": "thomas-college",
@@ -5504,7 +6005,11 @@
     ],
     "typicalNetCost": 18885,
     "stickerCost": 47198,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.thomas.edu/",
+    "photoUrl": "/programs/thomas-college.webp",
+    "photoCredit": "https://www.thomas.edu/",
+    "coachEmail": "mkt3@thomas.edu"
   },
   {
     "id": "transylvania-university",
@@ -5536,7 +6041,8 @@
     "typicalNetCost": 25355,
     "stickerCost": 51109,
     "avgGpa": 3.7,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.trine.edu/"
   },
   {
     "id": "trinity-college",
@@ -5681,7 +6187,8 @@
     "typicalNetCost": 19108,
     "stickerCost": 37205,
     "avgGpa": 3.25,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "http://www.utica.edu/"
   },
   {
     "id": "university-of-valley-forge",
@@ -5695,7 +6202,8 @@
     ],
     "typicalNetCost": 32265,
     "stickerCost": 45422,
-    "selectivity": "moderate"
+    "selectivity": "moderate",
+    "schoolUrl": "http://www.vfcc.edu"
   },
   {
     "id": "vassar-college",
@@ -6414,7 +6922,8 @@
     "typicalNetCost": 14158,
     "stickerCost": 18719,
     "avgGpa": 3.1,
-    "selectivity": "open"
+    "selectivity": "open",
+    "schoolUrl": "https://www.uww.edu/"
   },
   {
     "id": "wittenberg-university",

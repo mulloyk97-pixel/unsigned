@@ -7,7 +7,7 @@ import { useAthleteCard } from "@/lib/athleteCard";
 // App shell. Tabbed chrome (top bar + bottom tabs) shows on the main app
 // screens; onboarding/landing keep a minimal brand header. Everything is capped
 // at 430px and centered — mobile-first, no desktop layouts.
-const TAB_ROUTES = ["/discover", "/highlights", "/messages", "/profile"];
+const TAB_ROUTES = ["/discover", "/highlights", "/messages", "/profile", "/saved"];
 // Auth screens + the coach section render their own full-bleed layout (no
 // athlete chrome).
 const BARE_ROUTES = ["/signin", "/signup", "/coaches"];

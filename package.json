@@ -10,6 +10,8 @@
     "data:build": "tsx scripts/build-school-list.ts",
     "data:enrich": "tsx scripts/enrich-scorecard.ts",
     "data:photos": "tsx scripts/enrich-photos.ts",
+    "data:photos:og": "tsx scripts/enrich-og.ts",
+    "data:coaches": "tsx scripts/scrape-coaches.ts",
     "data:import": "tsx scripts/import-to-supabase.ts"
   },
   "dependencies": {

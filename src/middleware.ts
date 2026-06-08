@@ -5,7 +5,7 @@ import { NextResponse, type NextRequest } from "next/server";
 // Auth-presence only here; user_type / coach verification are enforced in the
 // pages themselves (they need a DB read). If Supabase env isn't configured we
 // pass through so the app still boots in dev.
-const PROTECTED = ["/discover", "/profile", "/highlights", "/messages", "/coaches"];
+const PROTECTED = ["/discover", "/profile", "/highlights", "/messages", "/saved", "/coaches"];
 
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({ request });

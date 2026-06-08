@@ -70,6 +70,15 @@ analysis. Stay in the athlete flow.
   working athlete profile from local storage; `signUpAthlete` bridges by seeding
   it (GPA/budget aren't collected at signup — added on the profile card). Next
   step is unifying that local copy with the Supabase `athlete_profiles` row.
+- **Saved views:** saves persist in localStorage (`src/lib/saved.ts` —
+  `savedSchools` / `savedAthletes` stores + hooks). The `/discover` and
+  `/coaches` "X saved" counters link to **`/saved`** (athletes) and
+  **`/coaches/saved`** (coaches): list rows with view-full + remove. Cards are
+  the shared `SchoolReport` / `AthleteReport` components (also used in the decks).
+- **Contact rule (athlete explore):** the expanded `SchoolReport` shows coach
+  name + mailto + draft intro **only when `coachVerified`**; otherwise muted
+  "Coach contact not yet verified". Scraped `coachEmail` candidates are never
+  rendered to athletes (verified gate in `SchoolReport`).
 - Coach browse (`/coaches`): verified-only; mirrors Explore with athlete cards
   (`AthleteDeck`), a filter bottom sheet (position/grad/state/min GPA), saved
   list, and a coach bottom tab bar (Discover/Saved/Messages). Reads

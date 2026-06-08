@@ -10,6 +10,7 @@ import {
   addClip,
   removeClip,
   reorderStats,
+  syncCardToSupabase,
   toggleFeatured,
   updateCard,
   useAthleteCard,
@@ -20,6 +21,20 @@ import ReorderList, { HandleProps } from "@/components/ReorderList";
 export default function ProfilePage() {
   const card = useAthleteCard();
   const [editing, setEditing] = useState(false);
+  const [saving, setSaving] = useState(false);
+
+  // Leaving edit mode pushes the card to Supabase so coaches see real data.
+  async function toggleEdit() {
+    if (editing) {
+      setSaving(true);
+      try {
+        await syncCardToSupabase(card);
+      } finally {
+        setSaving(false);
+      }
+    }
+    setEditing((e) => !e);
+  }
 
   const featuredKeys = card.order.filter((k) => card.featured.includes(k));
   const nonFeaturedKeys = card.order.filter((k) => !card.featured.includes(k));
@@ -35,12 +50,13 @@ export default function ProfilePage() {
       <div className="flex items-center justify-between">
         <h1 className="font-head text-2xl font-bold tracking-tight text-fg">YOUR CARD</h1>
         <button
-          onClick={() => setEditing((e) => !e)}
-          className={`rounded-lg px-4 py-1.5 text-sm font-semibold transition ${
+          onClick={toggleEdit}
+          disabled={saving}
+          className={`rounded-lg px-4 py-1.5 text-sm font-semibold transition disabled:opacity-60 ${
             editing ? "bg-accent text-bg" : "border border-line text-fg"
           }`}
         >
-          {editing ? "Done" : "Edit"}
+          {saving ? "Saving…" : editing ? "Done" : "Edit"}
         </button>
       </div>
 
@@ -83,8 +99,8 @@ function Header({ card, editing }: { card: AthleteCard; editing: boolean }) {
 
   return (
     <div>
-      {/* full-bleed hero (breaks the 16px page padding) */}
-      <div className="relative -mx-4 aspect-[4/3] bg-elevated overflow-hidden">
+      {/* full-bleed hero — top ~40% of the screen */}
+      <div className="relative -mx-4 h-[42vh] overflow-hidden">
         {card.photoUrl ? (
           // eslint-disable-next-line @next/next/no-img-element -- user-uploaded data URL
           <img src={card.photoUrl} alt="" className="h-full w-full object-cover" />
@@ -95,9 +111,9 @@ function Header({ card, editing }: { card: AthleteCard; editing: boolean }) {
             </span>
           </div>
         )}
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg via-bg/70 to-transparent p-4 pt-12">
-          <h2 className="font-head text-3xl font-bold leading-none text-fg">{card.name || "Your name"}</h2>
-          <p className="mt-1 text-sm text-muted">{meta || "Add your details in Edit"}</p>
+        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg via-bg/70 to-transparent p-4 pt-16">
+          <h2 className="font-head text-5xl font-bold leading-none text-white">{card.name || "Your name"}</h2>
+          <p className="mt-2 text-sm text-white/75">{meta || "Add your details in Edit"}</p>
         </div>
         {editing && (
           <button
@@ -135,16 +151,19 @@ function HeaderInput({ value, placeholder, onChange }: { value: string; placehol
   );
 }
 
-// --- Stats: view (grid of bold numbers) ------------------------------------
+// --- Stats: view (Instagram bio-style) -------------------------------------
 
 function StatTile({ k, value, featured }: { k: StatKey; value: string; featured?: boolean }) {
   return (
-    <div className="rounded-xl border border-line bg-surface p-3 text-center">
+    <div className="rounded-xl bg-surface p-3 text-center">
       <p className={`font-head text-3xl font-bold tnum ${featured ? "text-accent" : "text-fg"}`}>{value}</p>
       <p className="mt-1 text-[10px] font-semibold uppercase tracking-wide text-muted">{STAT_META[k].label}</p>
     </div>
   );
 }
+
+// The headline trio, shown inline like an IG bio.
+const BIO_KEYS: StatKey[] = ["gpa", "act", "ppg"];
 
 function ViewStats({
   featuredKeys,
@@ -157,25 +176,35 @@ function ViewStats({
 }) {
   const featured = featuredKeys.filter((k) => card[k]);
   const rest = nonFeaturedKeys.filter((k) => card[k]);
+  const anyFilled = featured.length > 0 || rest.length > 0;
 
-  if (featured.length === 0 && rest.length === 0) {
+  if (!anyFilled) {
     return (
-      <p className="rounded-xl border border-dashed border-line p-5 text-center text-sm text-muted">
+      <p className="rounded-xl bg-surface p-5 text-center text-sm text-muted">
         No stats yet. Hit <span className="font-medium text-fg">Edit</span> and put your numbers up — coaches scroll fast.
       </p>
     );
   }
 
+  // "fuller detail" = everything not already in the inline trio
+  const detail = [...featured, ...rest].filter((k) => !BIO_KEYS.includes(k));
+
   return (
-    <div className="flex flex-col gap-3">
-      {featured.length > 0 && (
+    <div className="flex flex-col gap-4">
+      {/* headline numbers, inline */}
+      <div className="flex items-stretch rounded-2xl bg-surface">
+        {BIO_KEYS.map((k, i) => (
+          <div key={k} className={`flex-1 px-3 py-4 text-center ${i > 0 ? "border-l border-line/60" : ""}`}>
+            <p className="font-head text-3xl font-bold text-fg tnum leading-none">{card[k] || "—"}</p>
+            <p className="mt-1.5 text-[10px] font-semibold uppercase tracking-wide text-muted">{STAT_META[k].label}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* fuller detail */}
+      {detail.length > 0 && (
         <div className="grid grid-cols-3 gap-2">
-          {featured.map((k) => <StatTile key={k} k={k} value={card[k]} featured />)}
-        </div>
-      )}
-      {rest.length > 0 && (
-        <div className="grid grid-cols-3 gap-2">
-          {rest.map((k) => <StatTile key={k} k={k} value={card[k]} />)}
+          {detail.map((k) => <StatTile key={k} k={k} value={card[k]} featured={featuredKeys.includes(k)} />)}
         </div>
       )}
     </div>
@@ -263,7 +292,7 @@ function Highlights({ card, editing }: { card: AthleteCard; editing: boolean }) 
       <h2 className="text-[11px] font-semibold uppercase tracking-wide text-muted">Highlights</h2>
 
       {card.clips.length === 0 && !editing && (
-        <p className="rounded-xl border border-dashed border-line p-5 text-center text-sm text-muted">
+        <p className="rounded-xl bg-surface p-5 text-center text-sm text-muted">
           No film up yet. Coaches recruit what they can see — add a clip in Edit.
         </p>
       )}
@@ -284,9 +313,9 @@ function Highlights({ card, editing }: { card: AthleteCard; editing: boolean }) 
 
 function ClipThumb({ clip, editing }: { clip: HighlightClip; editing: boolean }) {
   return (
-    <div className="relative w-44 shrink-0 snap-start">
+    <div className="relative w-40 shrink-0 snap-start">
       <a href={clip.url} target="_blank" rel="noopener noreferrer" className="block">
-        <div className="relative aspect-video overflow-hidden rounded-lg border border-line bg-elevated">
+        <div className="relative aspect-square overflow-hidden rounded-xl bg-surface">
           {clip.thumbnailUrl ? (
             // eslint-disable-next-line @next/next/no-img-element -- remote YouTube thumb
             <img src={clip.thumbnailUrl} alt="" className="h-full w-full object-cover" />
