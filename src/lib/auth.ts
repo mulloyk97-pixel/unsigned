@@ -1,8 +1,6 @@
 "use client";
 
-import { AthleteProfile, CompetitionLevel, Sport } from "./types";
 import { supabaseBrowser } from "./supabase/client";
-import { saveProfile } from "./profile";
 
 // Auth + profile creation against Supabase. Email confirmation is expected to
 // be OFF (see .env.local.example), so signUp returns an active session and the
@@ -14,17 +12,6 @@ export interface SessionProfile {
   userId: string;
   userType: UserType | null;
   verified: boolean; // coaches only; athletes always true
-}
-
-export interface AthleteSignup {
-  name: string;
-  email: string;
-  password: string;
-  sport: Sport;
-  gradYear: number;
-  highSchool: string;
-  state: string;
-  level: CompetitionLevel;
 }
 
 export interface CoachSignup {
@@ -49,35 +36,17 @@ async function signUp(email: string, password: string, name: string) {
   return user;
 }
 
-export async function signUpAthlete(input: AthleteSignup): Promise<void> {
+// Account only — the card (sport, stats, GPA, level, film…) is built next in
+// /build, which writes to this same athlete_profiles row step by step.
+export async function signUpAthlete(email: string, password: string): Promise<void> {
   const supabase = supabaseBrowser();
-  const user = await signUp(input.email, input.password, input.name);
+  const user = await signUp(email, password, "");
 
   const { error: pErr } = await supabase.from("profiles").insert({ id: user.id, user_type: "athlete" });
   if (pErr) throw pErr;
 
-  const { error: aErr } = await supabase.from("athlete_profiles").insert({
-    user_id: user.id,
-    name: input.name,
-    grad_year: input.gradYear,
-    high_school: input.highSchool,
-    location: input.state,
-    state: input.state,
-    sport: input.sport,
-    level: input.level,
-  });
+  const { error: aErr } = await supabase.from("athlete_profiles").insert({ user_id: user.id });
   if (aErr) throw aErr;
-
-  // Bridge: the Explore tab + profile card still read the working profile from
-  // local storage. Seed it so /discover works immediately after signup. (Full
-  // unification of this local copy with Supabase is the next integration step;
-  // GPA/budget aren't collected at signup and are added on the profile card.)
-  const bridged: AthleteProfile = {
-    name: input.name, gradYear: input.gradYear, sport: input.sport, position: "",
-    gpa: 0, testType: "none", testScore: null, level: input.level,
-    filmLink: "", state: input.state, budgetPerYear: 0, createdAt: new Date().toISOString(),
-  };
-  saveProfile(bridged);
 }
 
 export async function signUpCoach(input: CoachSignup): Promise<void> {

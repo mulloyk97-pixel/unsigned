@@ -54,6 +54,16 @@ analysis. Stay in the athlete flow.
 - Entry is the **hero** (`/`) → "I'm an athlete" (`/signup/athlete`) / "I'm a
   coach" (`/signup/coach`) / "Sign in" (`/signin`). Auth screens render their
   own full-bleed layout (see `BARE_ROUTES` in `AppChrome`).
+- **Athlete onboarding = the card builder** (replaces the old `/intake`, now
+  deleted). Flow: hero → `/signup/athlete` (email+password only, creates the
+  auth user + an empty `athlete_profiles` row) → **`/build`** (7 full-screen
+  steps: photo, basics, game, academics, level, film, review) with a live card
+  preview + progress bar → `/discover`. Logic in `src/lib/onboarding.ts`: each
+  step `saveProgress`-writes to `athlete_profiles` in real time (partial cards
+  persist); `finalize` seeds the local profile + card stores; `hydrateProfile`
+  rebuilds the local profile from Supabase for returning users (`/discover`
+  calls it when sessionStorage is empty). Coaches now see real stats since the
+  builder populates the row directly.
 - **Supabase Auth** via `@supabase/ssr`: browser client `src/lib/supabase/client.ts`
   (lazy singleton — never instantiate at module top level or it breaks build),
   server client `src/lib/supabase/server.ts`, session refresh + route gating in

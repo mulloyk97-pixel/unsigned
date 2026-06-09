@@ -15,7 +15,7 @@ export default function SavedPage() {
   const [openId, setOpenId] = useState<string | null>(null);
 
   useEffect(() => {
-    if (profile === null) router.replace("/intake");
+    if (profile === null) router.replace("/build");
   }, [profile, router]);
 
   const saved = useMemo(() => {

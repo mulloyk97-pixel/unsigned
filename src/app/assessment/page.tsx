@@ -11,7 +11,7 @@ export default function AssessmentPage() {
   const profile = useStoredProfile();
 
   useEffect(() => {
-    if (profile === null) router.replace("/intake");
+    if (profile === null) router.replace("/build");
   }, [profile, router]);
 
   const assessment = useMemo(
@@ -56,7 +56,7 @@ export default function AssessmentPage() {
       >
         Find schools that fit
       </Link>
-      <Link href="/intake" className="text-center text-sm text-muted underline">
+      <Link href="/build" className="text-center text-sm text-muted underline">
         Edit my info
       </Link>
     </div>

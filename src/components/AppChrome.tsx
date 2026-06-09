@@ -10,7 +10,7 @@ import { useAthleteCard } from "@/lib/athleteCard";
 const TAB_ROUTES = ["/discover", "/highlights", "/messages", "/profile", "/saved"];
 // Auth screens + the coach section render their own full-bleed layout (no
 // athlete chrome).
-const BARE_ROUTES = ["/signin", "/signup", "/coaches"];
+const BARE_ROUTES = ["/signin", "/signup", "/build", "/coaches"];
 
 const TABS = [
   { href: "/discover", label: "Explore", icon: CompassIcon },
